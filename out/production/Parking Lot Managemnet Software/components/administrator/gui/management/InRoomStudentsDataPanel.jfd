@@ -1,0 +1,317 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_121" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "0.05, fill, 0.05"
+			"$rowSpecs": "30.0, pref, pref, fill, 50.0"
+			"hGap": 5
+			"vGap": 5
+		} ) {
+			name: "this"
+			"background": new java.awt.Color( 103, 86, 130, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Students In-Room"
+				"font": new java.awt.Font( "Cambria", 1, 30 )
+				"horizontalAlignment": 0
+				"background": new java.awt.Color( 103, 86, 130, 255 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 1
+			} )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane2"
+				"orientation": 0
+				"dividerLocation": 100
+				"dividerSize": 0
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"background": new java.awt.Color( 103, 86, 130, 255 )
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "topSplit"
+					"orientation": 0
+					"dividerSize": 0
+					"background": new java.awt.Color( 103, 86, 130, 255 )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Check In Students"
+						"background": new java.awt.Color( 103, 86, 130, 255 )
+						"font": new java.awt.Font( "Cambria", 1, 22 )
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+						"$columnSpecs": "159.0, fill"
+						"$rowSpecs": "pref, pref, pref, pref"
+						"hGap": 10
+						"vGap": 10
+					} ) {
+						name: "panel3"
+						"background": new java.awt.Color( 103, 86, 130, 255 )
+						add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+							name: "vSpacer2"
+							"background": new java.awt.Color( 103, 86, 130, 255 )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"text": "Enter Student ID"
+							"font": new java.awt.Font( "Cambria", 0, 16 )
+							"foreground": sfield java.awt.Color white
+							"horizontalAlignment": 0
+							"background": new java.awt.Color( 103, 86, 130, 255 )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 1
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField1"
+							"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 1
+							"gridY": 1
+						} )
+						add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+							name: "vSpacer1"
+							"background": new java.awt.Color( 103, 86, 130, 255 )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 1
+							"gridY": 3
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+					name: "splitPane3"
+					"dividerLocation": 400
+					"lastDividerLocation": 450
+					"dividerSize": 0
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"background": new java.awt.Color( 103, 86, 130, 255 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+						"$columnSpecs": "pref, pref, pref, pref, pref, pref, pref, pref, pref"
+						"$rowSpecs": "pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref"
+						"hGap": 5
+						"vGap": 8
+					} ) {
+						name: "panel2"
+						"background": new java.awt.Color( 170, 71, 86, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label2"
+							"text": "Students Waiting For Approval"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "Cambria", 1, 20 )
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridWidth": 8
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "pending1T"
+							"text": "text"
+							"font": &Font0 new java.awt.Font( "Calibri", 0, 18 )
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridWidth": 8
+							"gridY": 1
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending1A"
+							"text": "Approve"
+							"background": &Color0 new java.awt.Color( 60, 50, 86, 255 )
+							"foreground": sfield java.awt.Color white
+							"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 2
+							"gridY": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending1D"
+							"text": "Deny"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 6
+							"gridY": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "pending2T"
+							"text": "text"
+							"font": #Font0
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 3
+							"gridWidth": 8
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending2A"
+							"text": "Approve"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 4
+							"gridX": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending2D"
+							"text": "Deny"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 6
+							"gridY": 4
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "pending3T"
+							"text": "text"
+							"font": #Font0
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 5
+							"gridWidth": 8
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending3A"
+							"text": "Approve"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 6
+							"gridX": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending3D"
+							"text": "Deny"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 6
+							"gridY": 6
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "pending4T"
+							"text": "text"
+							"font": #Font0
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 7
+							"gridWidth": 8
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending4A"
+							"text": "Approve"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 8
+							"gridX": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending4D"
+							"text": "Deny"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 6
+							"gridY": 8
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "pending5T"
+							"text": "text"
+							"font": #Font0
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 9
+							"gridWidth": 8
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending5A"
+							"text": "Approve"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 10
+							"gridX": 2
+							"gridWidth": 2
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "pending5D"
+							"text": "Deny"
+							"background": #Color0
+							"foreground": sfield java.awt.Color white
+							"font": #SwingDerivedFont0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 6
+							"gridY": 10
+							"gridWidth": 2
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "left"
+					} )
+					add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+						name: "splitPane4"
+						"dividerLocation": 175
+						"dividerSize": 0
+						add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+							name: "scrollPane1"
+							add( new FormComponent( "javax.swing.JList" ) {
+								name: "list1"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "left"
+						} )
+						add( new FormComponent( "components.administrator.gui.management.DataDisplaySubpanel" ) {
+							name: "panel1"
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "right"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "right"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 3
+				"gridX": 1
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1025, 690 )
+		} )
+	}
+}

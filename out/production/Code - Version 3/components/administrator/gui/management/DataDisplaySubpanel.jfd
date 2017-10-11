@@ -1,0 +1,379 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "fill"
+			"$rowSpecs": "fill"
+			"hGap": 5
+			"vGap": 5
+		} ) {
+			name: "this"
+			"font": new java.awt.Font( "Calibri", 0, 30 )
+			"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"foreground": sfield java.awt.Color white
+			"alignmentX": 1.0f
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+					"$columnSpecs": "0.05, fill, fill, 0.05"
+					"$rowSpecs": "pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref"
+					"hGap": 5
+					"vGap": 5
+				} ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "Student Data Display"
+						"horizontalAlignment": 0
+						"font": new java.awt.Font( "Cambria", 1, 25 )
+						"foreground": sfield java.awt.Color white
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridWidth": 4
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "First Name"
+						"font": &Font0 new java.awt.Font( "Calibri", 1, 20 )
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 2
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "firstname"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 2
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Last Name"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 3
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "lastname"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 3
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Student ID"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 4
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "studentid"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 4
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "Grade"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 5
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "grade"
+						"maximumRowCount": 4
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 5
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": " "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 6
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16"
+						"text": "Car Make"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 7
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "carmake"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 7
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"text": "Car Model"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 8
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "carmodel"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 8
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18"
+						"text": "Car Color"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 9
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "carcolor"
+						"horizontalAlignment": 2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 9
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19"
+						"text": "Car Year"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 10
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "caryear"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 10
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label20"
+						"text": "Car Licence Plate #"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 11
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "carplate"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 11
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": " "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 2, 7, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 12
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21"
+						"text": "Parking Zone"
+						"font": new java.awt.Font( "Calibri", 1, 20 )
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 13
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "spotnumber"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 13
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "Sticker Number"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 14
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "stickernumber"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 14
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "Insurance Expiry Date"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 15
+						"gridX": 1
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+						"$columnSpecs": "fill, fill, fill"
+						"$rowSpecs": "27.0, pref"
+						"hGap": 10
+						"vGap": 10
+					} ) {
+						name: "panel1"
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "insuranceMonth"
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "insuranceDay"
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 1
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "insuranceYear"
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label7"
+							"text": "Month"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridY": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label8"
+							"text": "Day"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 1
+							"gridY": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label9"
+							"text": "Year"
+							"horizontalAlignment": 0
+							"foreground": sfield java.awt.Color white
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+							"gridX": 2
+							"gridY": 1
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 15
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23"
+						"text": "Paint Field"
+						"font": new java.awt.Font( "Calibri", 0, 20 )
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"visible": false
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 16
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "paintField"
+						"visible": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 16
+						"gridX": 2
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": " "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 7, false )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 17
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22"
+						"text": "Current Status"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color white
+						"alignmentX": 1.0f
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 18
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "currentstatus"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 18
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "approveButton"
+						"text": "Approve"
+						"background": &Color0 new java.awt.Color( 44, 0, 70, 255 )
+						"foreground": sfield java.awt.Color white
+						"font": &Font1 new java.awt.Font( "Cambria", 1, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridY": 19
+						"gridX": 1
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "denyButton"
+						"text": "Deny"
+						"background": #Color0
+						"foreground": sfield java.awt.Color white
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+						"gridX": 2
+						"gridY": 19
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 740, 665 )
+		} )
+	}
+}

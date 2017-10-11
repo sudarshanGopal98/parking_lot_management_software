@@ -1,0 +1,8529 @@
+-----------------------------
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+
+
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+
+
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+
+
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+
+
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+
+
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+
+
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+
+
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+
+
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+
+
+	at components.misc.DatabaseBridge.initDatabaseConnection(DatabaseBridge.java:570)
+
+
+	at main_files.AdminMain.main(AdminMain.java:23)
+
+
+Caused by: java.net.ConnectException: Connection refused: connect
+
+
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+
+
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+
+
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+
+
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+
+
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+
+
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+
+
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+
+
+	at java.net.Socket.connect(Socket.java:579)
+
+
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+
+
+	... 16 more
+
+
+Fri May 12 10:52:19 CDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+
+Loading Data From Files
+
+
+Adding Imported Student: Anciso, Skyla  [A0309643]
+
+
+Adding Imported Student: Ayala, Isaac  [A0403337]
+
+
+Adding Imported Student: Arredondo, Emmanuel  [A0411208]
+
+
+Adding Imported Student: Al-Tayar, Ryan  [A0501943]
+
+
+Adding Imported Student: Al-Ali, Abdelmajied  [A0502080]
+
+
+Adding Imported Student: Arciniega, Maxx  [A0502480]
+
+
+Adding Imported Student: Abram, Kobie  [A0502754]
+
+
+Adding Imported Student: Anderson, Callum  [A0502755]
+
+
+Adding Imported Student: Aduru, Himajyothi  [A0503297]
+
+
+Adding Imported Student: Andrade, Luis  [A0503511]
+
+
+Adding Imported Student: Alkhush, Yara  [A0503614]
+
+
+Adding Imported Student: Allsop, Kendal  [A0504034]
+
+
+Adding Imported Student: Amaya, Christa  [A0505868]
+
+
+Adding Imported Student: Attuquayefio, Re  [A0506587]
+
+
+Adding Imported Student: Abrams, Gabriel  [A0506866]
+
+
+Adding Imported Student: Anderson, Annabella  [A0509516]
+
+
+Adding Imported Student: Ali, Sayyida  [A0600441]
+
+
+Adding Imported Student: Alvarado Gomez, Gabriela  [A0601712]
+
+
+Adding Imported Student: Abney, Ashleigh  [A0602845]
+
+
+Adding Imported Student: Askins, Natalie  [A0603176]
+
+
+Adding Imported Student: Alvarado-Maman, Valentina  [A0603634]
+
+
+Adding Imported Student: Adams, Carolyn  [A0603983]
+
+
+Adding Imported Student: Aug, Madison  [A0604002]
+
+
+Adding Imported Student: Ayala, Milca  [A0604219]
+
+
+Adding Imported Student: Ashmore, Selena  [A0606191]
+
+
+Adding Imported Student: Agan, Avory  [A0606200]
+
+
+Adding Imported Student: Arya, Megna  [A0606228]
+
+
+Adding Imported Student: Allen, Isabella  [A0607337]
+
+
+Adding Imported Student: Andarsio, Makenzie  [A0608155]
+
+
+Adding Imported Student: Antoine, Malik  [A0610571]
+
+
+Adding Imported Student: Allen, Justin  [A0700059]
+
+
+Adding Imported Student: Ali, Anum  [A0700590]
+
+
+Adding Imported Student: Allen, Austin  [A0701385]
+
+
+Adding Imported Student: Allen, Dylan  [A0701389]
+
+
+Adding Imported Student: Asaro, Zachary  [A0702184]
+
+
+Adding Imported Student: Anton, Tyler  [A0702482]
+
+
+Adding Imported Student: Ablola, Armeyah  [A0703187]
+
+
+Adding Imported Student: Allen, Alicia  [A0703951]
+
+
+Adding Imported Student: Appleby, Skyler  [A0704059]
+
+
+Adding Imported Student: Arteaga, Austin  [A0704238]
+
+
+Adding Imported Student: Attuquayefio, Nyla  [A0706007]
+
+
+Adding Imported Student: Ajijolaiya, Hakeem  [A0706217]
+
+
+Adding Imported Student: Ajijolaiya, Akinola  [A0707433]
+
+
+Adding Imported Student: Aug, Haley  [A0707834]
+
+
+Adding Imported Student: Abrahamson, Hannah  [A0709750]
+
+
+Adding Imported Student: Alkhush, Tala  [A0802436]
+
+
+Adding Imported Student: Ackermann, Hayden  [A0804593]
+
+
+Adding Imported Student: Arif, Aatika  [A0905493]
+
+
+Adding Imported Student: Ahumada Salomon, Sophia  [A0908682]
+
+
+Adding Imported Student: Alvarez-Martinez, Ana  [A1000198]
+
+
+Adding Imported Student: Almeria, Angela Mae  [A1000302]
+
+
+Adding Imported Student: Andrush, Noreen  [A1000958]
+
+
+Adding Imported Student: Ahmed, Zayd  [A1001257]
+
+
+Adding Imported Student: Alegre, Aldrin Josef  [A1007331]
+
+
+Adding Imported Student: Akintunde, Michael  [A1009142]
+
+
+Adding Imported Student: Andry, Mathilde  [A1011030]
+
+
+Adding Imported Student: Ambrose, Joseph  [A1100948]
+
+
+Adding Imported Student: Aguilar, Arianna  [A1101272]
+
+
+Adding Imported Student: Asadifar, Nikta  [A1104915]
+
+
+Adding Imported Student: Andino, Gabriella  [A1105191]
+
+
+Adding Imported Student: Akhtar, Samiya  [A1105989]
+
+
+Adding Imported Student: Alam, Samira  [A1106489]
+
+
+Adding Imported Student: Adu-Bonnah, Kwabena  [A1107823]
+
+
+Adding Imported Student: Ardila Rosales, Valerie  [A1109158]
+
+
+Adding Imported Student: Anderson, Iain  [A1200821]
+
+
+Adding Imported Student: Bridgett, Markas  [B0301922]
+
+
+Adding Imported Student: Boeker, Ashley  [B0403059]
+
+
+Adding Imported Student: Bohorquez, Camila  [B0403516]
+
+
+Adding Imported Student: Bandaranaike, Brian  [B0403934]
+
+
+Adding Imported Student: Baeza, Alexa  [B0404165]
+
+
+Adding Imported Student: Bates, Kylan  [B0404167]
+
+
+Adding Imported Student: Bhobe, Neel  [B0404671]
+
+
+Adding Imported Student: Bargraser, Christian  [B0405256]
+
+
+Adding Imported Student: Besselman, Reed  [B0407008]
+
+
+Adding Imported Student: Bitar, Mary Sue  [B0407791]
+
+
+Adding Imported Student: Burell, Joshua  [B0408081]
+
+
+Adding Imported Student: Baume, Trevor  [B0502386]
+
+
+Adding Imported Student: Breaux, Averi  [B0502971]
+
+
+Adding Imported Student: Bhardwaj, Riti  [B0503182]
+
+
+Adding Imported Student: Brownlee, Kaitlyn  [B0503967]
+
+
+Adding Imported Student: Kerr, Nicholas  [B0507849]
+
+
+Adding Imported Student: Bevrotte, Alison  [B0511201]
+
+
+Adding Imported Student: Bieniemy, Jamal  [B0513079]
+
+
+Adding Imported Student: Balandran, Alyssa  [B0602329]
+
+
+Adding Imported Student: Belin, James  [B0602451]
+
+
+Adding Imported Student: Bryant, Ashlyn  [B0602854]
+
+
+Adding Imported Student: Barreiro, Sofia  [B0603046]
+
+
+Adding Imported Student: Bowman, Hope  [B0603089]
+
+
+Adding Imported Student: Bort, Nicholas  [B0603364]
+
+
+Adding Imported Student: Burns, Alyssa  [B0603467]
+
+
+Adding Imported Student: Busch, Katheryn  [B0603798]
+
+
+Adding Imported Student: Boeker, Braden  [B0604307]
+
+
+Adding Imported Student: Bell, Austin  [B0604323]
+
+
+Adding Imported Student: Beaird, Erin  [B0605006]
+
+
+Adding Imported Student: Balanag, Joy  [B0605999]
+
+
+Adding Imported Student: Blowers, Claudia  [B0606236]
+
+
+Adding Imported Student: Bolling, Aidan  [B0606243]
+
+
+Adding Imported Student: Bickford, Lauren  [B0606507]
+
+
+Adding Imported Student: Boudreaux, Kerigan  [B0606854]
+
+
+Adding Imported Student: Alvarado, Sara  [B0606897]
+
+
+Adding Imported Student: Bass, Aubrey  [B0607154]
+
+
+Adding Imported Student: Bordelon, Lauren  [B0607249]
+
+
+Adding Imported Student: Brashier, Ryan  [B0607732]
+
+
+Adding Imported Student: Beyk, Aaron  [B0611884]
+
+
+Adding Imported Student: Benitez Mendoza, Andrea  [B0612398]
+
+
+Adding Imported Student: Benitez, Diego  [B0612444]
+
+
+Adding Imported Student: Bhat, Neha  [B0701793]
+
+
+Adding Imported Student: Bolster, Blake  [B0701976]
+
+
+Adding Imported Student: Boone, Ricardo  [B0702148]
+
+
+Adding Imported Student: Bhat, Rohan  [B0702628]
+
+
+Adding Imported Student: Bertello, Sebastian  [B0702907]
+
+
+Adding Imported Student: Brashier, Brandon  [B0703182]
+
+
+Adding Imported Student: Brown, Madison  [B0703186]
+
+
+Adding Imported Student: Backman, Nickolas  [B0703635]
+
+
+Adding Imported Student: Bishop, Blake  [B0703901]
+
+
+Adding Imported Student: Bragg, Gavin  [B0704253]
+
+
+Adding Imported Student: Belaiter, Casper  [B0706168]
+
+
+Adding Imported Student: Brown, Mackenzie  [B0707850]
+
+
+Adding Imported Student: Broadrick, Pearson  [B0708285]
+
+
+Adding Imported Student: Bowman, Mitchell  [B0708437]
+
+
+Adding Imported Student: Bennett, Morgan  [B0709110]
+
+
+Adding Imported Student: Ballariel, Madison  [B0712414]
+
+
+Adding Imported Student: Bell, Westin  [B0712474]
+
+
+Adding Imported Student: Botnick, Megan  [B0712763]
+
+
+Adding Imported Student: Bhat, Rhea  [B0805567]
+
+
+Adding Imported Student: Barnhill, Isabella  [B0806473]
+
+
+Adding Imported Student: Benavides, Laura  [B0806863]
+
+
+Adding Imported Student: Benavides, Maria  [B0806991]
+
+
+Adding Imported Student: Bolejack, Skyla  [B0807296]
+
+
+Adding Imported Student: Bauer, Brennan  [B0807385]
+
+
+Adding Imported Student: Butler, Mason  [B0808323]
+
+
+Adding Imported Student: Bard, Kathleen  [B0808663]
+
+
+Adding Imported Student: Breaux, Aline  [B0809745]
+
+
+Adding Imported Student: Bell, Joszef  [B0810206]
+
+
+Adding Imported Student: Baron, Sofia  [B0810419]
+
+
+Adding Imported Student: Banks, Joseph  [B0811262]
+
+
+Adding Imported Student: Bruno, Hunter  [B0812414]
+
+
+Adding Imported Student: Barlow, Cameron  [B0905567]
+
+
+Adding Imported Student: Barlow, Christopher  [B0905631]
+
+
+Adding Imported Student: Benavidez, Larissa  [B0906462]
+
+
+Adding Imported Student: Bushong, James  [B0906526]
+
+
+Adding Imported Student: Balog, Jack  [B0906550]
+
+
+Adding Imported Student: Brownson, Molly  [B0906568]
+
+
+Adding Imported Student: Burton, Jordan  [B0906964]
+
+
+Adding Imported Student: Bhattacharya, Sinjini  [B1000187]
+
+
+Adding Imported Student: Bohlmann, Santiago  [B1000221]
+
+
+Adding Imported Student: Blackwell, Caleb  [B1000877]
+
+
+Adding Imported Student: Brim, Alyssa  [B1001612]
+
+
+Adding Imported Student: Barli, Christian  [B1004885]
+
+
+Adding Imported Student: Buehring, Alyssa  [B1005568]
+
+
+Adding Imported Student: Barli, Brooke  [B1005895]
+
+
+Adding Imported Student: Barzilay, Ron  [B1006311]
+
+
+Adding Imported Student: Boyejo, Demilade  [B1006331]
+
+
+Adding Imported Student: Brown, Jackson  [B1006606]
+
+
+Adding Imported Student: Brown, Davion  [B1006950]
+
+
+Adding Imported Student: Brown, Cellise  [B1007377]
+
+
+Adding Imported Student: Burns, Stafford  [B1007430]
+
+
+Adding Imported Student: Beech, Cole  [B1007575]
+
+
+Adding Imported Student: Borkar, Isha  [B1007847]
+
+
+Adding Imported Student: Barkley, Kyle  [B1008663]
+
+
+Adding Imported Student: Bowyer, Tyler  [B1009237]
+
+
+Adding Imported Student: Buss, Austin  [B1011534]
+
+
+Adding Imported Student: Blackwell, Rex  [B1100297]
+
+
+Adding Imported Student: Brito Stirpe, Ana  [B1101502]
+
+
+Adding Imported Student: Buddi, Abhinav  [B1101553]
+
+
+Adding Imported Student: Beidle, Elizabeth  [B1105840]
+
+
+Adding Imported Student: Britt, Hannah  [B1106128]
+
+
+Adding Imported Student: Bai, Rachel  [B1107535]
+
+
+Adding Imported Student: Bai, Claire  [B1107539]
+
+
+Adding Imported Student: Bourque, Mason  [B1108252]
+
+
+Adding Imported Student: Briceno De Quintana, Valeria  [B1108316]
+
+
+Adding Imported Student: Berry, Sydney  [B1108616]
+
+
+Adding Imported Student: Burkhalter, Jacob  [B1110621]
+
+
+Adding Imported Student: Burkhalter, Corey  [B1110626]
+
+
+Adding Imported Student: Baron Vergara, Mauricio  [B1200249]
+
+
+Adding Imported Student: Betty, Carter  [B1200316]
+
+
+Adding Imported Student: Casey, Joel  [C0106110]
+
+
+Adding Imported Student: Chawla, Girik  [C0200781]
+
+
+Adding Imported Student: Cruz, Cryselle  [C0402808]
+
+
+Adding Imported Student: Contreras Juliac, Daniel  [C0402979]
+
+
+Adding Imported Student: Christie, Taylor  [C0403813]
+
+
+Adding Imported Student: Clarke, Jonathan  [C0403946]
+
+
+Adding Imported Student: Cabrera, Arantza  [C0404817]
+
+
+Adding Imported Student: Caruso, David  [C0405831]
+
+
+Adding Imported Student: Croson, Cailey  [C0406364]
+
+
+Adding Imported Student: Chandran, Kavya  [C0406998]
+
+
+Adding Imported Student: Costa, Benjamin  [C0500278]
+
+
+Adding Imported Student: Corbin, Mason  [C0501930]
+
+
+Adding Imported Student: Caffey, Jonathan  [C0502344]
+
+
+Adding Imported Student: Cardiff, Chaise  [C0503136]
+
+
+Adding Imported Student: Chowdhary, Suchi  [C0503252]
+
+
+Adding Imported Student: Castaneda, Brissa  [C0503605]
+
+
+Adding Imported Student: Castaneda, Byanca  [C0503607]
+
+
+Adding Imported Student: Coleman, Joseph  [C0503897]
+
+
+Adding Imported Student: Corman, Kipp  [C0505100]
+
+
+Adding Imported Student: Colburn, Kyle  [C0505830]
+
+
+Adding Imported Student: Cox, Taisen  [C0506012]
+
+
+Adding Imported Student: Castillo, Sebastian  [C0507194]
+
+
+Adding Imported Student: Cage, Keion  [C0508268]
+
+
+Adding Imported Student: Canning, Kaylie  [C0508502]
+
+
+Adding Imported Student: Ciliberto, Veronica  [C0508635]
+
+
+Adding Imported Student: Carrasco, Samantha  [C0509426]
+
+
+Adding Imported Student: Chavez, Joseph  [C0509670]
+
+
+Adding Imported Student: Chen, Carly  [C0602130]
+
+
+Adding Imported Student: Costa, Lauren  [C0603132]
+
+
+Adding Imported Student: Conaway, Zachary  [C0603135]
+
+
+Adding Imported Student: Clarkson, Kayla  [C0603304]
+
+
+Adding Imported Student: Carmona, Reece  [C0603924]
+
+
+Adding Imported Student: Chesser, Noelle  [C0605454]
+
+
+Adding Imported Student: Chesser, Natalie  [C0605679]
+
+
+Adding Imported Student: Chaparro, Mateo  [C0607146]
+
+
+Adding Imported Student: Chesser, Ethan  [C0607668]
+
+
+Adding Imported Student: Campbell, Baylie  [C0607922]
+
+
+Adding Imported Student: Clarke, Robert  [C0608532]
+
+
+Adding Imported Student: Chen, Bianca  [C0609666]
+
+
+Adding Imported Student: Chuma, Rachel  [C0610267]
+
+
+Adding Imported Student: Coronel Bertero, Juan  [C0611448]
+
+
+Adding Imported Student: Cervantes, Bryan  [C0611501]
+
+
+Adding Imported Student: Cortes Padilla, Saul  [C0612550]
+
+
+Adding Imported Student: Carpenter, Alexandria  [C0700562]
+
+
+Adding Imported Student: Canales Ocampo, Jesus  [C0700674]
+
+
+Adding Imported Student: Crawford, Steve  [C0701252]
+
+
+Adding Imported Student: Clemente, Valerie  [C0702648]
+
+
+Adding Imported Student: Conaway, Morgan  [C0702673]
+
+
+Adding Imported Student: Cole, Christian  [C0702916]
+
+
+Adding Imported Student: Cosper, Callie  [C0702944]
+
+
+Adding Imported Student: Carroll, Madison  [C0703089]
+
+
+Adding Imported Student: Carter, Kennedy  [C0704258]
+
+
+Adding Imported Student: Caruso, Alexis  [C0704497]
+
+
+Adding Imported Student: Culotta, Angelo  [C0705886]
+
+
+Adding Imported Student: Catajan, Lyrick Andrew  [C0706397]
+
+
+Adding Imported Student: Catajan, D'Andre  [C0706428]
+
+
+Adding Imported Student: Counter, Faith  [C0706452]
+
+
+Adding Imported Student: Cantu-Rios, Otoniel  [C0706898]
+
+
+Adding Imported Student: Carlson, Bradley  [C0707236]
+
+
+Adding Imported Student: Concepcion, Isabella  [C0707939]
+
+
+Adding Imported Student: Concepcion, Alexander  [C0707948]
+
+
+Adding Imported Student: Cuesi Casalino, Lesley  [C0708054]
+
+
+Adding Imported Student: Cafaro, Jose  [C0709000]
+
+
+Adding Imported Student: Rice, Christopher  [C0709006]
+
+
+Adding Imported Student: Cantu, Eric  [C0711716]
+
+
+Adding Imported Student: Cantu, Louis  [C0711727]
+
+
+Adding Imported Student: Causey, Brian  [C0713124]
+
+
+Adding Imported Student: Cannon, Gillian  [C0801416]
+
+
+Adding Imported Student: Caceres, Erika  [C0806347]
+
+
+Adding Imported Student: Chen, Kira  [C0806377]
+
+
+Adding Imported Student: Chavez Moran, Manuel  [C0806486]
+
+
+Adding Imported Student: Carrillo Marquez, Isabella  [C0806762]
+
+
+Adding Imported Student: Cao, Fanny  [C0807743]
+
+
+Adding Imported Student: Carrillo, Tatiana  [C0809362]
+
+
+Adding Imported Student: Cheng, Cyndi  [C0810147]
+
+
+Adding Imported Student: Cheng, Mandy  [C0810149]
+
+
+Adding Imported Student: Graham Camacho, Rafael  [C0811785]
+
+
+Adding Imported Student: Colman Flores, Fernando  [C0811996]
+
+
+Adding Imported Student: Cerza, Luke  [C0900723]
+
+
+Adding Imported Student: Cutroni, Alexander  [C0901272]
+
+
+Adding Imported Student: Cutroni, Emma  [C0901276]
+
+
+Adding Imported Student: Cipolla, Zachary  [C0905123]
+
+
+Adding Imported Student: Choate, Madison  [C0906703]
+
+
+Adding Imported Student: Cano, Joseph  [C0906792]
+
+
+Adding Imported Student: Cano, Leah  [C0906794]
+
+
+Adding Imported Student: Christianson, Amanda  [C0908522]
+
+
+Adding Imported Student: Christianson, Eric  [C0908638]
+
+
+Adding Imported Student: Choudhry, Ubaid  [C0911159]
+
+
+Adding Imported Student: Crothers, Erica  [C0911993]
+
+
+Adding Imported Student: Crothers, Melina  [C0911994]
+
+
+Adding Imported Student: Chao, Brandon  [C1001288]
+
+
+Adding Imported Student: Cavazos, Sarah  [C1001811]
+
+
+Adding Imported Student: Coronado, Andrew  [C1004887]
+
+
+Adding Imported Student: Chen, Lucy  [C1005457]
+
+
+Adding Imported Student: Camper, Trenton  [C1006293]
+
+
+Adding Imported Student: Coleman, Thomas  [C1006548]
+
+
+Adding Imported Student: Chai, Justin  [C1007327]
+
+
+Adding Imported Student: Christie, Katherine  [C1007439]
+
+
+Adding Imported Student: Christie, Elizabeth  [C1007706]
+
+
+Adding Imported Student: Cheney, Ethan  [C1008129]
+
+
+Adding Imported Student: Chakravarty, Daveraj  [C1008168]
+
+
+Adding Imported Student: Cillessen, Ryan  [C1008643]
+
+
+Adding Imported Student: Collins, Lauren  [C1009106]
+
+
+Adding Imported Student: Conaway, Taylor  [C1009466]
+
+
+Adding Imported Student: Carrillo Aquin, Gustavo  [C1010048]
+
+
+Adding Imported Student: Cowden, Riley  [C1100283]
+
+
+Adding Imported Student: Craig, Sydney  [C1104703]
+
+
+Adding Imported Student: Cremins, Keilyn  [C1106115]
+
+
+Adding Imported Student: Conner, Ryan  [C1106686]
+
+
+Adding Imported Student: Cremins, Aidan  [C1106702]
+
+
+Adding Imported Student: Campbell, Kyleigh  [C1106780]
+
+
+Adding Imported Student: Cipresso, Tommaso  [C1107657]
+
+
+Adding Imported Student: Conner, Sean  [C1107776]
+
+
+Adding Imported Student: Chethan, Adhrik  [C1108233]
+
+
+Adding Imported Student: Cederlund, Johan  [C1108612]
+
+
+Adding Imported Student: Cumare, Manuel  [C1109431]
+
+
+Adding Imported Student: Cumare Nunez, Paul  [C1109440]
+
+
+Adding Imported Student: Cumare Nunez, Mariandreina  [C1109563]
+
+
+Adding Imported Student: Cohee, Blake  [C1200168]
+
+
+Adding Imported Student: Conner, John  [C1200574]
+
+
+Adding Imported Student: Conner, Gabrielle  [C1200575]
+
+
+Adding Imported Student: Chilukoori, Sai Raghavendra  [C1200887]
+
+
+Adding Imported Student: Curling, Lucy  [C1200999]
+
+
+Adding Imported Student: Cantu, Kayla  [C1201740]
+
+
+Adding Imported Student: Doan, Madeleine  [D0303966]
+
+
+Adding Imported Student: Doan, Vy  [D0303967]
+
+
+Adding Imported Student: Dieringer, Colton  [D0400699]
+
+
+Adding Imported Student: Diaz, Nicolas  [D0401346]
+
+
+Adding Imported Student: Dailey, Kiarra  [D0402351]
+
+
+Adding Imported Student: De La Rosa, Alecsander  [D0402947]
+
+
+Adding Imported Student: Douglas, Jami  [D0403298]
+
+
+Adding Imported Student: Durnford, Cameron  [D0403791]
+
+
+Adding Imported Student: Denny, Brandon  [D0404122]
+
+
+Adding Imported Student: DeFrain, Christian  [D0406035]
+
+
+Adding Imported Student: Dominguez, Nicholas  [D0501776]
+
+
+Adding Imported Student: Drutz, Addison  [D0501778]
+
+
+Adding Imported Student: Dolan, Reagan  [D0502135]
+
+
+Adding Imported Student: Dugosh, Payton  [D0502202]
+
+
+Adding Imported Student: Dagley, Britney  [D0502355]
+
+
+Adding Imported Student: Daaboul, Michelle  [D0502825]
+
+
+Adding Imported Student: D'Amico, Lolaina  [D0504115]
+
+
+Adding Imported Student: Dorisca, Alexander  [D0505592]
+
+
+Adding Imported Student: Dickson, Kieran  [D0506578]
+
+
+Adding Imported Student: Delgado, Victoria  [D0506586]
+
+
+Adding Imported Student: Dhaduti, Yash  [D0509076]
+
+
+Adding Imported Student: Dhaduti, Ashna  [D0509077]
+
+
+Adding Imported Student: Dolotina, Brett Lawrence  [D0600272]
+
+
+Adding Imported Student: Doyle, Connor  [D0600698]
+
+
+Adding Imported Student: Dykes, Brady  [D0602487]
+
+
+Adding Imported Student: Dolotina, Ivan Dale  [D0603133]
+
+
+Adding Imported Student: DeRouen, Matthew  [D0605497]
+
+
+Adding Imported Student: DuPont, Phillip  [D0605507]
+
+
+Adding Imported Student: DuPont, Michele  [D0605511]
+
+
+Adding Imported Student: Daboin, Nestor  [D0605818]
+
+
+Adding Imported Student: Dar, Aneela  [D0605996]
+
+
+Adding Imported Student: DuBose, Ashley  [D0606331]
+
+
+Adding Imported Student: D'Amico, Julianne  [D0606467]
+
+
+Adding Imported Student: Dislate, Kaian Miles  [D0606759]
+
+
+Adding Imported Student: Dagley, Gabriel  [D0607387]
+
+
+Adding Imported Student: Donahue, Makenna  [D0607777]
+
+
+Adding Imported Student: De Oliveira, Ana  [D0609745]
+
+
+Adding Imported Student: Dulak, Morgan  [D0611819]
+
+
+Adding Imported Student: Drew, Collin  [D0701941]
+
+
+Adding Imported Student: Davis, Ryan  [D0702242]
+
+
+Adding Imported Student: Dailey, Jayden  [D0702287]
+
+
+Adding Imported Student: Drutz, Suzanne  [D0702515]
+
+
+Adding Imported Student: Desrouleaux, Nicholas  [D0702866]
+
+
+Adding Imported Student: Dyson, Rylie  [D0702917]
+
+
+Adding Imported Student: DeLauder, Hannah  [D0703074]
+
+
+Adding Imported Student: Dennis, Ryan  [D0703344]
+
+
+Adding Imported Student: Dixon, Ashlyn  [D0703750]
+
+
+Adding Imported Student: Dennard-Casey, Gavin  [D0704347]
+
+
+Adding Imported Student: DeCuire, Cierra  [D0705940]
+
+
+Adding Imported Student: Dowden, Danielle  [D0706065]
+
+
+Adding Imported Student: DiCamillo, Shelby  [D0706993]
+
+
+Adding Imported Student: DeCuire, Ashley  [D0707515]
+
+
+Adding Imported Student: Dieffenthaler, Alexandre  [D0707868]
+
+
+Adding Imported Student: Denson, Hannah  [D0707894]
+
+
+Adding Imported Student: Davison, Kayla  [D0708988]
+
+
+Adding Imported Student: Davison, Emily  [D0708990]
+
+
+Adding Imported Student: Dibrell, Hollie  [D0709387]
+
+
+Adding Imported Student: Dibrell, Joshua  [D0709815]
+
+
+Adding Imported Student: Chagas Da Silva, Laura  [D0709833]
+
+
+Adding Imported Student: Diaz, Aimee  [D0709848]
+
+
+Adding Imported Student: D'Pulos, Amanda  [D0801463]
+
+
+Adding Imported Student: De Caires Amaricua, Victor  [D0801807]
+
+
+Adding Imported Student: De Caires, Estefania  [D0801808]
+
+
+Adding Imported Student: Dawson, Kameryn  [D0806889]
+
+
+Adding Imported Student: DePriest, Grace  [D0806948]
+
+
+Adding Imported Student: Dutta, Sanika  [D0808726]
+
+
+Adding Imported Student: Dai, Qi Yue  [D0812450]
+
+
+Adding Imported Student: Dave, Samarth  [D0900331]
+
+
+Adding Imported Student: Durana, Ray Joshua  [D0907021]
+
+
+Adding Imported Student: Duran, Diego  [D0907067]
+
+
+Adding Imported Student: Dusek, Drake  [D0907546]
+
+
+Adding Imported Student: Deardeuff, Jacob  [D0908135]
+
+
+Adding Imported Student: Dusek, Libby  [D0908629]
+
+
+Adding Imported Student: Dunn, Tiger  [D0908663]
+
+
+Adding Imported Student: Dobrosky, Gracie  [D0909794]
+
+
+Adding Imported Student: Decman, Alex  [D0911158]
+
+
+Adding Imported Student: Dupont, Shelby  [D0912240]
+
+
+Adding Imported Student: Diaz Canizales, Maria  [D0912319]
+
+
+Adding Imported Student: Dellesky, Taylor  [D1000364]
+
+
+Adding Imported Student: DeMello, Mackenzie  [D1005495]
+
+
+Adding Imported Student: Diaz, Andres  [D1006406]
+
+
+Adding Imported Student: Dore, Jeanne  [D1006968]
+
+
+Adding Imported Student: Devaraj, Nishant  [D1007332]
+
+
+Adding Imported Student: Dunn, Collin  [D1007705]
+
+
+Adding Imported Student: Doyle, Kaitlyn  [D1008010]
+
+
+Adding Imported Student: Devlin, Fiona  [D1008656]
+
+
+Adding Imported Student: Dodds, Mikayla  [D1100258]
+
+
+Adding Imported Student: Di Girolamo, Johana  [D1100481]
+
+
+Adding Imported Student: Degenhardt, Maycie  [D1102124]
+
+
+Adding Imported Student: Dave, Sheev  [D1103908]
+
+
+Adding Imported Student: Driver, Emily  [D1105730]
+
+
+Adding Imported Student: Datwyler, Sarah  [D1105740]
+
+
+Adding Imported Student: D'Rovencourt, Jordan  [D1106306]
+
+
+Adding Imported Student: D'Rovencourt, Daniel  [D1106751]
+
+
+Adding Imported Student: Donnelly, Ethan  [D1106761]
+
+
+Adding Imported Student: Dietrich, Jake  [D1106781]
+
+
+Adding Imported Student: Duda, Jordan  [D1106786]
+
+
+Adding Imported Student: Duda, William  [D1106977]
+
+
+Adding Imported Student: Dietrich, Gracie  [D1107226]
+
+
+Adding Imported Student: Davis, Paul  [D1200366]
+
+
+Adding Imported Student: Elkins, Noah  [E0005306]
+
+
+Adding Imported Student: Engelhart-Skopik, Skylar  [E0302180]
+
+
+Adding Imported Student: El-Haibe, Bilal  [E0304015]
+
+
+Adding Imported Student: El-Eter, Nasser  [E0402789]
+
+
+Adding Imported Student: Espinosa Oviedo, Sebastian  [E0405038]
+
+
+Adding Imported Student: Embody, Zachary  [E0505502]
+
+
+Adding Imported Student: Escobedo, Destiny  [E0507531]
+
+
+Adding Imported Student: Edwards, Mariah  [E0600222]
+
+
+Adding Imported Student: Esghouei, Morad  [E0600828]
+
+
+Adding Imported Student: El-Haibe, Rami  [E0603436]
+
+
+Adding Imported Student: Egan, Emily  [E0605687]
+
+
+Adding Imported Student: Edwards, Allison  [E0605770]
+
+
+Adding Imported Student: El-Eter, Nouha  [E0607720]
+
+
+Adding Imported Student: Ertons, Sean  [E0702259]
+
+
+Adding Imported Student: Engelhart-Skopik, Miranda  [E0702421]
+
+
+Adding Imported Student: Escobar, Jared  [E0702893]
+
+
+Adding Imported Student: Estrada, Jack  [E0703229]
+
+
+Adding Imported Student: Espinoza Moreno, Isabella  [E0706505]
+
+
+Adding Imported Student: Eads, Carter  [E0808433]
+
+
+Adding Imported Student: Estrada, Brittney  [E0906378]
+
+
+Adding Imported Student: Esposito, Alexina  [E0909167]
+
+
+Adding Imported Student: Esposito, Juliette  [E0909168]
+
+
+Adding Imported Student: Espinosa Castillo, Adan  [E1005836]
+
+
+Adding Imported Student: Espinosa Castillo, Maximiliano  [E1005878]
+
+
+Adding Imported Student: Elsner, Clara  [E1006392]
+
+
+Adding Imported Student: El-Haj, Omar  [E1007794]
+
+
+Adding Imported Student: Elsner, Adam  [E1008005]
+
+
+Adding Imported Student: Espinoza Cruz, Daniel  [E1101239]
+
+
+Adding Imported Student: Ellis, Daniel  [E1105136]
+
+
+Adding Imported Student: Etta, Riku  [E1106558]
+
+
+Adding Imported Student: Elahi, Nushrah  [E1107096]
+
+
+Adding Imported Student: Ezeokafor, Henry  [E1109463]
+
+
+Adding Imported Student: Esteban Rodriguez, Jacinto  [E1110237]
+
+
+Adding Imported Student: Ehrhardt, Wilson  [E1111557]
+
+
+Adding Imported Student: Fowler, Stanford  [F0308580]
+
+
+Adding Imported Student: Fishbeck, Blake  [F0403959]
+
+
+Adding Imported Student: Franklin, Mollie  [F0405682]
+
+
+Adding Imported Student: Fuentes, Alejandro  [F0406665]
+
+
+Adding Imported Student: Fuller, Kathryn  [F0407133]
+
+
+Adding Imported Student: Fowler, Kayla  [F0409352]
+
+
+Adding Imported Student: Fons, Isabella  [F0502669]
+
+
+Adding Imported Student: Flemming, Miranda  [F0503022]
+
+
+Adding Imported Student: Forrest, Skyler  [F0503310]
+
+
+Adding Imported Student: Farias, Lane  [F0602033]
+
+
+Adding Imported Student: Gillean, Hartley  [F0602739]
+
+
+Adding Imported Student: Findlay, Lewis  [F0602900]
+
+
+Adding Imported Student: Flores, Alexandra  [F0603182]
+
+
+Adding Imported Student: Filipe, Austin  [F0603358]
+
+
+Adding Imported Student: Fontenot, Morgan  [F0606257]
+
+
+Adding Imported Student: Faulkner, Alexander  [F0607776]
+
+
+Adding Imported Student: Faisal, Salik  [F0611221]
+
+
+Adding Imported Student: Ferrer Perez, Arianna  [F0612884]
+
+
+Adding Imported Student: Fisher, Matthew  [F0701783]
+
+
+Adding Imported Student: Fisher, Rachel  [F0701785]
+
+
+Adding Imported Student: Fuentes, Avery  [F0702277]
+
+
+Adding Imported Student: Fulton, Nicole  [F0702963]
+
+
+Adding Imported Student: Fuentes, Nicole  [F0706289]
+
+
+Adding Imported Student: Franklin, Monterrian  [F0706912]
+
+
+Adding Imported Student: Farrington, Jessica  [F0707066]
+
+
+Adding Imported Student: Fayard, Rebekah  [F0707135]
+
+
+Adding Imported Student: Fisher, Hannah  [F0709234]
+
+
+Adding Imported Student: Findlay, Jada  [F0712927]
+
+
+Adding Imported Student: Findlay, Gregg  [F0712935]
+
+
+Adding Imported Student: Foster, Joshua  [F0800167]
+
+
+Adding Imported Student: Fojtik, Alexis  [F0806340]
+
+
+Adding Imported Student: Flanagan, Kesley  [F0806363]
+
+
+Adding Imported Student: Fern, Tatiana  [F0806857]
+
+
+Adding Imported Student: Falksen, Chad  [F0810842]
+
+
+Adding Imported Student: Freeman, Stephen  [F0900310]
+
+
+Adding Imported Student: Freeman, Elizabeth  [F0900316]
+
+
+Adding Imported Student: Flores, Kyle Patrick  [F0901587]
+
+
+Adding Imported Student: Fowler, Taggert  [F0901739]
+
+
+Adding Imported Student: Fontanilla, Nicole Dennis  [F0907312]
+
+
+Adding Imported Student: Fogt, Mallory  [F0908655]
+
+
+Adding Imported Student: Finch, Katelyn  [F1006839]
+
+
+Adding Imported Student: Finn, Matthew  [F1007324]
+
+
+Adding Imported Student: Falconer, Mackenzie  [F1008131]
+
+
+Adding Imported Student: Ferguson, Ryan  [F1009166]
+
+
+Adding Imported Student: Ferguson, Cassidy  [F1009168]
+
+
+Adding Imported Student: Foley, Mason  [F1105220]
+
+
+Adding Imported Student: Flores Sandoval, Barbara  [F1106776]
+
+
+Adding Imported Student: Fuller, Thomas  [F1106944]
+
+
+Adding Imported Student: Falzone, Brandon  [F1107996]
+
+
+Adding Imported Student: Falzone, Jared  [F1108001]
+
+
+Adding Imported Student: Fenstermaker, Lana  [F1108985]
+
+
+Adding Imported Student: Flores, Daniela  [F1201285]
+
+
+Adding Imported Student: Flores, James  [F9901718]
+
+
+Adding Imported Student: Gustafson, Justin  [G0100418]
+
+
+Adding Imported Student: Garcia Martinez, David  [G0302252]
+
+
+Adding Imported Student: Greene, Brandon  [G0306090]
+
+
+Adding Imported Student: Guevara, Daniela  [G0403191]
+
+
+Adding Imported Student: Gill, Melanie  [G0403395]
+
+
+Adding Imported Student: Garcia, Alexis  [G0403728]
+
+
+Adding Imported Student: Gonzales, Corinna  [G0404661]
+
+
+Adding Imported Student: Graham, Madison  [G0406458]
+
+
+Adding Imported Student: Griebe, Adrianna  [G0406700]
+
+
+Adding Imported Student: Gautreau, John  [G0408219]
+
+
+Adding Imported Student: Gonzalez, Roberto  [G0408401]
+
+
+Adding Imported Student: Geiger, Camille  [G0502339]
+
+
+Adding Imported Student: Guerra, Grace  [G0502810]
+
+
+Adding Imported Student: Gray, Blake  [G0502911]
+
+
+Adding Imported Student: Gravett, Ashley  [G0503523]
+
+
+Adding Imported Student: Granados, Andrea  [G0503616]
+
+
+Adding Imported Student: Gagliardi, Ian  [G0503964]
+
+
+Adding Imported Student: Gonzalez-Nossa, Paola  [G0504016]
+
+
+Adding Imported Student: Glines, Jeremy  [G0505932]
+
+
+Adding Imported Student: Garza, Carmen  [G0506583]
+
+
+Adding Imported Student: Gonzalez-Nossa, Natalia  [G0509275]
+
+
+Adding Imported Student: Gonce, Jake  [G0602680]
+
+
+Adding Imported Student: Griebe, Peyton  [G0602737]
+
+
+Adding Imported Student: Glasgow, Braten  [G0603001]
+
+
+Adding Imported Student: Graney, Tanner  [G0603365]
+
+
+Adding Imported Student: Gupta, Ananya  [G0604276]
+
+
+Adding Imported Student: Gonzalez, Raul  [G0605619]
+
+
+Adding Imported Student: Gaudet, Emily  [G0605771]
+
+
+Adding Imported Student: Golden, Jacob  [G0606302]
+
+
+Adding Imported Student: Guevara, Daniel  [G0606916]
+
+
+Adding Imported Student: Gerald, Dylan  [G0607010]
+
+
+Adding Imported Student: Gerdes, Carrie  [G0607213]
+
+
+Adding Imported Student: Gauss, Dylan  [G0607223]
+
+
+Adding Imported Student: Glasscock, Grace  [G0607448]
+
+
+Adding Imported Student: Grindal, Morgan  [G0610994]
+
+
+Adding Imported Student: Gonzalez, Diana  [G0611026]
+
+
+Adding Imported Student: Gilarranz, Francisco  [G0612647]
+
+
+Adding Imported Student: Gray, Lauren  [G0702278]
+
+
+Adding Imported Student: Gonce, Brady  [G0702473]
+
+
+Adding Imported Student: Gagliardi, Ryan  [G0702632]
+
+
+Adding Imported Student: Gago, Mauricio  [G0702808]
+
+
+Adding Imported Student: Graves, Tyler  [G0703117]
+
+
+Adding Imported Student: Marcenaro, Houston  [G0703218]
+
+
+Adding Imported Student: Gerungan, Andrew  [G0703228]
+
+
+Adding Imported Student: Guevara, Adriana  [G0703311]
+
+
+Adding Imported Student: Groves, Katherine  [G0703908]
+
+
+Adding Imported Student: Groves, Allison  [G0703915]
+
+
+Adding Imported Student: Gujja, Sathvik  [G0704241]
+
+
+Adding Imported Student: Galloway, Cameron  [G0705953]
+
+
+Adding Imported Student: George, Lily  [G0706222]
+
+
+Adding Imported Student: Gupta, Jeshna  [G0706661]
+
+
+Adding Imported Student: Groeschel, Alexzandria  [G0707879]
+
+
+Adding Imported Student: Garrett, Diego  [G0708992]
+
+
+Adding Imported Student: Graham, Terin  [G0709692]
+
+
+Adding Imported Student: Gonzalez Addison Smith, Daniela  [G0804494]
+
+
+Adding Imported Student: Gonzalez Addison-Smith, Catalina  [G0804542]
+
+
+Adding Imported Student: Glauser, Garrett  [G0806462]
+
+
+Adding Imported Student: Grimberg, Enzzo  [G0806994]
+
+
+Adding Imported Student: Gonzalez, Mikaela  [G0807215]
+
+
+Adding Imported Student: Goel, Isabella  [G0808383]
+
+
+Adding Imported Student: Giron, Joshua  [G0811735]
+
+
+Adding Imported Student: Ghoraishy, Seyed Mohammad  [G0812234]
+
+
+Adding Imported Student: Gonzalez Hernandez, Elimar  [G0812304]
+
+
+Adding Imported Student: Garcia Garza, Isabel  [G0905759]
+
+
+Adding Imported Student: Grissett, Taylor  [G0908072]
+
+
+Adding Imported Student: Goynes, Gregory-Anne  [G0909491]
+
+
+Adding Imported Student: Gambrell, William  [G1000180]
+
+
+Adding Imported Student: Gomez, Michelle  [G1001792]
+
+
+Adding Imported Student: Green, Alexis  [G1004906]
+
+
+Adding Imported Student: Garza, Joel  [G1006376]
+
+
+Adding Imported Student: Gilley, Lauren  [G1007565]
+
+
+Adding Imported Student: Giron, Johanna  [G1007596]
+
+
+Adding Imported Student: Garcia Marino, David  [G1008330]
+
+
+Adding Imported Student: Garcia Aguirre, Montserrat  [G1009674]
+
+
+Adding Imported Student: Garcia Aguirre, Jose  [G1009676]
+
+
+Adding Imported Student: Giler Rodriguez, Maria  [G1010616]
+
+
+Adding Imported Student: Giler Rodriguez, Javier  [G1010618]
+
+
+Adding Imported Student: Garcia, Javier  [G1011282]
+
+
+Adding Imported Student: Gadiraju, Sri Jahnavi  [G1011781]
+
+
+Adding Imported Student: Guevara Quaglia, Oscar  [G1100150]
+
+
+Adding Imported Student: Giri, Kanishk  [G1101637]
+
+
+Adding Imported Student: Green, Hailey  [G1106123]
+
+
+Adding Imported Student: Gutierrez, Presley  [G1106745]
+
+
+Adding Imported Student: Gutierrez, Griffin  [G1107589]
+
+
+Adding Imported Student: Guzik, Claire  [G1108490]
+
+
+Adding Imported Student: Guy, Ethan  [G1108778]
+
+
+Adding Imported Student: Garza, Ashley  [G1109637]
+
+
+Adding Imported Student: Graham, Benjamin  [G1110548]
+
+
+Adding Imported Student: Graham, Cory  [G1110568]
+
+
+Adding Imported Student: Garrett, Amanda  [G1111631]
+
+
+Adding Imported Student: Ghosh, Surya  [G1200518]
+
+
+Adding Imported Student: Greffe, Emma  [G1201566]
+
+
+Adding Imported Student: Hall, Jordan  [H0302363]
+
+
+Adding Imported Student: Hamilton, Kaster  [H0306101]
+
+
+Adding Imported Student: Haro, Samuel  [H0306106]
+
+
+Adding Imported Student: Henry, Destiny  [H0307883]
+
+
+Adding Imported Student: Holden, Brandt  [H0402444]
+
+
+Adding Imported Student: Harris, Callista  [H0402547]
+
+
+Adding Imported Student: Hatton, Paul  [H0402594]
+
+
+Adding Imported Student: Hoang, Anthony  [H0404130]
+
+
+Adding Imported Student: Hernandez Belmonte, Veronica  [H0405582]
+
+
+Adding Imported Student: Hogan, Gianna  [H0407063]
+
+
+Adding Imported Student: Hornung, Mark  [H0409176]
+
+
+Adding Imported Student: Hassell, Billy  [H0409459]
+
+
+Adding Imported Student: Harris, Joshua  [H0502417]
+
+
+Adding Imported Student: Hewson, Calum  [H0502605]
+
+
+Adding Imported Student: Huerter, Brock  [H0502704]
+
+
+Adding Imported Student: Hayes, Madison  [H0502746]
+
+
+Adding Imported Student: Hightower, Emily  [H0502908]
+
+
+Adding Imported Student: Hutanu, Lorin  [H0512022]
+
+
+Adding Imported Student: Hagan, Levi  [H0602127]
+
+
+Adding Imported Student: Hoffman, Natalie  [H0602946]
+
+
+Adding Imported Student: Holcomb, Savannah  [H0603069]
+
+
+Adding Imported Student: Heflin, Jacob  [H0603360]
+
+
+Adding Imported Student: Hill, Jenna  [H0603788]
+
+
+Adding Imported Student: Hillman, Grace  [H0605780]
+
+
+Adding Imported Student: Hoang, Demi  [H0605949]
+
+
+Adding Imported Student: Hunt, Myriah  [H0606926]
+
+
+Adding Imported Student: Hebert, Eli  [H0607348]
+
+
+Adding Imported Student: Harrington, Ashley  [H0608912]
+
+
+Adding Imported Student: Hodge, Sydney  [H0612240]
+
+
+Adding Imported Student: Harris, Lamar  [H0612496]
+
+
+Adding Imported Student: Holden, Madeleine  [H0701275]
+
+
+Adding Imported Student: Hebert, Brian  [H0702624]
+
+
+Adding Imported Student: Hoffmann, Caroline  [H0702930]
+
+
+Adding Imported Student: Heath, Stephanie  [H0702932]
+
+
+Adding Imported Student: Hunt, Hannah  [H0703559]
+
+
+Adding Imported Student: Holliday, Tai  [H0704085]
+
+
+Adding Imported Student: Hieronymus, George  [H0704231]
+
+
+Adding Imported Student: Hewson, Tyla  [H0704325]
+
+
+Adding Imported Student: Houlberg Villavicencio, Brian  [H0707177]
+
+
+Adding Imported Student: Harper, Ajante  [H0708035]
+
+
+Adding Imported Student: Hofmeister, Kylie  [H0709604]
+
+
+Adding Imported Student: Hane, Kaylee  [H0801970]
+
+
+Adding Imported Student: Hare, Andrew  [H0806723]
+
+
+Adding Imported Student: Hodovic, Kennan  [H0806846]
+
+
+Adding Imported Student: Hargy, Gavin  [H0806891]
+
+
+Adding Imported Student: Holcombe, Corran  [H0807016]
+
+
+Adding Imported Student: Holcombe, Jaden  [H0807018]
+
+
+Adding Imported Student: Han, Tianni  [H0807371]
+
+
+Adding Imported Student: Hurst, Addison  [H0807592]
+
+
+Adding Imported Student: Hoven, Nicolay  [H0809097]
+
+
+Adding Imported Student: Hilligiest, Briana  [H0900283]
+
+
+Adding Imported Student: Hilligiest, Hannah  [H0900297]
+
+
+Adding Imported Student: Hodge, Taryn  [H0900655]
+
+
+Adding Imported Student: Hodge, Alicia  [H0900656]
+
+
+Adding Imported Student: Hardy, Sabrina  [H0905582]
+
+
+Adding Imported Student: Halapeti, Saanika  [H0906081]
+
+
+Adding Imported Student: Hari, Varun  [H0906093]
+
+
+Adding Imported Student: Hari, Varsha  [H0906178]
+
+
+Adding Imported Student: Holland, Elizabeth  [H0908036]
+
+
+Adding Imported Student: Holmes, Bianca  [H0908452]
+
+
+Adding Imported Student: Holmes, Venetia  [H0908460]
+
+
+Adding Imported Student: Holmes, Sidney  [H0908463]
+
+
+Adding Imported Student: Hebert, Austin  [H0909277]
+
+
+Adding Imported Student: Harris, Paul  [H0910690]
+
+
+Adding Imported Student: Harris, Maxwell  [H0910719]
+
+
+Adding Imported Student: Hare Esteves, Alvaro  [H0911582]
+
+
+Adding Imported Student: Hare Esteves, Valeria  [H0911583]
+
+
+Adding Imported Student: Humphrey, Tyler  [H1001480]
+
+
+Adding Imported Student: Humphrey, Morgan  [H1001483]
+
+
+Adding Imported Student: Hadzega, Rebecca  [H1001570]
+
+
+Adding Imported Student: Howard, Katelynn  [H1003227]
+
+
+Adding Imported Student: Hoop, Logan  [H1003645]
+
+
+Adding Imported Student: Harris, Logan  [H1003669]
+
+
+Adding Imported Student: Huynh, Madelyn  [H1005526]
+
+
+Adding Imported Student: Hathuc, Huy  [H1007357]
+
+
+Adding Imported Student: Ho, Christopher  [H1011698]
+
+
+Adding Imported Student: Halder, Tonoya  [H1100382]
+
+
+Adding Imported Student: Hai, Adam  [H1100923]
+
+
+Adding Imported Student: Haider, Mir  [H1105596]
+
+
+Adding Imported Student: Hidajat, Audrey  [H1105833]
+
+
+Adding Imported Student: Howard, James  [H1105866]
+
+
+Adding Imported Student: Howard, Jayda  [H1105873]
+
+
+Adding Imported Student: Huynh, Ethan  [H1106481]
+
+
+Adding Imported Student: Harold, Nathan  [H1106764]
+
+
+Adding Imported Student: Hidajat, Alvin  [H1106771]
+
+
+Adding Imported Student: Hernandez-Balsamo, Isabella  [H1107564]
+
+
+Adding Imported Student: Herbert, Carlyle  [H1107624]
+
+
+Adding Imported Student: Hebert, Tyler  [H1107742]
+
+
+Adding Imported Student: Hernandez-Balsamo, Jose  [H1108228]
+
+
+Adding Imported Student: Hall, Lauren  [H1110761]
+
+
+Adding Imported Student: Hyman, Cassidy  [H1111745]
+
+
+Adding Imported Student: Hong, Joshua  [H1200119]
+
+
+Adding Imported Student: Ingram, Katelyn  [I0502555]
+
+
+Adding Imported Student: Ismat, Luqman  [I0506729]
+
+
+Adding Imported Student: Iniguez, Jonathan  [I0506830]
+
+
+Adding Imported Student: Istre, Benjamin  [I0604462]
+
+
+Adding Imported Student: Ikeocha, Eleanor  [I0702557]
+
+
+Adding Imported Student: Iannini, Giancarlo  [I0704126]
+
+
+Adding Imported Student: Ibarra, Katalina  [I0704524]
+
+
+Adding Imported Student: Islam, Ridwana  [I0906323]
+
+
+Adding Imported Student: Irianto, Brian  [I0911453]
+
+
+Adding Imported Student: Innocent-Utulu, Oseloke  [I1003604]
+
+
+Adding Imported Student: Israni, Ranvir  [I1107936]
+
+
+Adding Imported Student: Ismail, Malak  [I1201368]
+
+
+Adding Imported Student: Jones, Noah  [J0200882]
+
+
+Adding Imported Student: Jackson, Alexander  [J0302479]
+
+
+Adding Imported Student: Joiner, Brittani  [J0304534]
+
+
+Adding Imported Student: Januhowski, Nickolas  [J0502215]
+
+
+Adding Imported Student: Joseph, Emma  [J0502675]
+
+
+Adding Imported Student: Janik, Jack  [J0502758]
+
+
+Adding Imported Student: Johnson, Scott  [J0505597]
+
+
+Adding Imported Student: Jefferson, Jalon  [J0506375]
+
+
+Adding Imported Student: Johnson, Jenee  [J0600839]
+
+
+Adding Imported Student: Jesudasen, Parisa  [J0601715]
+
+
+Adding Imported Student: Wyrick, Trystin  [J0602918]
+
+
+Adding Imported Student: Jeansonne, Abby  [J0603178]
+
+
+Adding Imported Student: Johnson, Corey  [J0603525]
+
+
+Adding Imported Student: Jeffries, Karaline  [J0603962]
+
+
+Adding Imported Student: Jaffurs, Ethan  [J0606471]
+
+
+Adding Imported Student: Jaubert, Presten  [J0606918]
+
+
+Adding Imported Student: Haro, Julietta  [J0607430]
+
+
+Adding Imported Student: Johnson, Justice  [J0608596]
+
+
+Adding Imported Student: Jefferson, Jazmine  [J0702297]
+
+
+Adding Imported Student: Jackson, Sydney  [J0702359]
+
+
+Adding Imported Student: Joy, Shreya  [J0703065]
+
+
+Adding Imported Student: Janik, Luke  [J0703242]
+
+
+Adding Imported Student: Jordan, Trace  [J0706178]
+
+
+Adding Imported Student: Jain, Akshat  [J0709135]
+
+
+Adding Imported Student: Johnson, Chloe  [J0709139]
+
+
+Adding Imported Student: Johnson, Andrew  [J0800078]
+
+
+Adding Imported Student: Joseph, Divia  [J0801845]
+
+
+Adding Imported Student: Jones, Jalen  [J0806710]
+
+
+Adding Imported Student: Jimenez, Avery  [J0812893]
+
+
+Adding Imported Student: Jenkins, Mia  [J0900252]
+
+
+Adding Imported Student: Jadhav, Tanvi  [J0906292]
+
+
+Adding Imported Student: Jadhav, Hrishikesh  [J0906346]
+
+
+Adding Imported Student: Jackson, Laiya  [J0906567]
+
+
+Adding Imported Student: Jaeger, Zachary  [J0907903]
+
+
+Adding Imported Student: Jackson, Anna-Marie  [J1000268]
+
+
+Adding Imported Student: Jaime, Adrian  [J1000692]
+
+
+Adding Imported Student: Jeffries, Tyler  [J1001603]
+
+
+Adding Imported Student: Jones, Kennedy  [J1004281]
+
+
+Adding Imported Student: Jensma, Samantha  [J1005340]
+
+
+Adding Imported Student: Josse de Lisle, Sarah  [J1006305]
+
+
+Adding Imported Student: Jeong, Daniel  [J1006975]
+
+
+Adding Imported Student: Josse de Lisle, Renee  [J1007522]
+
+
+Adding Imported Student: Jensen, Sydni  [J1007577]
+
+
+Adding Imported Student: Jensen, Jesse  [J1007591]
+
+
+Adding Imported Student: Jonnada, Medha  [J1008336]
+
+
+Adding Imported Student: Jonnada, Vedha  [J1008343]
+
+
+Adding Imported Student: Jeong, Jinwoo  [J1010801]
+
+
+Adding Imported Student: Jeong, Jaerin  [J1010863]
+
+
+Adding Imported Student: Juarez, Angelica  [J1100045]
+
+
+Adding Imported Student: Juarez, Alejandro  [J1100047]
+
+
+Adding Imported Student: Jean, Andrew  [J1104953]
+
+
+Adding Imported Student: Joe, Kelsey  [J1105177]
+
+
+Adding Imported Student: Jain, Sakshee  [J1105838]
+
+
+Adding Imported Student: Jensen, Samantha  [J1105886]
+
+
+Adding Imported Student: Jackson, Branden  [J1106530]
+
+
+Adding Imported Student: Juarez, Archibald  [J1106877]
+
+
+Adding Imported Student: Juarez, Angela  [J1107038]
+
+
+Adding Imported Student: Jensen, Katherine  [J1107223]
+
+
+Adding Imported Student: Jenkins, Fiona  [J1109546]
+
+
+Adding Imported Student: Jenkins, Harvey  [J1109614]
+
+
+Adding Imported Student: Jimenez Rocha, Alejandro  [J1110123]
+
+
+Adding Imported Student: Jordan, Da'nashia  [J1201377]
+
+
+Adding Imported Student: Jordan, Ash'Lynn  [J1201403]
+
+
+Adding Imported Student: Kainer, Dylan  [K0302528]
+
+
+Adding Imported Student: Kirby, Sarah  [K0402427]
+
+
+Adding Imported Student: Kazmie, Hasan  [K0404074]
+
+
+Adding Imported Student: Kennedy, Carson  [K0502430]
+
+
+Adding Imported Student: Kemp, Jade  [K0504240]
+
+
+Adding Imported Student: Kao, Sandra  [K0507344]
+
+
+Adding Imported Student: Kale, Riya  [K0602673]
+
+
+Adding Imported Student: Kainer, Kendall  [K0604348]
+
+
+Adding Imported Student: Kestory, Katrina  [K0606070]
+
+
+Adding Imported Student: Karnopp, Jaime  [K0607235]
+
+
+Adding Imported Student: Kurella, Bhanu  [K0608182]
+
+
+Adding Imported Student: King, Falon  [K0608715]
+
+
+Adding Imported Student: Kalugin, Lucia  [K0611909]
+
+
+Adding Imported Student: Karanam, Harikanth  [K0612310]
+
+
+Adding Imported Student: Koo, Sean  [K0612411]
+
+
+Adding Imported Student: Kornblau, Kennedy  [K0703132]
+
+
+Adding Imported Student: King, Layia  [K0704966]
+
+
+Adding Imported Student: Kranz-Danet, Arthur  [K0706324]
+
+
+Adding Imported Student: Kosacka, Maria  [K0706769]
+
+
+Adding Imported Student: Kao, Nicholas  [K0712509]
+
+
+Adding Imported Student: King, Eric  [K0809396]
+
+
+Adding Imported Student: King, Samantha  [K0809402]
+
+
+Adding Imported Student: Keerio, Sameer  [K0810225]
+
+
+Adding Imported Student: Keerio, Haris  [K0810233]
+
+
+Adding Imported Student: Kettenring, Hudson  [K0900480]
+
+
+Adding Imported Student: Kettenring, Hayden  [K0900481]
+
+
+Adding Imported Student: Knapp, Tyler  [K0901188]
+
+
+Adding Imported Student: Kanyo, William  [K0906786]
+
+
+Adding Imported Student: Ku, Justin  [K0907345]
+
+
+Adding Imported Student: Kalathil, Mckayla  [K0907376]
+
+
+Adding Imported Student: Kalathil, Brandon  [K0907765]
+
+
+Adding Imported Student: Kuhn, Caroline  [K0908627]
+
+
+Adding Imported Student: Karedath, Aishah  [K0908785]
+
+
+Adding Imported Student: Khan, Zaiyan  [K0909139]
+
+
+Adding Imported Student: Kulkarni, Partha  [K0912071]
+
+
+Adding Imported Student: Khami, Nicholas  [K1000235]
+
+
+Adding Imported Student: Kinslow, Katelynn  [K1000269]
+
+
+Adding Imported Student: Kinslow, Conner  [K1000270]
+
+
+Adding Imported Student: Kratz, Hayden  [K1007316]
+
+
+Adding Imported Student: Kungu, Michael  [K1007677]
+
+
+Adding Imported Student: Kim, Hannah  [K1008251]
+
+
+Adding Imported Student: Kearton, Ryan  [K1011157]
+
+
+Adding Imported Student: Kubiak, Ahren  [K1011985]
+
+
+Adding Imported Student: Kably, Azmi  [K1100055]
+
+
+Adding Imported Student: Kancherla, Vineet  [K1100965]
+
+
+Adding Imported Student: Kasubinski, Joshua  [K1101479]
+
+
+Adding Imported Student: Khan, Eesa  [K1105613]
+
+
+Adding Imported Student: Keys, Clayton  [K1106483]
+
+
+Adding Imported Student: Kenney, Sophie  [K1106537]
+
+
+Adding Imported Student: Kenney, Caetlyn  [K1106703]
+
+
+Adding Imported Student: Kabarwal, Arsh  [K1106737]
+
+
+Adding Imported Student: Kamath, Rohit  [K1106746]
+
+
+Adding Imported Student: Khan, Jenain  [K1106756]
+
+
+Adding Imported Student: Kloehr, Jared  [K1107892]
+
+
+Adding Imported Student: Khan, Alyssa  [K1110171]
+
+
+Adding Imported Student: Kim, Michael  [K1200054]
+
+
+Adding Imported Student: Brewer, Zachary  [K1209161]
+
+
+Adding Imported Student: Benyeogor, Tochukwu  [K1209223]
+
+
+Adding Imported Student: Jordan, Rebekah  [K1209399]
+
+
+Adding Imported Student: Miller, Joshua  [K1209873]
+
+
+Adding Imported Student: Miller, Caleb  [K1209875]
+
+
+Adding Imported Student: Havard, Jeffery  [K1209901]
+
+
+Adding Imported Student: Stehr, Roland  [K1209904]
+
+
+Adding Imported Student: Brown, Graham  [K1210012]
+
+
+Adding Imported Student: Borges, Luiza  [K1210039]
+
+
+Adding Imported Student: Alvarez Rodriguez, Miguel  [K1210070]
+
+
+Adding Imported Student: Murali, Mehul  [K1210116]
+
+
+Adding Imported Student: Davis, Noah  [K1210202]
+
+
+Adding Imported Student: Cunningham, Jami  [K1210210]
+
+
+Adding Imported Student: Nelson, Rachel  [K1210349]
+
+
+Adding Imported Student: Bravo, Jeremy  [K1210357]
+
+
+Adding Imported Student: Bravo, Kate  [K1210361]
+
+
+Adding Imported Student: Howell, Rebecca  [K1210365]
+
+
+Adding Imported Student: Bergeron, Brooklyn  [K1210395]
+
+
+Adding Imported Student: Hamlin, Maxwell  [K1210404]
+
+
+Adding Imported Student: Rohani, Pari  [K1210411]
+
+
+Adding Imported Student: Arnold, Amber  [K1210447]
+
+
+Adding Imported Student: El Reda, Fatima  [K1210456]
+
+
+Adding Imported Student: Austin, Madison  [K1210457]
+
+
+Adding Imported Student: Garcia, Alix  [K1210466]
+
+
+Adding Imported Student: Candelaria, Malena  [K1210471]
+
+
+Adding Imported Student: Bouloy, Christian  [K1210502]
+
+
+Adding Imported Student: Clark, Darcy  [K1210541]
+
+
+Adding Imported Student: Clark, Austin  [K1210544]
+
+
+Adding Imported Student: Coelho, Cristian  [K1210571]
+
+
+Adding Imported Student: Snow, Kaitlyn  [K1210576]
+
+
+Adding Imported Student: York, Mikylin  [K1210578]
+
+
+Adding Imported Student: Snow, Kristin  [K1210587]
+
+
+Adding Imported Student: DeLaRosa, Donovan  [K1210596]
+
+
+Adding Imported Student: Shalkowski, Samuel  [K1210604]
+
+
+Adding Imported Student: DeLaRosa, Madison  [K1210607]
+
+
+Adding Imported Student: Shalkowski, Brooke  [K1210610]
+
+
+Adding Imported Student: Derouen, Brooklin  [K1210620]
+
+
+Adding Imported Student: Lynn, Hannah  [K1210648]
+
+
+Adding Imported Student: Falbo, Preston  [K1210674]
+
+
+Adding Imported Student: Dodd, Riley  [K1210694]
+
+
+Adding Imported Student: Fein, Zoe  [K1210697]
+
+
+Adding Imported Student: Lowe, Gunnison  [K1210711]
+
+
+Adding Imported Student: Garzon Ruiz, Maria  [K1210718]
+
+
+Adding Imported Student: Gade, Shreya  [K1210721]
+
+
+Adding Imported Student: Gulrajani, Aman  [K1210736]
+
+
+Adding Imported Student: Gulrajani, Noor  [K1210750]
+
+
+Adding Imported Student: Davie, Tanner  [K1210751]
+
+
+Adding Imported Student: Alvarez Rodriguez, Luciana  [K1210793]
+
+
+Adding Imported Student: Sjolund, Kristian  [K1210824]
+
+
+Adding Imported Student: Guduru, Pragnya Sai  [K1210825]
+
+
+Adding Imported Student: Haney, Lindsay  [K1210851]
+
+
+Adding Imported Student: Nguyen, Benjamin  [K1210860]
+
+
+Adding Imported Student: Hedgpeth, Cole  [K1210861]
+
+
+Adding Imported Student: Hennig, Dylan  [K1210876]
+
+
+Adding Imported Student: Hennig, Samantha  [K1210886]
+
+
+Adding Imported Student: Hernandez, Jonathan  [K1210891]
+
+
+Adding Imported Student: Ganesh Sudhakar, Abinavraj  [K1210912]
+
+
+Adding Imported Student: Juma, Jenna  [K1210916]
+
+
+Adding Imported Student: Kirkland, Garrett  [K1210924]
+
+
+Adding Imported Student: Loftus, Morgan  [K1210952]
+
+
+Adding Imported Student: Blacknall, Alexandria  [K1211029]
+
+
+Adding Imported Student: Okeowo, Margaret  [K1211062]
+
+
+Adding Imported Student: Parisi, Isabella  [K1211071]
+
+
+Adding Imported Student: Charles, Heaven  [K1211073]
+
+
+Adding Imported Student: Wang, Anna  [K1211074]
+
+
+Adding Imported Student: Perou, Jose  [K1211082]
+
+
+Adding Imported Student: Wang, Ruichi  [K1211089]
+
+
+Adding Imported Student: Wilkins, David  [K1211094]
+
+
+Adding Imported Student: Sanchez, Sofia  [K1211104]
+
+
+Adding Imported Student: Morton, Meg  [K1211110]
+
+
+Adding Imported Student: Raparti, Prasanna  [K1211119]
+
+
+Adding Imported Student: Thomson, Trey  [K1211120]
+
+
+Adding Imported Student: Wang, James  [K1211160]
+
+
+Adding Imported Student: Whittecar, Joshua  [K1211179]
+
+
+Adding Imported Student: Whittecar, Jacob  [K1211187]
+
+
+Adding Imported Student: Walker, Madison  [K1211211]
+
+
+Adding Imported Student: Allison, Christopher  [K1211213]
+
+
+Adding Imported Student: Naeger, Savannah  [K1211216]
+
+
+Adding Imported Student: Nguyen, Valeria  [K1211218]
+
+
+Adding Imported Student: Hamlin, Mitchell  [K1211223]
+
+
+Adding Imported Student: Azmi, Hayaa  [K1211228]
+
+
+Adding Imported Student: Nikolov, Annabela  [K1211232]
+
+
+Adding Imported Student: Hernandez, Christopher  [K1211233]
+
+
+Adding Imported Student: Quesada Esteva, Andres  [K1211235]
+
+
+Adding Imported Student: Chew ng, Gabriel  [K1211236]
+
+
+Adding Imported Student: Petritsis, Olga  [K1211246]
+
+
+Adding Imported Student: Tennell, Logan  [K1211259]
+
+
+Adding Imported Student: Pohlman, Kara  [K1211261]
+
+
+Adding Imported Student: Colchado, Aaron  [K1211270]
+
+
+Adding Imported Student: Minnick, Matthew  [K1211275]
+
+
+Adding Imported Student: Hill, Donja  [K1211276]
+
+
+Adding Imported Student: Subramanyam, Rishi  [K1211278]
+
+
+Adding Imported Student: Morton, Noah  [K1211282]
+
+
+Adding Imported Student: Nguyen, Dat  [K1211288]
+
+
+Adding Imported Student: Crowe, Kolby  [K1211301]
+
+
+Adding Imported Student: Rivera, Chiqui  [K1211303]
+
+
+Adding Imported Student: Michel, Elizabeth  [K1211310]
+
+
+Adding Imported Student: Kjar, Jackson  [K1211313]
+
+
+Adding Imported Student: Schmid, Haley  [K1211325]
+
+
+Adding Imported Student: Sriniketh, Anish  [K1211343]
+
+
+Adding Imported Student: Greene, Rebekah  [K1211354]
+
+
+Adding Imported Student: Kumar, Tanaya  [K1211361]
+
+
+Adding Imported Student: Zamora-Lozada, Arlene  [K1211390]
+
+
+Adding Imported Student: Dahiya, Priyal  [K1211395]
+
+
+Adding Imported Student: Munduchirakal, Elizabeth  [K1211422]
+
+
+Adding Imported Student: Gomez, Veruzka  [K1211427]
+
+
+Adding Imported Student: Martinez, Angelea  [K1211460]
+
+
+Adding Imported Student: Nimiworio, Ayebanengiyefa  [K1211469]
+
+
+Adding Imported Student: Prakash, Namrata  [K1211483]
+
+
+Adding Imported Student: Roach, Casey  [K1211501]
+
+
+Adding Imported Student: Laerum, Nikoline  [K1211531]
+
+
+Adding Imported Student: Laerum, Karsten  [K1211540]
+
+
+Adding Imported Student: Benoit, Daniel  [K1211548]
+
+
+Adding Imported Student: Benoit, Kate  [K1211555]
+
+
+Adding Imported Student: Fall, Peter  [K1211561]
+
+
+Adding Imported Student: Ramos, Adrian  [K1211626]
+
+
+Adding Imported Student: Khan, Maaz  [K1211633]
+
+
+Adding Imported Student: Dryer, Hannah  [K1211641]
+
+
+Adding Imported Student: Ritter, Ross  [K1211668]
+
+
+Adding Imported Student: Bolanos, Alex  [K1211679]
+
+
+Adding Imported Student: Blacknall, Trenton  [K1211687]
+
+
+Adding Imported Student: Van Chau, Andrew  [K1211688]
+
+
+Adding Imported Student: Hunzeker, Jenna  [K1211718]
+
+
+Adding Imported Student: Baptiste, Nathan  [K1211831]
+
+
+Adding Imported Student: Nossaman, Emilee  [K1211834]
+
+
+Adding Imported Student: Shaink, Peri  [K1211855]
+
+
+Adding Imported Student: Nimiworio, Karina  [K1211874]
+
+
+Adding Imported Student: Lancaster, Crystal  [K1211909]
+
+
+Adding Imported Student: Kurima, Olivia  [K1211916]
+
+
+Adding Imported Student: Hagen, Aliana  [K1211917]
+
+
+Adding Imported Student: Munduchirakal, Josef  [K1211931]
+
+
+Adding Imported Student: Caprile, Alejandro  [K1212022]
+
+
+Adding Imported Student: Wong, Charlemagne  [K1212092]
+
+
+Adding Imported Student: Meehan, Abigail  [K1212094]
+
+
+Adding Imported Student: El Reda, Fabiana  [K1212154]
+
+
+Adding Imported Student: Gomez, Valeria  [K1212180]
+
+
+Adding Imported Student: Barreto, Valerie  [K1212322]
+
+
+Adding Imported Student: Barreto, Hilarie  [K1212341]
+
+
+Adding Imported Student: Cubides, Nicolas  [K1212492]
+
+
+Adding Imported Student: Sjolund, Markus  [K1212564]
+
+
+Adding Imported Student: Washington, Cedric  [K1212772]
+
+
+Adding Imported Student: DeRouen, Brock  [K1212808]
+
+
+Adding Imported Student: Booth, William  [K1212955]
+
+
+Adding Imported Student: Hill, Jackson  [K1212992]
+
+
+Adding Imported Student: Veary, Leanne  [K1213028]
+
+
+Adding Imported Student: Mariadoss, Steeve  [K1213031]
+
+
+Adding Imported Student: Taylor, Paul  [K1213065]
+
+
+Adding Imported Student: Chakraborty, Prasiddh  [K1213096]
+
+
+Adding Imported Student: Ganesh, Manisha  [K1213118]
+
+
+Adding Imported Student: Figueroa, Daniel  [K1213139]
+
+
+Adding Imported Student: Jeedigunta, Shreya  [K1213146]
+
+
+Adding Imported Student: Hernandez, Nicole  [K1213189]
+
+
+Adding Imported Student: Jeffrey, Declan  [K1213197]
+
+
+Adding Imported Student: Colunga Pastrana, Rodrigo  [K1213313]
+
+
+Adding Imported Student: Welch, Carter  [K1213314]
+
+
+Adding Imported Student: Vass, Thomas  [K1213316]
+
+
+Adding Imported Student: Vass, Michael  [K1213321]
+
+
+Adding Imported Student: McKinney, Reed  [K1213362]
+
+
+Adding Imported Student: McLean, Cameron  [K1213464]
+
+
+Adding Imported Student: McLean, Cayla  [K1213470]
+
+
+Adding Imported Student: Walker, Thomas  [K1213488]
+
+
+Adding Imported Student: Salinas, Brian  [K1213494]
+
+
+Adding Imported Student: Porter, Patrick  [K1213502]
+
+
+Adding Imported Student: Reyes, Briana  [K1213508]
+
+
+Adding Imported Student: Rivera, Diego  [K1213540]
+
+
+Adding Imported Student: Langer, Cole  [K1213555]
+
+
+Adding Imported Student: Rodriguez, Ryan  [K1213589]
+
+
+Adding Imported Student: Tramel, Madison  [K1213603]
+
+
+Adding Imported Student: Rodriguez, Lillyana  [K1213638]
+
+
+Adding Imported Student: Wilcox, Kayla  [K1213649]
+
+
+Adding Imported Student: Prejean, Claire  [K1213733]
+
+
+Adding Imported Student: Gopalakrishnan, Sudarshan  [K1213801]
+
+
+Adding Imported Student: Echebarria Perez Torres, Adriana  [K1213823]
+
+
+Adding Imported Student: Rupawalla, Rehan  [K1213873]
+
+
+Adding Imported Student: Rincon, Aryana  [K1213877]
+
+
+Adding Imported Student: Marri, Yogita  [K1213954]
+
+
+Adding Imported Student: Jenisch, Matthew  [K1213956]
+
+
+Adding Imported Student: Jenisch, Payton  [K1213977]
+
+
+Adding Imported Student: Jordi, Paola  [K1214004]
+
+
+Adding Imported Student: Telarroja, Eduardo  [K1214039]
+
+
+Adding Imported Student: Camarillo, Victor  [K1214048]
+
+
+Adding Imported Student: Camarillo, Eric  [K1214066]
+
+
+Adding Imported Student: Aberin, Sheila Dominique  [K1214080]
+
+
+Adding Imported Student: Lindhorst, Cole  [K1214176]
+
+
+Adding Imported Student: Matos D'Lacoste, Elizabeth  [K1214180]
+
+
+Adding Imported Student: Ervin, Riley  [K1214215]
+
+
+Adding Imported Student: Arrangoiz Arriola, Andrea  [K1214288]
+
+
+Adding Imported Student: Bongiovanni Tovar, Angie  [K1214497]
+
+
+Adding Imported Student: Salinas Rodriguez, Anais  [K1214620]
+
+
+Adding Imported Student: Thumann, Michael  [K1214703]
+
+
+Adding Imported Student: Villalobos Valles, Diana  [K1214751]
+
+
+Adding Imported Student: Thumann, Caitlin  [K1214785]
+
+
+Adding Imported Student: Thumann, Samuel  [K1214793]
+
+
+Adding Imported Student: Welkener, Gabrielle  [K1214818]
+
+
+Adding Imported Student: Camarillo, Emilio  [K1214822]
+
+
+Adding Imported Student: Wethey, Donovan  [K1214845]
+
+
+Adding Imported Student: Vanderklay, Daniel  [K1214860]
+
+
+Adding Imported Student: Eskandaridalvand, Elaheh  [K1214909]
+
+
+Adding Imported Student: Acuna, Ashley  [K1214923]
+
+
+Adding Imported Student: Colchado, Caroline  [K1214929]
+
+
+Adding Imported Student: Bambridge, James  [K1214935]
+
+
+Adding Imported Student: Walker, Ethan  [K1214942]
+
+
+Adding Imported Student: Hill, Austin  [K1214966]
+
+
+Adding Imported Student: VanErem, Mitchell  [K1214968]
+
+
+Adding Imported Student: Turner, Jenny  [K1214973]
+
+
+Adding Imported Student: Anderson, Katelyn  [K1214983]
+
+
+Adding Imported Student: Tanguma Soto, Gabriella  [K1214996]
+
+
+Adding Imported Student: Enemuo, Kevin  [K1215004]
+
+
+Adding Imported Student: Thiagarajan, Tarini  [K1215018]
+
+
+Adding Imported Student: Hallie, Christopher  [K1215021]
+
+
+Adding Imported Student: Rubio, Laura  [K1215040]
+
+
+Adding Imported Student: Walker, Olivia  [K1215421]
+
+
+Adding Imported Student: Barcelo, Daniela  [K1215548]
+
+
+Adding Imported Student: Gonzalez, Sara  [K1215551]
+
+
+Adding Imported Student: Foster, McKenzie  [K1215805]
+
+
+Adding Imported Student: Bacher, Abbey  [K1215838]
+
+
+Adding Imported Student: Engas, Saifeldeen  [K1215931]
+
+
+Adding Imported Student: Ramirez, Zazel  [K1216027]
+
+
+Adding Imported Student: Rueben Justiniano, Erich  [K1216075]
+
+
+Adding Imported Student: Rahman, Manizah  [K1217028]
+
+
+Adding Imported Student: Pablo, Noah  [K1217212]
+
+
+Adding Imported Student: Obiagwu, Trevor  [K1217420]
+
+
+Adding Imported Student: Tangudu, Vivek  [K1217566]
+
+
+Adding Imported Student: Holland, Perry  [K1217700]
+
+
+Adding Imported Student: Diaz, Elias  [K1217702]
+
+
+Adding Imported Student: Lenz, Jacob  [K1218061]
+
+
+Adding Imported Student: Lenz, Kathryn  [K1218103]
+
+
+Adding Imported Student: Torres, Raymond  [K1218129]
+
+
+Adding Imported Student: Drinovsky, Anika  [K1218201]
+
+
+Adding Imported Student: Udayasankar, Sanjith  [K1218322]
+
+
+Adding Imported Student: Zincoris, Tyler  [K1218361]
+
+
+Adding Imported Student: Sandoz, Stephen  [K1218430]
+
+
+Adding Imported Student: Ageh, Emmanuela  [K1218539]
+
+
+Adding Imported Student: Eman Chacon, Claudia  [K1218639]
+
+
+Adding Imported Student: Eman Chacon, Andrea  [K1218647]
+
+
+Adding Imported Student: Rodriguez, Josue  [K1218778]
+
+
+Adding Imported Student: Da Costa Martinez, Mariangela  [K1219424]
+
+
+Adding Imported Student: Sharp, Allison  [K1219432]
+
+
+Adding Imported Student: Smith, Adam  [K1219440]
+
+
+Adding Imported Student: Smith, Olivia  [K1219444]
+
+
+Adding Imported Student: House, Owen  [K1219471]
+
+
+Adding Imported Student: Monical, Nathaniel  [K1219482]
+
+
+Adding Imported Student: Nuss, Denton  [K1219486]
+
+
+Adding Imported Student: Panda, Aditi  [K1219492]
+
+
+Adding Imported Student: Howard, Jonathan  [K1219510]
+
+
+Adding Imported Student: Fernandes, Harold  [K1219516]
+
+
+Adding Imported Student: Ray, Saurika  [K1219545]
+
+
+Adding Imported Student: Asselta, Matthew  [K1219564]
+
+
+Adding Imported Student: Luciano, Phillip  [K1219570]
+
+
+Adding Imported Student: Gregg, Grace  [K1219603]
+
+
+Adding Imported Student: Gatewood, Brennan  [K1219608]
+
+
+Adding Imported Student: Garcia Parra, Rossy  [K1219703]
+
+
+Adding Imported Student: Wielang, Jacob  [K1219752]
+
+
+Adding Imported Student: Nossaman, Alicia  [K1219766]
+
+
+Adding Imported Student: Carvajal, Emilie  [K1219787]
+
+
+Adding Imported Student: Diez Moreno, Andres  [K1219811]
+
+
+Adding Imported Student: Panda, Amita  [K1219898]
+
+
+Adding Imported Student: Chester, Jakob  [K1219913]
+
+
+Adding Imported Student: Garcia Parra, Paulina  [K1219933]
+
+
+Adding Imported Student: Long, Cuiyu  [K1219971]
+
+
+Adding Imported Student: Cruz, Nathalie  [K1220222]
+
+
+Adding Imported Student: Gard, Ashlyn  [K1220254]
+
+
+Adding Imported Student: Olmen, Paige  [K1220325]
+
+
+Adding Imported Student: Henkel, Benjamin  [K1220356]
+
+
+Adding Imported Student: Henkel, Artyom  [K1220357]
+
+
+Adding Imported Student: Shaikh, Sanaa  [K1220540]
+
+
+Adding Imported Student: Crawford, Zachrey  [K1220558]
+
+
+Adding Imported Student: Bennett, Lawrence  [K1220669]
+
+
+Adding Imported Student: Ashtekar, Yohan  [K1220742]
+
+
+Adding Imported Student: Rowell, Yohannes  [K1220770]
+
+
+Adding Imported Student: Nie, Chenyu  [K1220842]
+
+
+Adding Imported Student: Michel, Diego  [K1220957]
+
+
+Adding Imported Student: Dhole, Saurabh  [K1220962]
+
+
+Adding Imported Student: Staubo, Casandra  [K1221016]
+
+
+Adding Imported Student: Staubo, Christian  [K1221017]
+
+
+Adding Imported Student: Modi, Rahul  [K1221083]
+
+
+Adding Imported Student: Brunner, McKenzie  [K1221248]
+
+
+Adding Imported Student: Brunner, Madison  [K1221249]
+
+
+Adding Imported Student: Hickman, Jacqueline  [K1221368]
+
+
+Adding Imported Student: Edewor, Iruoghene  [K1221378]
+
+
+Adding Imported Student: Dolan, Nicholas  [K1221495]
+
+
+Adding Imported Student: Van Der Walt, Monray  [K1221498]
+
+
+Adding Imported Student: Luong, Linh  [K1221975]
+
+
+Adding Imported Student: Weatherly, Nicole  [K1221977]
+
+
+Adding Imported Student: Mogendi, Benedict  [K1222175]
+
+
+Adding Imported Student: Mogendi, Isabelle  [K1222179]
+
+
+Adding Imported Student: Jansema, Noah  [K1223185]
+
+
+Adding Imported Student: Gonzalez, Brayden  [K1223237]
+
+
+Adding Imported Student: Johnson, Joshua  [K1223316]
+
+
+Adding Imported Student: Abbas, Ayesha  [K1223903]
+
+
+Adding Imported Student: Murdock, Hannah  [K1223996]
+
+
+Adding Imported Student: Tademy, Anthony  [K1225923]
+
+
+Adding Imported Student: Martin, Sofia  [K1225932]
+
+
+Adding Imported Student: Brewer, Austin  [K1225945]
+
+
+Adding Imported Student: Mason, Camden  [K1225951]
+
+
+Adding Imported Student: Gajardo Alister, Macarena  [K1325981]
+
+
+Adding Imported Student: Phillips, Margaret  [K1325987]
+
+
+Adding Imported Student: Steudel, Zachary  [K1325988]
+
+
+Adding Imported Student: Trevino, Lauren  [K1325990]
+
+
+Adding Imported Student: Lacy, Reagan  [K1325991]
+
+
+Adding Imported Student: Hamilton, Jane  [K1325994]
+
+
+Adding Imported Student: Burchett, Reagan  [K1325996]
+
+
+Adding Imported Student: Johnson, Ryan  [K1325997]
+
+
+Adding Imported Student: Dufresne, James  [K1325999]
+
+
+Adding Imported Student: Gunukula, Divya  [K1326003]
+
+
+Adding Imported Student: Porter, Chandon  [K1326005]
+
+
+Adding Imported Student: Davis, Elizabeth  [K1326012]
+
+
+Adding Imported Student: Mitchell, Jasmin  [K1326022]
+
+
+Adding Imported Student: Cruz Gallego, John  [K1326046]
+
+
+Adding Imported Student: Segura, John  [K1326063]
+
+
+Adding Imported Student: Kortegast, Cameron  [K1326221]
+
+
+Adding Imported Student: Marinchak, Matthew  [K1326239]
+
+
+Adding Imported Student: Sonduck, Kyle  [K1326247]
+
+
+Adding Imported Student: Fichter, Thomas  [K1326273]
+
+
+Adding Imported Student: Smith, Logan  [K1326301]
+
+
+Adding Imported Student: Romero, Blake  [K1326306]
+
+
+Adding Imported Student: Zhao, David  [K1326320]
+
+
+Adding Imported Student: Erwin, Peyton  [K1326359]
+
+
+Adding Imported Student: Baume, Taylor  [K1326383]
+
+
+Adding Imported Student: Eduljee, Noshir  [K1326400]
+
+
+Adding Imported Student: Robisch, Brendan  [K1326409]
+
+
+Adding Imported Student: Gorgi, Shady  [K1326415]
+
+
+Adding Imported Student: Lake, Talib  [K1326416]
+
+
+Adding Imported Student: Dabroi, Karen  [K1326429]
+
+
+Adding Imported Student: Yu, Yue  [K1326432]
+
+
+Adding Imported Student: Shockley, Joseph  [K1326434]
+
+
+Adding Imported Student: Ferguson, Evan  [K1326438]
+
+
+Adding Imported Student: Snyder, Lydia  [K1326465]
+
+
+Adding Imported Student: Reid, Katherine  [K1326487]
+
+
+Adding Imported Student: Bera, Kushal  [K1326495]
+
+
+Adding Imported Student: Keschinger, Richard  [K1326566]
+
+
+Adding Imported Student: Stone, Justin  [K1326569]
+
+
+Adding Imported Student: Udovich, Trey  [K1326578]
+
+
+Adding Imported Student: Geiger, Hope  [K1326595]
+
+
+Adding Imported Student: Borchert, Raymond  [K1326613]
+
+
+Adding Imported Student: Tolman, Taylor  [K1326643]
+
+
+Adding Imported Student: Tolman, Erin  [K1326651]
+
+
+Adding Imported Student: Ortiz, Jocelyn  [K1326660]
+
+
+Adding Imported Student: Ferreri Colmenares, Tanina  [K1326679]
+
+
+Adding Imported Student: Galloway, Emilee  [K1326740]
+
+
+Adding Imported Student: Ekpruke, OgheneRuno  [K1326812]
+
+
+Adding Imported Student: Finney, Amber  [K1326859]
+
+
+Adding Imported Student: Smalley, Logan  [K1326877]
+
+
+Adding Imported Student: Ozuna, Aaron  [K1326879]
+
+
+Adding Imported Student: Hollhumer, Christopher  [K1326906]
+
+
+Adding Imported Student: Tademy, Victor  [K1326958]
+
+
+Adding Imported Student: Nava, Thomas  [K1326997]
+
+
+Adding Imported Student: Luvumbo, Debora  [K1327017]
+
+
+Adding Imported Student: Smock, Connor  [K1327018]
+
+
+Adding Imported Student: Bohanon, Trevor  [K1327023]
+
+
+Adding Imported Student: Fowkes, Daniel  [K1327045]
+
+
+Adding Imported Student: Marteeny, Hannah  [K1327048]
+
+
+Adding Imported Student: Garza Salinas, Zayra  [K1327051]
+
+
+Adding Imported Student: Dabroi, Anthony  [K1327070]
+
+
+Adding Imported Student: Achang Arape, Robert  [K1327112]
+
+
+Adding Imported Student: Torres, Jose  [K1327125]
+
+
+Adding Imported Student: Trinidad, Mario  [K1327133]
+
+
+Adding Imported Student: Fuentes, Noah  [K1327146]
+
+
+Adding Imported Student: Lettow, Rylie  [K1327193]
+
+
+Adding Imported Student: Dufresne, Daniel  [K1327203]
+
+
+Adding Imported Student: Garrett, Olivia  [K1327222]
+
+
+Adding Imported Student: Pop, Kevin  [K1327230]
+
+
+Adding Imported Student: Fisher, McKenzie  [K1327246]
+
+
+Adding Imported Student: Fortenberry, Lane  [K1327287]
+
+
+Adding Imported Student: Dudek, McCarthy  [K1327309]
+
+
+Adding Imported Student: Hudspeth, Chloe  [K1327313]
+
+
+Adding Imported Student: Hollier, Kevin  [K1327319]
+
+
+Adding Imported Student: Burnett, Naomi  [K1327364]
+
+
+Adding Imported Student: Adams, Crispin  [K1327367]
+
+
+Adding Imported Student: Vela, Mia  [K1327452]
+
+
+Adding Imported Student: Betancourt, David  [K1327453]
+
+
+Adding Imported Student: Mistry, Vatsal  [K1327454]
+
+
+Adding Imported Student: Jackson, Madilyn  [K1327456]
+
+
+Adding Imported Student: Nguyen, Kendra  [K1327458]
+
+
+Adding Imported Student: Nguyen, Kenneth  [K1327465]
+
+
+Adding Imported Student: Macicek, Wyatt  [K1327472]
+
+
+Adding Imported Student: Martin, Jessica  [K1327476]
+
+
+Adding Imported Student: Macicek, Max  [K1327477]
+
+
+Adding Imported Student: Vanzine, Jack  [K1327483]
+
+
+Adding Imported Student: Ekpruke, Oghenetahro  [K1327493]
+
+
+Adding Imported Student: Sexton, Ethan  [K1327494]
+
+
+Adding Imported Student: Wild, Lauryn  [K1327495]
+
+
+Adding Imported Student: Sexton, Mia  [K1327496]
+
+
+Adding Imported Student: Chaisson, Payton  [K1327498]
+
+
+Adding Imported Student: Sexton, Ean  [K1327499]
+
+
+Adding Imported Student: Abraham, Albert  [K1327503]
+
+
+Adding Imported Student: Korando, Chloe  [K1327504]
+
+
+Adding Imported Student: Wang, Jianuo  [K1327510]
+
+
+Adding Imported Student: Meyer, Madison  [K1327513]
+
+
+Adding Imported Student: Bonham, Kylie  [K1327514]
+
+
+Adding Imported Student: Garza Salinas, Zelma  [K1327515]
+
+
+Adding Imported Student: Trahan, Allison  [K1327517]
+
+
+Adding Imported Student: Davies, Joshua  [K1327520]
+
+
+Adding Imported Student: Gacusan, Kirstin  [K1327521]
+
+
+Adding Imported Student: Vazquez, Sofia  [K1327529]
+
+
+Adding Imported Student: Day, Brandon  [K1327530]
+
+
+Adding Imported Student: Fazzini, Michael  [K1327531]
+
+
+Adding Imported Student: Fazzini, Kristen  [K1327536]
+
+
+Adding Imported Student: Woodworth, Matthew  [K1327542]
+
+
+Adding Imported Student: Fazzini, Jesse  [K1327543]
+
+
+Adding Imported Student: Frankhouser, Austin  [K1327545]
+
+
+Adding Imported Student: Prahm, Tyler  [K1327548]
+
+
+Adding Imported Student: Luck-Burns, McKayla  [K1327550]
+
+
+Adding Imported Student: Shelton, Brynne  [K1327552]
+
+
+Adding Imported Student: Mulvany, Brynen  [K1327553]
+
+
+Adding Imported Student: De Waard, Maria Magdalena  [K1327556]
+
+
+Adding Imported Student: McFadden, Reese  [K1327559]
+
+
+Adding Imported Student: Onia, John Christian  [K1327571]
+
+
+Adding Imported Student: Harkrider, Hailey  [K1327575]
+
+
+Adding Imported Student: Orpilla, Martin  [K1327576]
+
+
+Adding Imported Student: Garcia, Andres  [K1327578]
+
+
+Adding Imported Student: Mura, Claire  [K1327580]
+
+
+Adding Imported Student: Rajagopalan, Samyuta  [K1327581]
+
+
+Adding Imported Student: Finney, Jonathon  [K1327583]
+
+
+Adding Imported Student: Madden, Gavin  [K1327585]
+
+
+Adding Imported Student: Summerford, Randall  [K1327587]
+
+
+Adding Imported Student: Allen, Jacob  [K1327591]
+
+
+Adding Imported Student: Prasad, Roopa  [K1327593]
+
+
+Adding Imported Student: Zeller, Christopher  [K1327597]
+
+
+Adding Imported Student: Allen, Eric  [K1327601]
+
+
+Adding Imported Student: Napoletano Robles, Domenico  [K1327611]
+
+
+Adding Imported Student: Nowakowski, Jerzy  [K1327624]
+
+
+Adding Imported Student: Winanda, Ghenaya  [K1327630]
+
+
+Adding Imported Student: Rogers, William  [K1327635]
+
+
+Adding Imported Student: Luck-Burns, Madison  [K1327639]
+
+
+Adding Imported Student: Rogers, David  [K1327640]
+
+
+Adding Imported Student: Colombo, Anthony  [K1327667]
+
+
+Adding Imported Student: King, Taylor  [K1327679]
+
+
+Adding Imported Student: King, Tyler  [K1327684]
+
+
+Adding Imported Student: Fossitt, Benjamin  [K1327689]
+
+
+Adding Imported Student: Sivakumar, Milan  [K1328796]
+
+
+Adding Imported Student: Abraham, Justin  [K1328842]
+
+
+Adding Imported Student: Andrepont, Meghan  [K1328943]
+
+
+Adding Imported Student: Fossitt, Madeline  [K1329018]
+
+
+Adding Imported Student: Perry, David  [K1329107]
+
+
+Adding Imported Student: Mopuri, Akhilesh  [K1329166]
+
+
+Adding Imported Student: Kataram, Srisai Rachana  [K1329408]
+
+
+Adding Imported Student: Widner, Anna  [K1329526]
+
+
+Adding Imported Student: Ramalingam, Jaanvi  [K1329539]
+
+
+Adding Imported Student: Russell, Blake  [K1329547]
+
+
+Adding Imported Student: Kreiler, Michael  [K1329557]
+
+
+Adding Imported Student: Villarreal Bernal, Jaqueline  [K1329576]
+
+
+Adding Imported Student: Sahor, Mohammed  [K1329598]
+
+
+Adding Imported Student: McBay, Jay  [K1329604]
+
+
+Adding Imported Student: Lanier, Evan  [K1329609]
+
+
+Adding Imported Student: Bruce, Alexander  [K1329645]
+
+
+Adding Imported Student: Cheeti, Poojitha  [K1329705]
+
+
+Adding Imported Student: Collins, Kailei  [K1329726]
+
+
+Adding Imported Student: Salcedo, John Daniel  [K1329749]
+
+
+Adding Imported Student: Poojara, Hrithik  [K1329752]
+
+
+Adding Imported Student: Bennikutty, Ethan  [K1329769]
+
+
+Adding Imported Student: Smith, Kaitlin  [K1329774]
+
+
+Adding Imported Student: Junejo, Taha  [K1329777]
+
+
+Adding Imported Student: Matthew, Neo  [K1329791]
+
+
+Adding Imported Student: Gee, Devin  [K1329804]
+
+
+Adding Imported Student: Nguyen, Hannah  [K1329860]
+
+
+Adding Imported Student: Mauney, Ana  [K1329872]
+
+
+Adding Imported Student: Okundaye, Jasmine  [K1329914]
+
+
+Adding Imported Student: Chapparapu, Guru Charan  [K1329918]
+
+
+Adding Imported Student: Ahire, Shardul  [K1329971]
+
+
+Adding Imported Student: Peralta, Blas  [K1329977]
+
+
+Adding Imported Student: Juttu, Sai  [K1330000]
+
+
+Adding Imported Student: Saxon, Ashleigh  [K1330055]
+
+
+Adding Imported Student: Bentley, Leo  [K1330074]
+
+
+Adding Imported Student: Neemuchwala, Sakina  [K1330112]
+
+
+Adding Imported Student: Bird, Mia  [K1330400]
+
+
+Adding Imported Student: Rajanala, Sai  [K1330426]
+
+
+Adding Imported Student: Nalluri, Varshini  [K1330737]
+
+
+Adding Imported Student: Saju Samuel, Melvin  [K1330742]
+
+
+Adding Imported Student: Saju Samuel, Milan  [K1330746]
+
+
+Adding Imported Student: Huerta, Jonah  [K1330953]
+
+
+Adding Imported Student: Suchart, Ashley  [K1331032]
+
+
+Adding Imported Student: Tran, Dylan  [K1331047]
+
+
+Adding Imported Student: Angle, Ethan  [K1331070]
+
+
+Adding Imported Student: Valstar, Heidi  [K1331079]
+
+
+Adding Imported Student: Hussein, Marwa  [K1331084]
+
+
+Adding Imported Student: Roopnarine, Vibhuti  [K1331088]
+
+
+Adding Imported Student: Roopnarine, Vinayak  [K1331092]
+
+
+Adding Imported Student: Crespo Cabrera, Daniel  [K1331094]
+
+
+Adding Imported Student: Do Sacramento, Luana  [K1331147]
+
+
+Adding Imported Student: Korando, Carson  [K1331160]
+
+
+Adding Imported Student: Ruopp, Kayla  [K1331171]
+
+
+Adding Imported Student: Venturi, Logan  [K1331178]
+
+
+Adding Imported Student: Ruopp, Nicole  [K1331267]
+
+
+Adding Imported Student: Yakubu, Victor  [K1331288]
+
+
+Adding Imported Student: Splawn, John  [K1331303]
+
+
+Adding Imported Student: Little, Shane  [K1331384]
+
+
+Adding Imported Student: Ybarra, Eric  [K1331415]
+
+
+Adding Imported Student: Wood, Brielle  [K1331445]
+
+
+Adding Imported Student: Bruce, Emily  [K1331461]
+
+
+Adding Imported Student: Pirovolou, Nikolaos  [K1331468]
+
+
+Adding Imported Student: Olano, Daniel  [K1331483]
+
+
+Adding Imported Student: Serrano Urdaneta, Andrea  [K1331505]
+
+
+Adding Imported Student: Encallado, Kevin Einstein  [K1331522]
+
+
+Adding Imported Student: Vo, Han  [K1331530]
+
+
+Adding Imported Student: Matute, Ethan  [K1331544]
+
+
+Adding Imported Student: Bird, Curtis  [K1331557]
+
+
+Adding Imported Student: Blinn, Danielle  [K1331564]
+
+
+Adding Imported Student: Klodzinski, Jolie  [K1331574]
+
+
+Adding Imported Student: Encallado, Kyla Yvette  [K1331606]
+
+
+Adding Imported Student: Burton, Nalani  [K1331648]
+
+
+Adding Imported Student: Gudala, Sree  [K1331653]
+
+
+Adding Imported Student: McBay, Adam  [K1331659]
+
+
+Adding Imported Student: Adham, Yazan  [K1331664]
+
+
+Adding Imported Student: Manrique, Isabella  [K1331691]
+
+
+Adding Imported Student: DeGroot, Steven  [K1331697]
+
+
+Adding Imported Student: DeGroot, Rachel  [K1331700]
+
+
+Adding Imported Student: Thompson, Cole  [K1331707]
+
+
+Adding Imported Student: Hernandez Flores, Noe  [K1331711]
+
+
+Adding Imported Student: Salcedo, Ana Bernielene  [K1331734]
+
+
+Adding Imported Student: Antunez Hernandez, Juan  [K1331802]
+
+
+Adding Imported Student: Kuta, Mason  [K1331815]
+
+
+Adding Imported Student: Smith, Andrew  [K1331991]
+
+
+Adding Imported Student: Betancourt, Constanza  [K1331993]
+
+
+Adding Imported Student: Han, Michael  [K1332075]
+
+
+Adding Imported Student: Holmes, Isabelle  [K1332087]
+
+
+Adding Imported Student: Smith, Gabrielle  [K1332099]
+
+
+Adding Imported Student: Ganti, Srikar  [K1332468]
+
+
+Adding Imported Student: Kamoun, Lea  [K1332489]
+
+
+Adding Imported Student: Burton, Desni  [K1332492]
+
+
+Adding Imported Student: Ruiz, Hailey  [K1332644]
+
+
+Adding Imported Student: Webb, Rachel  [K1332670]
+
+
+Adding Imported Student: Martinez, Victoria  [K1332743]
+
+
+Adding Imported Student: Albornoz Alvarez, Victoria  [K1332786]
+
+
+Adding Imported Student: Martinez Torres, Daniel  [K1333012]
+
+
+Adding Imported Student: Nguyen, Kevin  [K1333274]
+
+
+Adding Imported Student: Olson, Corbin  [K1333409]
+
+
+Adding Imported Student: Calderon, Alexandra  [K1333547]
+
+
+Adding Imported Student: Carlevaro, Delfina  [K1333750]
+
+
+Adding Imported Student: Fisher, Ian  [K1333916]
+
+
+Adding Imported Student: Dorsey, Jaheim  [K1334130]
+
+
+Adding Imported Student: Tacas, Zuriel  [K1334295]
+
+
+Adding Imported Student: Tacas, Zephanie  [K1334299]
+
+
+Adding Imported Student: Perez, Kaylynn  [K1334335]
+
+
+Adding Imported Student: Edlin Millan, Aine  [K1334370]
+
+
+Adding Imported Student: Loret de Mola Plaza, Edgar  [K1334382]
+
+
+Adding Imported Student: Rehsi, Gurveen  [K1334434]
+
+
+Adding Imported Student: Fadika, Mohammed  [K1334489]
+
+
+Adding Imported Student: Kuruvila, Ericks  [K1334540]
+
+
+Adding Imported Student: Guo, Yucheng  [K1334555]
+
+
+Adding Imported Student: Cooper, Ashlee  [K1334641]
+
+
+Adding Imported Student: Harper, Ariana  [K1334644]
+
+
+Adding Imported Student: Sofian, Hannah  [K1334870]
+
+
+Adding Imported Student: Sofian, Hanni  [K1334871]
+
+
+Adding Imported Student: Delgado Gomez, Daniella  [K1334893]
+
+
+Adding Imported Student: Aguirri, Nathaniel  [K1335131]
+
+
+Adding Imported Student: Blocker, Carlos  [K1335247]
+
+
+Adding Imported Student: Sallese, Greta  [K1335259]
+
+
+Adding Imported Student: Pacious, Jeremy  [K1335277]
+
+
+Adding Imported Student: Pacious, Elizabeth  [K1335300]
+
+
+Adding Imported Student: Sisemore, Mark  [K1335471]
+
+
+Adding Imported Student: Lashari, Nawal  [K1335541]
+
+
+Adding Imported Student: Chang, Kaylee  [K1335546]
+
+
+Adding Imported Student: Johnson, Brendan  [K1335576]
+
+
+Adding Imported Student: Apodaca, Quentin  [K1335582]
+
+
+Adding Imported Student: Sadek, Sandra  [K1335839]
+
+
+Adding Imported Student: Zhong, Sophia  [K1335872]
+
+
+Adding Imported Student: Henry, Kayla  [K1335893]
+
+
+Adding Imported Student: Pressley, Susanna  [K1335897]
+
+
+Adding Imported Student: Taylor, Brooklyn  [K1335898]
+
+
+Adding Imported Student: Mitchell, Thomas  [K1335906]
+
+
+Adding Imported Student: Sadek, Sarah  [K1335914]
+
+
+Adding Imported Student: Phillips, Halle  [K1335923]
+
+
+Adding Imported Student: Wilson, Devin  [K1335960]
+
+
+Adding Imported Student: Cunningham, Kyle  [K1335970]
+
+
+Adding Imported Student: Rodriguez Livas, Marcelo  [K1335978]
+
+
+Adding Imported Student: Calcutt, Nicholas  [K1335980]
+
+
+Adding Imported Student: Rodriguez Livas, Pablo  [K1335981]
+
+
+Adding Imported Student: Patel, Shree  [K1336011]
+
+
+Adding Imported Student: Fung, Bryanth  [K1336017]
+
+
+Adding Imported Student: Shim, Grant  [K1336028]
+
+
+Adding Imported Student: Opacic Lopez, Gabriela  [K1336037]
+
+
+Adding Imported Student: Ouyang, Amy  [K1336107]
+
+
+Adding Imported Student: Fung, Cristhina  [K1336274]
+
+
+Adding Imported Student: Cimbak, Sharla  [K1336656]
+
+
+Adding Imported Student: Zhang, Yiran  [K1336702]
+
+
+Adding Imported Student: Arenas Cinquemani, Maria  [K1336711]
+
+
+Adding Imported Student: Galicinao, Gabrielle  [K1336773]
+
+
+Adding Imported Student: Horton, Maxwell  [K1336780]
+
+
+Adding Imported Student: Mathew, Jamie  [K1336808]
+
+
+Adding Imported Student: Zhang, Zitong  [K1336895]
+
+
+Adding Imported Student: Trindade, Natasha  [K1336903]
+
+
+Adding Imported Student: Deb, Shreya  [K1336931]
+
+
+Adding Imported Student: Hill, Madison  [K1337058]
+
+
+Adding Imported Student: Mathews, Jack  [K1337090]
+
+
+Adding Imported Student: Crumrin, Allison  [K1337282]
+
+
+Adding Imported Student: Allison, Paige  [K1337400]
+
+
+Adding Imported Student: Venuturupalli, Akhila  [K1337407]
+
+
+Adding Imported Student: Hong, Andrew  [K1337422]
+
+
+Adding Imported Student: Zhu, Yining  [K1337427]
+
+
+Adding Imported Student: Wang, Yixin  [K1337428]
+
+
+Adding Imported Student: Kolla, Vijay  [K1337598]
+
+
+Adding Imported Student: Quijano, Sarah  [K1337613]
+
+
+Adding Imported Student: Quijano, Zachary  [K1337617]
+
+
+Adding Imported Student: Quijano, Matthew  [K1337618]
+
+
+Adding Imported Student: Colmenares Carrizales, Andres  [K1337854]
+
+
+Adding Imported Student: Ahmed, Afrah  [K1338021]
+
+
+Adding Imported Student: Kalbfleisch, Noah  [K1338052]
+
+
+Adding Imported Student: Sharkawi, Seifeldin  [K1338552]
+
+
+Adding Imported Student: Morrison, Rachael  [K1339834]
+
+
+Adding Imported Student: Martin, Rex  [K1340254]
+
+
+Adding Imported Student: Morrison, Andrew  [K1342485]
+
+
+Adding Imported Student: Carter, Callie  [K1342486]
+
+
+Adding Imported Student: Frische, Abigail  [K1342490]
+
+
+Adding Imported Student: Jiang, Ella  [K1342491]
+
+
+Adding Imported Student: Pei, Zhaohua  [K1342494]
+
+
+Adding Imported Student: White, Tyra  [K1342495]
+
+
+Adding Imported Student: Camargo Campos, Giulia  [K1342496]
+
+
+Adding Imported Student: Sloan, Margaret  [K1342497]
+
+
+Adding Imported Student: Bandi, Prathyusha  [K1342498]
+
+
+Adding Imported Student: McClelland, Marianna  [K1342499]
+
+
+Adding Imported Student: Steiner, Preston  [K1342507]
+
+
+Adding Imported Student: Caskey, Savanna  [K1342550]
+
+
+Adding Imported Student: Pham, Vivian  [K1342566]
+
+
+Adding Imported Student: Stovern, Harrison  [K1342585]
+
+
+Adding Imported Student: Wakulat, Kylie  [K1342595]
+
+
+Adding Imported Student: Summers, Jacob  [K1342596]
+
+
+Adding Imported Student: Wingo, Emily  [K1342597]
+
+
+Adding Imported Student: Williams, Wyatt  [K1342664]
+
+
+Adding Imported Student: Broadway, Zachary  [K1342672]
+
+
+Adding Imported Student: Cano, Francisco  [K1342696]
+
+
+Adding Imported Student: Meuth, Madeline  [K1342708]
+
+
+Adding Imported Student: Alexander, Keagan  [K1342720]
+
+
+Adding Imported Student: Cartwright, Abigail  [K1342729]
+
+
+Adding Imported Student: Giron, Andres  [K1342738]
+
+
+Adding Imported Student: Taylor, Brittany  [K1342762]
+
+
+Adding Imported Student: Soediono, Isabel  [K1342786]
+
+
+Adding Imported Student: Soediono, Christina  [K1342788]
+
+
+Adding Imported Student: Soediono, Raphael  [K1342790]
+
+
+Adding Imported Student: Richardson, Alexandra  [K1342794]
+
+
+Adding Imported Student: Eddins, Katherine  [K1342797]
+
+
+Adding Imported Student: Garza, Ana  [K1342805]
+
+
+Adding Imported Student: Kelley, Claire  [K1342811]
+
+
+Adding Imported Student: Gogov, Boyan  [K1342829]
+
+
+Adding Imported Student: Le, Christopher  [K1342831]
+
+
+Adding Imported Student: Zuo, Tracey  [K1342832]
+
+
+Adding Imported Student: Shajahan, Bayana  [K1342859]
+
+
+Adding Imported Student: Siegmund, Lauren  [K1342865]
+
+
+Adding Imported Student: Garza, Sebastian  [K1342940]
+
+
+Adding Imported Student: Fuller, Kaden  [K1342951]
+
+
+Adding Imported Student: Garza, Santiago  [K1342952]
+
+
+Adding Imported Student: Williams, Weslee  [K1342992]
+
+
+Adding Imported Student: Gamboa, Anna  [K1342995]
+
+
+Adding Imported Student: Ali, Zain  [K1342999]
+
+
+Adding Imported Student: Orozco, Maria  [K1343006]
+
+
+Adding Imported Student: Andrews, Daelen  [K1343025]
+
+
+Adding Imported Student: Oladepo, Farid  [K1343041]
+
+
+Adding Imported Student: Oladepo, Nazar  [K1343048]
+
+
+Adding Imported Student: Bryant, Kathryn  [K1343049]
+
+
+Adding Imported Student: Weaver, Benjamin  [K1343051]
+
+
+Adding Imported Student: Kissell, Eric  [K1343072]
+
+
+Adding Imported Student: Sulbaran, Barbara  [K1343082]
+
+
+Adding Imported Student: Wiley, Bryce  [K1343093]
+
+
+Adding Imported Student: Alcabasa, Aliza  [K1343101]
+
+
+Adding Imported Student: Belliveau, Jessica  [K1343112]
+
+
+Adding Imported Student: Heholt, Miuccia  [K1343122]
+
+
+Adding Imported Student: Genest, Alexis  [K1343127]
+
+
+Adding Imported Student: Cruz, Juan  [K1343137]
+
+
+Adding Imported Student: Baito, David  [K1343148]
+
+
+Adding Imported Student: Jackson, Ryan  [K1343149]
+
+
+Adding Imported Student: Schneider, Rachel  [K1343154]
+
+
+Adding Imported Student: Archibald, Raygen  [K1343155]
+
+
+Adding Imported Student: De Vita, Giovanna  [K1343177]
+
+
+Adding Imported Student: Lake, Joshua  [K1343186]
+
+
+Adding Imported Student: Low, Celine  [K1343190]
+
+
+Adding Imported Student: Adebayo Alabi, Calvin  [K1343201]
+
+
+Adding Imported Student: Adebayo-Alabi, Jermaine  [K1343205]
+
+
+Adding Imported Student: Magdaleno, Nery  [K1343217]
+
+
+Adding Imported Student: Maldonado Lopez, Sabrina  [K1343223]
+
+
+Adding Imported Student: Salazar Blancas, Mariajose  [K1343244]
+
+
+Adding Imported Student: Baisden, Colt  [K1343253]
+
+
+Adding Imported Student: Toralde, Juliemme Shania  [K1401008]
+
+
+Adding Imported Student: Witek, Jessica  [K1401032]
+
+
+Adding Imported Student: Giron, Christian  [K1401056]
+
+
+Adding Imported Student: Yazigi, Kamal  [K1401084]
+
+
+Adding Imported Student: White, Trinity  [K1401088]
+
+
+Adding Imported Student: Galindo, Nevaeh  [K1401127]
+
+
+Adding Imported Student: Solum, Kristin  [K1401135]
+
+
+Adding Imported Student: Shajahan, Ayisha  [K1401171]
+
+
+Adding Imported Student: DeBattista, Nicholas  [K1401210]
+
+
+Adding Imported Student: Cowart, Kyra  [K1401232]
+
+
+Adding Imported Student: Salmon, Tara  [K1401282]
+
+
+Adding Imported Student: Woolwine, Emma  [K1401339]
+
+
+Adding Imported Student: Asmus, Zane  [K1401396]
+
+
+Adding Imported Student: Vuyk, Maxwell  [K1401411]
+
+
+Adding Imported Student: Sambaraj, Venkat Abhishek  [K1401608]
+
+
+Adding Imported Student: Sanchez, Maria  [K1401657]
+
+
+Adding Imported Student: Frische, Matthew  [K1401809]
+
+
+Adding Imported Student: Someswar, Meghana  [K1401814]
+
+
+Adding Imported Student: Kuchler, Leann  [K1401817]
+
+
+Adding Imported Student: Gozalo, Jasmine  [K1401826]
+
+
+Adding Imported Student: Adebayo-Alabi, Tyrone  [K1401828]
+
+
+Adding Imported Student: Nair, Akhil Gopakumar  [K1401831]
+
+
+Adding Imported Student: Buehler, Lauren  [K1401834]
+
+
+Adding Imported Student: Bischoff, Samuel  [K1401840]
+
+
+Adding Imported Student: Archibald, Rylee  [K1401841]
+
+
+Adding Imported Student: Nair, Athul Gopakumar  [K1401847]
+
+
+Adding Imported Student: DuMond, Evan  [K1401851]
+
+
+Adding Imported Student: Summers, Emily  [K1401852]
+
+
+Adding Imported Student: Taylor, Jessica  [K1401860]
+
+
+Adding Imported Student: Grant, Murray  [K1401876]
+
+
+Adding Imported Student: Wilcox, Brennon  [K1401878]
+
+
+Adding Imported Student: Gros, Madelyn  [K1401885]
+
+
+Adding Imported Student: Weil, Colin  [K1401887]
+
+
+Adding Imported Student: Zuo, Heather  [K1401896]
+
+
+Adding Imported Student: Tomer, Trevor  [K1401897]
+
+
+Adding Imported Student: Dye, Nicholas  [K1401898]
+
+
+Adding Imported Student: Yahya, Ahsan  [K1401901]
+
+
+Adding Imported Student: Pitre, Connor  [K1401904]
+
+
+Adding Imported Student: Gbadebo, Elkan  [K1401910]
+
+
+Adding Imported Student: Ventura, Dante  [K1401928]
+
+
+Adding Imported Student: Belliveau, Jillian  [K1401944]
+
+
+Adding Imported Student: Wong, Huey Zhong  [K1401948]
+
+
+Adding Imported Student: Oberto Colina, Ronald  [K1401949]
+
+
+Adding Imported Student: Rizvi, Syed Muhammad  [K1401957]
+
+
+Adding Imported Student: Sloan, Grace  [K1401963]
+
+
+Adding Imported Student: Freel, Lillian  [K1401965]
+
+
+Adding Imported Student: Wong, Huey-Yi  [K1401973]
+
+
+Adding Imported Student: Clay, Danielle  [K1401982]
+
+
+Adding Imported Student: Bond, Daniel  [K1402006]
+
+
+Adding Imported Student: Almendarez, James  [K1402039]
+
+
+Adding Imported Student: Garcia, Jerett  [K1402107]
+
+
+Adding Imported Student: Mazany, Luke  [K1402109]
+
+
+Adding Imported Student: Mizyed, Noor  [K1402116]
+
+
+Adding Imported Student: Fuller, Drayton  [K1402132]
+
+
+Adding Imported Student: Pal, Aaryan  [K1402347]
+
+
+Adding Imported Student: Zhao, Kaiqi  [K1402367]
+
+
+Adding Imported Student: Ok, Gaon  [K1402379]
+
+
+Adding Imported Student: Gnanavel, Hithyashan  [K1402411]
+
+
+Adding Imported Student: Hill, Mia  [K1402425]
+
+
+Adding Imported Student: Gabridge, Madisonn  [K1402464]
+
+
+Adding Imported Student: Osmundsen, Oda  [K1402498]
+
+
+Adding Imported Student: Taylor, William  [K1402514]
+
+
+Adding Imported Student: Garcia, Anthony  [K1402522]
+
+
+Adding Imported Student: Bellows, Madison  [K1402528]
+
+
+Adding Imported Student: Thierheimer, Alyssa  [K1402534]
+
+
+Adding Imported Student: Wang, Duo  [K1402773]
+
+
+Adding Imported Student: Mantilla, Cristian  [K1403654]
+
+
+Adding Imported Student: Moussounda-Goma, Janel Aleckson  [K1403695]
+
+
+Adding Imported Student: Peacock, Mathew  [K1404100]
+
+
+Adding Imported Student: Holt, Baylee  [K1404136]
+
+
+Adding Imported Student: Burke, Connor  [K1404236]
+
+
+Adding Imported Student: Rampersad, Rhys  [K1404260]
+
+
+Adding Imported Student: Davis, Blaine  [K1404279]
+
+
+Adding Imported Student: Shah, Rubana  [K1404289]
+
+
+Adding Imported Student: Salunkhe, Sharayu  [K1404305]
+
+
+Adding Imported Student: Powell-Raymer, Camryn  [K1404338]
+
+
+Adding Imported Student: Bassani, Maria  [K1404391]
+
+
+Adding Imported Student: Wang, Chumeng  [K1404790]
+
+
+Adding Imported Student: De Vita Sifontes, Vincenzo  [K1404854]
+
+
+Adding Imported Student: Snyder, Taylee  [K1404866]
+
+
+Adding Imported Student: Bardi, Catalina  [K1404870]
+
+
+Adding Imported Student: Segura, Kyle  [K1405097]
+
+
+Adding Imported Student: Rodriguez, Daniel  [K1405161]
+
+
+Adding Imported Student: Branch, Nicole  [K1405180]
+
+
+Adding Imported Student: Domia, Ilamosi  [K1405237]
+
+
+Adding Imported Student: Labra, Jan Abigail  [K1405297]
+
+
+Adding Imported Student: Labra, Tyler Jann  [K1405305]
+
+
+Adding Imported Student: Tirumalai, Medha  [K1405313]
+
+
+Adding Imported Student: Li, Andrew  [K1405399]
+
+
+Adding Imported Student: Yuan, Wuji Tiger  [K1405535]
+
+
+Adding Imported Student: Peck, Bryce  [K1405621]
+
+
+Adding Imported Student: Karuturi, Pranisha  [K1405704]
+
+
+Adding Imported Student: Peck, Austin  [K1405714]
+
+
+Adding Imported Student: Rizzo Esposito, Alessandra  [K1405726]
+
+
+Adding Imported Student: Sivakumar, Keerthana  [K1405810]
+
+
+Adding Imported Student: Gutierrez Nino, Felipe  [K1405823]
+
+
+Adding Imported Student: Chaves Ulate, Carlos  [K1405894]
+
+
+Adding Imported Student: Arasu, Femie  [K1405905]
+
+
+Adding Imported Student: Garcia, Pablo  [K1405918]
+
+
+Adding Imported Student: Nguyen, Alan  [K1405956]
+
+
+Adding Imported Student: Udumala, Jeslyn  [K1405959]
+
+
+Adding Imported Student: Phillippi, Autumn  [K1405977]
+
+
+Adding Imported Student: Klonis, Nina  [K1406132]
+
+
+Adding Imported Student: Varma, Aditya  [K1406185]
+
+
+Adding Imported Student: Burke, Hayden  [K1406196]
+
+
+Adding Imported Student: Mensing, Tobias  [K1406258]
+
+
+Adding Imported Student: Sluder, Kaidi  [K1406326]
+
+
+Adding Imported Student: Canham, Maxim  [K1406336]
+
+
+Adding Imported Student: Gomez, Andrea  [K1406374]
+
+
+Adding Imported Student: Sluder, Devin  [K1406402]
+
+
+Adding Imported Student: Diaz, Alexander  [K1406407]
+
+
+Adding Imported Student: Martey, Christabel  [K1406652]
+
+
+Adding Imported Student: Rania, Nafisah  [K1406671]
+
+
+Adding Imported Student: Venkudusamy, Karthik  [K1406674]
+
+
+Adding Imported Student: Escalante, Hector  [K1406706]
+
+
+Adding Imported Student: Paracha, Rohana  [K1406755]
+
+
+Adding Imported Student: Arshad, Shaima  [K1406829]
+
+
+Adding Imported Student: Ali, Saahil  [K1406876]
+
+
+Adding Imported Student: Arshad, Anoosh  [K1406881]
+
+
+Adding Imported Student: Rudzinskas, Sidney  [K1406889]
+
+
+Adding Imported Student: Rudzinskas, Joseph  [K1406893]
+
+
+Adding Imported Student: Gomez, Cesar  [K1407018]
+
+
+Adding Imported Student: Pepple, Samuel  [K1407122]
+
+
+Adding Imported Student: Pepple, Deborah  [K1407197]
+
+
+Adding Imported Student: Taylor, Chloe  [K1407484]
+
+
+Adding Imported Student: Solomon, Airiana  [K1407723]
+
+
+Adding Imported Student: Co, Gabrielle  [K1407805]
+
+
+Adding Imported Student: Cruz, Braxton  [K1407820]
+
+
+Adding Imported Student: Lewis, Ammon  [K1407881]
+
+
+Adding Imported Student: Kola, Tanya  [K1408014]
+
+
+Adding Imported Student: Bradley, Dylan  [K1408129]
+
+
+Adding Imported Student: Weli, Kanachi  [K1408136]
+
+
+Adding Imported Student: Rogers, Journey  [K1408139]
+
+
+Adding Imported Student: Weli, Sarima  [K1408172]
+
+
+Adding Imported Student: Aripaka, Varshita  [K1408582]
+
+
+Adding Imported Student: Grant, Cedella  [K1408646]
+
+
+Adding Imported Student: Gannon, Lily  [K1408944]
+
+
+Adding Imported Student: Paterson, Katie  [K1409227]
+
+
+Adding Imported Student: Carreon, Joshua  [K1409299]
+
+
+Adding Imported Student: Sobocinski, Trevor  [K1409321]
+
+
+Adding Imported Student: Torres, Gabriella  [K1409348]
+
+
+Adding Imported Student: Wood, Madeleine  [K1409551]
+
+
+Adding Imported Student: Vergara Gomez, Moises  [K1409723]
+
+
+Adding Imported Student: Lee, Richard  [K1409725]
+
+
+Adding Imported Student: Kessler, Connor  [K1409812]
+
+
+Adding Imported Student: McBride, Daryn  [K1409858]
+
+
+Adding Imported Student: Seco, Daniel  [K1409864]
+
+
+Adding Imported Student: Rojas Alba, Veronica  [K1409965]
+
+
+Adding Imported Student: Rojas Alba, Valeria  [K1409966]
+
+
+Adding Imported Student: Natarajan, Sanjana  [K1410075]
+
+
+Adding Imported Student: Natarajan, Megha  [K1410076]
+
+
+Adding Imported Student: Ahmed, Fariah  [K1410139]
+
+
+Adding Imported Student: Vaughn, Adrianna  [K1410151]
+
+
+Adding Imported Student: Zhu, Hanjing  [K1410327]
+
+
+Adding Imported Student: Downes, Arielle  [K1410405]
+
+
+Adding Imported Student: Raghavan, Sachin  [K1410407]
+
+
+Adding Imported Student: Profilet, Ryan  [K1410419]
+
+
+Adding Imported Student: Profilet, Lauren  [K1410420]
+
+
+Adding Imported Student: Morgan, Joshua  [K1410443]
+
+
+Adding Imported Student: Briceno Hernandez, Daniela  [K1410446]
+
+
+Adding Imported Student: Hernandez, Amilcar  [K1410466]
+
+
+Adding Imported Student: Morgan, Kathleen  [K1410468]
+
+
+Adding Imported Student: Hernandez, Jonathan  [K1410470]
+
+
+Adding Imported Student: Murphy, Morgan  [K1410479]
+
+
+Adding Imported Student: Samaie, Olivia  [K1410481]
+
+
+Adding Imported Student: Cochener, Hunter  [K1410484]
+
+
+Adding Imported Student: Gonzalez Torres, Jose  [K1410652]
+
+
+Adding Imported Student: Ortiz Blanco, Victor  [K1410779]
+
+
+Adding Imported Student: Gabriel, Kyle  [K1411047]
+
+
+Adding Imported Student: Contreras Urrutia, Maria  [K1411113]
+
+
+Adding Imported Student: Al Kharsa, Salim  [K1411130]
+
+
+Adding Imported Student: Lombardi, Santiago  [K1411325]
+
+
+Adding Imported Student: Saunders, Cameron  [K1411439]
+
+
+Adding Imported Student: Taylor, Jonathan  [K1411444]
+
+
+Adding Imported Student: Thomas, Maria  [K1411849]
+
+
+Adding Imported Student: Lovell, Robert  [K1411965]
+
+
+Adding Imported Student: Lovell, Alexander  [K1411966]
+
+
+Adding Imported Student: Lovell, Dakota  [K1411967]
+
+
+Adding Imported Student: Kalu, Favour  [K1412075]
+
+
+Adding Imported Student: Barlow, Kyle  [K1412139]
+
+
+Adding Imported Student: Jeansonne, Aaron  [K1412148]
+
+
+Adding Imported Student: Urribarri, Aura  [K1412198]
+
+
+Adding Imported Student: Zorrilla, Juana  [K1412274]
+
+
+Adding Imported Student: Zorrilla, Francisco  [K1412278]
+
+
+Adding Imported Student: Perez Primera, Mariam  [K1412294]
+
+
+Adding Imported Student: Bosco, Joseph  [K1412377]
+
+
+Adding Imported Student: Ndoudi, Jonathan  [K1412460]
+
+
+Adding Imported Student: Ndoudi, Keeny  [K1412462]
+
+
+Adding Imported Student: Musa, Naomi  [K1412504]
+
+
+Adding Imported Student: Musa, Joshua  [K1412505]
+
+
+Adding Imported Student: Ouellet, Rachel  [K1412549]
+
+
+Adding Imported Student: Murugan, Tilakka  [K1416484]
+
+
+Adding Imported Student: Connell, Alexander  [K1516593]
+
+
+Adding Imported Student: Bryan, Jessica  [K1516594]
+
+
+Adding Imported Student: Piersol, Kylee  [K1516596]
+
+
+Adding Imported Student: Chandi, Aseem  [K1516597]
+
+
+Adding Imported Student: Ikenberry, Adam  [K1516601]
+
+
+Adding Imported Student: Brion, Chazz  [K1516604]
+
+
+Adding Imported Student: Garza, Jonathan  [K1516605]
+
+
+Adding Imported Student: Potter, Kiersten  [K1516607]
+
+
+Adding Imported Student: Qamar, Daoud  [K1516609]
+
+
+Adding Imported Student: Potter, Kaylee  [K1516611]
+
+
+Adding Imported Student: Boyd, Ryley  [K1516613]
+
+
+Adding Imported Student: Agbi, Anuoluwapo  [K1516614]
+
+
+Adding Imported Student: Johnston, Tanner  [K1516616]
+
+
+Adding Imported Student: Duffy, Justin  [K1516618]
+
+
+Adding Imported Student: Lessard, Samantha  [K1516621]
+
+
+Adding Imported Student: Lessard, Brian  [K1516622]
+
+
+Adding Imported Student: Burgess, Dawson  [K1516624]
+
+
+Adding Imported Student: Dhinaker, Nila  [K1516626]
+
+
+Adding Imported Student: Brorsen, Payton  [K1516631]
+
+
+Adding Imported Student: Eldridge, Kyle  [K1516632]
+
+
+Adding Imported Student: Hullett, Tristan  [K1516657]
+
+
+Adding Imported Student: Otis, Kelly  [K1516717]
+
+
+Adding Imported Student: Copeland, Katelynn  [K1516718]
+
+
+Adding Imported Student: Spratt, Toni  [K1516719]
+
+
+Adding Imported Student: Alexander, Mekenzie  [K1516724]
+
+
+Adding Imported Student: Roth, Garrett  [K1516837]
+
+
+Adding Imported Student: Broussard, Mia  [K1516841]
+
+
+Adding Imported Student: Edge, Amber  [K1516857]
+
+
+Adding Imported Student: Howard, Caylie  [K1516881]
+
+
+Adding Imported Student: Tussing, Peyton  [K1516893]
+
+
+Adding Imported Student: Perez, Hannah  [K1516906]
+
+
+Adding Imported Student: Belloso, Diego  [K1516918]
+
+
+Adding Imported Student: Sequeira, Sneha  [K1516919]
+
+
+Adding Imported Student: Foster, Curtis  [K1516974]
+
+
+Adding Imported Student: Lorenz-Ochoa, Keegan  [K1516979]
+
+
+Adding Imported Student: Pham, Mary  [K1516980]
+
+
+Adding Imported Student: Dhulekar, Ria  [K1516988]
+
+
+Adding Imported Student: Dhoon, Husain  [K1516991]
+
+
+Adding Imported Student: McDarby, Andrea  [K1516998]
+
+
+Adding Imported Student: Sidani, Ryan  [K1517016]
+
+
+Adding Imported Student: Prabhu, Rahul  [K1517021]
+
+
+Adding Imported Student: Zaidi, Syed  [K1517024]
+
+
+Adding Imported Student: Kapoor, Anushka  [K1517031]
+
+
+Adding Imported Student: Klavan, Ryan  [K1517045]
+
+
+Adding Imported Student: Klavan, Emily  [K1517048]
+
+
+Adding Imported Student: Pledger, Dylan  [K1517056]
+
+
+Adding Imported Student: Al Bayati, Sana  [K1517069]
+
+
+Adding Imported Student: Albayati, Mena  [K1517082]
+
+
+Adding Imported Student: Lee, Grace  [K1517087]
+
+
+Adding Imported Student: Prabhu, Aditi  [K1517091]
+
+
+Adding Imported Student: Farouz, Emily  [K1517097]
+
+
+Adding Imported Student: Ganesan, Priyanka  [K1517103]
+
+
+Adding Imported Student: Cuthbert - Dooley, Brayden  [K1517125]
+
+
+Adding Imported Student: Henderson, Jordan  [K1517127]
+
+
+Adding Imported Student: Yerreddu, Rithvik  [K1517139]
+
+
+Adding Imported Student: Mahoney, Matthew  [K1517143]
+
+
+Adding Imported Student: Imam, Daanish  [K1517151]
+
+
+Adding Imported Student: Roth, Alexis  [K1517194]
+
+
+Adding Imported Student: Singh, Sahibjeet  [K1517238]
+
+
+Adding Imported Student: Tao, Olivia  [K1517250]
+
+
+Adding Imported Student: Gomez, Osvaldo  [K1517266]
+
+
+Adding Imported Student: Eldridge, Ethan  [K1517273]
+
+
+Adding Imported Student: Eldridge, Molly  [K1517277]
+
+
+Adding Imported Student: Hoffman, William  [K1517279]
+
+
+Adding Imported Student: Angal, Abhinav  [K1517282]
+
+
+Adding Imported Student: Gill, Zoravur  [K1517295]
+
+
+Adding Imported Student: Siripurapu, Harsha  [K1517303]
+
+
+Adding Imported Student: Boyd, Derian  [K1517306]
+
+
+Adding Imported Student: Harville, Allison  [K1517318]
+
+
+Adding Imported Student: Zeng, Si-Cheng  [K1517346]
+
+
+Adding Imported Student: Ali, Hania  [K1517402]
+
+
+Adding Imported Student: Moreno, Austin  [K1517415]
+
+
+Adding Imported Student: Ordonez Chauvin, Jose  [K1517431]
+
+
+Adding Imported Student: Carr, Cassie  [K1517683]
+
+
+Adding Imported Student: Boonstra, Justine  [K1517710]
+
+
+Adding Imported Student: Abbas, Nour  [K1517732]
+
+
+Adding Imported Student: Clase, Briana  [K1517767]
+
+
+Adding Imported Student: Wood, Samantha  [K1517773]
+
+
+Adding Imported Student: Dhoon, Tasneem  [K1517779]
+
+
+Adding Imported Student: Burzinski, Emily  [K1517798]
+
+
+Adding Imported Student: Dunn, Haley  [K1517824]
+
+
+Adding Imported Student: Stewart, Braxton  [K1517828]
+
+
+Adding Imported Student: Ogubuike, Victory  [K1517868]
+
+
+Adding Imported Student: Smith, Matthew  [K1517989]
+
+
+Adding Imported Student: Requejo Aguilera, Enrique  [K1518033]
+
+
+Adding Imported Student: Besiso, Kimberly  [K1518047]
+
+
+Adding Imported Student: Burke, Cameron  [K1518062]
+
+
+Adding Imported Student: Varshney, Khushi  [K1518093]
+
+
+Adding Imported Student: Essien, Faith  [K1518149]
+
+
+Adding Imported Student: Bacani, Gabrielle  [K1518169]
+
+
+Adding Imported Student: Al-Bayati, Rula  [K1518176]
+
+
+Adding Imported Student: Ma, Michelle  [K1518189]
+
+
+Adding Imported Student: Sharma, Vibhuti  [K1518249]
+
+
+Adding Imported Student: Aigbogun, Naomi  [K1518344]
+
+
+Adding Imported Student: Duncan, Zaria  [K1518440]
+
+
+Adding Imported Student: Rutherford Colmenares, Sebastian  [K1518474]
+
+
+Adding Imported Student: Rutherford Colmenares, Isabel  [K1518477]
+
+
+Adding Imported Student: Zepeda, Ashleigh  [K1518482]
+
+
+Adding Imported Student: Vartak, Sahil  [K1518512]
+
+
+Adding Imported Student: Kay, Connor  [K1518547]
+
+
+Adding Imported Student: Sharma, Saiesha  [K1518572]
+
+
+Adding Imported Student: Arnold, Joshua  [K1518593]
+
+
+Adding Imported Student: Wilson, Rodrigo  [K1518610]
+
+
+Adding Imported Student: Bacani, Danielle  [K1518619]
+
+
+Adding Imported Student: Clarke, Caroline  [K1518982]
+
+
+Adding Imported Student: Dostal, Efe  [K1518993]
+
+
+Adding Imported Student: Eshbaugh, Noah  [K1518998]
+
+
+Adding Imported Student: Hakimzadeh, Alexander  [K1519006]
+
+
+Adding Imported Student: Kapoor, Dhruv  [K1519073]
+
+
+Adding Imported Student: Qamar, Aleeze  [K1519081]
+
+
+Adding Imported Student: Nagle, John Michael  [K1519152]
+
+
+Adding Imported Student: Qamar, Anushe  [K1519182]
+
+
+Adding Imported Student: Clase, Adrian  [K1519586]
+
+
+Adding Imported Student: Schmitt, Haley  [K1519591]
+
+
+Adding Imported Student: Angal, Rithika  [K1519595]
+
+
+Adding Imported Student: Herrman, Trayden  [K1519597]
+
+
+Adding Imported Student: Perez, Michelle  [K1519603]
+
+
+Adding Imported Student: Wiemuth, Christopher  [K1519616]
+
+
+Adding Imported Student: Ta, Christian  [K1519899]
+
+
+Adding Imported Student: Hemminger, Jesseca  [K1520570]
+
+
+Adding Imported Student: Strain, Austin  [K1520648]
+
+
+Adding Imported Student: Leonard, Matson  [K1520712]
+
+
+Adding Imported Student: Alzahrani, Aseel  [K1520719]
+
+
+Adding Imported Student: Windham, Sarah  [K1520733]
+
+
+Adding Imported Student: Suresh, Sneha  [K1520784]
+
+
+Adding Imported Student: Requejo Aguilera, Eduardo  [K1520812]
+
+
+Adding Imported Student: Islam, Tasneem  [K1520826]
+
+
+Adding Imported Student: Israel, Katherine  [K1520963]
+
+
+Adding Imported Student: Berndt, Kelly  [K1521046]
+
+
+Adding Imported Student: Cook, Gracie  [K1521332]
+
+
+Adding Imported Student: Adhawade, Esha  [K1521991]
+
+
+Adding Imported Student: Bui, Lyndsey  [K1522006]
+
+
+Adding Imported Student: Diaz Arape, Isabela  [K1522020]
+
+
+Adding Imported Student: Jurga, Sebastian  [K1522087]
+
+
+Adding Imported Student: Irorere, Osato  [K1522127]
+
+
+Adding Imported Student: Villarroel-Torrealba, Jesus  [K1522204]
+
+
+Adding Imported Student: Mayorga, Kevin  [K1522291]
+
+
+Adding Imported Student: Alzahrani, Abdullah  [K1522307]
+
+
+Adding Imported Student: Cespedes Prado, Valeria  [K1522509]
+
+
+Adding Imported Student: Damarapati, Geetha  [K1522535]
+
+
+Adding Imported Student: D'souza, Sheryl  [K1523303]
+
+
+Adding Imported Student: Hooper, Hayden  [K1523340]
+
+
+Adding Imported Student: Garcia Iragorry, Carlos  [K1523356]
+
+
+Adding Imported Student: Song, Ian  [K1523371]
+
+
+Adding Imported Student: Haroon, Zarlisht  [K1523394]
+
+
+Adding Imported Student: Mayorga, Ryan  [K1523484]
+
+
+Adding Imported Student: Uzo-Onwumere, Faith  [K1523566]
+
+
+Adding Imported Student: Hernandez Martinez, Carlos  [K1523603]
+
+
+Adding Imported Student: Uzo-Onwumere, Kamarachukwu  [K1523609]
+
+
+Adding Imported Student: Guerra Torbello, Diego  [K1523638]
+
+
+Adding Imported Student: Soto Montoya, Valeria  [K1523789]
+
+
+Adding Imported Student: Martin Hurtado, Mariel  [K1523857]
+
+
+Adding Imported Student: Wilcox, Amber  [K1524066]
+
+
+Adding Imported Student: Atanda, Mofoluwaso  [K1524192]
+
+
+Adding Imported Student: Atanda, Oluwatobiloba  [K1524195]
+
+
+Adding Imported Student: Paalz, Elyse  [K1524227]
+
+
+Adding Imported Student: Alamar, Mahmoud  [K1524276]
+
+
+Adding Imported Student: Esparza, Tyler  [K1524289]
+
+
+Adding Imported Student: Meza, Joshua  [K1524500]
+
+
+Adding Imported Student: Llanos-Riera, Karla  [K1524793]
+
+
+Adding Imported Student: Suarez Hernandez, Amanda  [K1524815]
+
+
+Adding Imported Student: Zoffka, Iris  [K1525165]
+
+
+Adding Imported Student: Ali, Zayan  [K1525199]
+
+
+Adding Imported Student: Warren, Keelan  [K1525390]
+
+
+Adding Imported Student: Warren, Devyn  [K1525393]
+
+
+Adding Imported Student: White, Jayden  [K1525491]
+
+
+Adding Imported Student: Patel, Shivam  [K1525604]
+
+
+Adding Imported Student: Bah, Ahmed  [K1525746]
+
+
+Adding Imported Student: Curimbaba, Anna-Sophia  [K1525968]
+
+
+Adding Imported Student: Cardenas, Justice  [K1526462]
+
+
+Adding Imported Student: Washington, Kendall  [K1526529]
+
+
+Adding Imported Student: Brown, Robert  [K1626608]
+
+
+Adding Imported Student: Ashdown, Celeste  [K1626609]
+
+
+Adding Imported Student: McGuire, Addison  [K1626610]
+
+
+Adding Imported Student: Hobson, Carter  [K1626620]
+
+
+Adding Imported Student: Wood, Troy  [K1626627]
+
+
+Adding Imported Student: Norrid, Mia  [K1626632]
+
+
+Adding Imported Student: Odusote, Adedamola  [K1626643]
+
+
+Adding Imported Student: Vargas Builes, Daniela  [K1626700]
+
+
+Adding Imported Student: Ospina Montoya, Daniel  [K1626708]
+
+
+Adding Imported Student: Lee, Jefferson  [K1626710]
+
+
+Adding Imported Student: Ewing, Cameron  [K1626722]
+
+
+Adding Imported Student: Hobson, Kennedy  [K1626732]
+
+
+Adding Imported Student: Le, Jennifer  [K1627184]
+
+
+Adding Imported Student: Dias, Eduardo  [K1627221]
+
+
+Adding Imported Student: Dawelbeit, Anas  [K1627282]
+
+
+Adding Imported Student: Malone, Deginald  [K1627415]
+
+
+Adding Imported Student: Saengsasi, Chakraphat  [K1627539]
+
+
+Adding Imported Student: Toro, Manolo  [K1627670]
+
+
+Adding Imported Student: Rogachevsky, Ari  [K1627745]
+
+
+Adding Imported Student: Long, Carla  [K1627750]
+
+
+Adding Imported Student: Long, Matthew  [K1627771]
+
+
+Adding Imported Student: Clement, Christian  [K1627783]
+
+
+Adding Imported Student: King, Preston  [K1627849]
+
+
+Adding Imported Student: Soriano, Bianca  [K1627879]
+
+
+Adding Imported Student: Mojidra, Drashti  [K1627904]
+
+
+Adding Imported Student: Clark, Griffen  [K1627964]
+
+
+Adding Imported Student: Dedeaux, Brailyn  [K1628477]
+
+
+Adding Imported Student: Ballesteros, Samuel  [K1628544]
+
+
+Adding Imported Student: Martinez, Matthew  [K1628770]
+
+
+Adding Imported Student: Anand, Aditya  [K1629644]
+
+
+Adding Imported Student: Barbella, Guillermo  [K1629987]
+
+
+Adding Imported Student: Barbella, Luis  [K1630393]
+
+
+Adding Imported Student: Mills, Joshua  [K1630780]
+
+
+Adding Imported Student: Mantooth, Andrew  [K1633113]
+
+
+Adding Imported Student: Armstrong, Maurice  [K1633116]
+
+
+Adding Imported Student: Shelton, Catherine  [K1633123]
+
+
+Adding Imported Student: Bolles, Leah  [K1633124]
+
+
+Adding Imported Student: Tenorio Ramos, Andre  [K1633129]
+
+
+Adding Imported Student: Jefferson, Kalin  [K1633193]
+
+
+Adding Imported Student: Ngantcha-Ouandja, Maela  [K1633197]
+
+
+Adding Imported Student: Villarroel, Victor  [K1633200]
+
+
+Adding Imported Student: Bruce, Vincent  [K1633260]
+
+
+Adding Imported Student: Bruce, Dominick  [K1633267]
+
+
+Adding Imported Student: Belloso Saluzzo, Isabella  [K1633284]
+
+
+Adding Imported Student: Owings, Marie  [K1633292]
+
+
+Adding Imported Student: Marnock, Amanda  [K1633294]
+
+
+Adding Imported Student: Meek, Marissa  [K1633297]
+
+
+Adding Imported Student: Shen, Dora  [K1633303]
+
+
+Adding Imported Student: Shelton, Grant  [K1633307]
+
+
+Adding Imported Student: Shen, Kimberly  [K1633314]
+
+
+Adding Imported Student: Gordon, Alyssa  [K1633318]
+
+
+Adding Imported Student: Bae, Michelle  [K1633326]
+
+
+Adding Imported Student: Omonira, Jonathan  [K1633346]
+
+
+Adding Imported Student: Tieby, Nasser  [K1633351]
+
+
+Adding Imported Student: Terry, Jack  [K1633357]
+
+
+Adding Imported Student: Mazzoccoli, Jadyn  [K1633360]
+
+
+Adding Imported Student: Ram, Vishay  [K1633368]
+
+
+Adding Imported Student: Llave, Sonny Jaden  [K1633372]
+
+
+Adding Imported Student: Ashworth, Oscar  [K1633382]
+
+
+Adding Imported Student: Ashworth, Lauren  [K1633392]
+
+
+Adding Imported Student: Rooker, Alyssa  [K1633406]
+
+
+Adding Imported Student: Atakari, Shreyanshu  [K1633424]
+
+
+Adding Imported Student: Soto, Samantha  [K1633457]
+
+
+Adding Imported Student: Oh, Elizabeth  [K1633459]
+
+
+Adding Imported Student: Varghese, Anu  [K1633467]
+
+
+Adding Imported Student: Tipparaju, Neeharika  [K1633489]
+
+
+Adding Imported Student: Nwahiri, Linda  [K1633509]
+
+
+Adding Imported Student: Nwahiri, Bianca  [K1633521]
+
+
+Adding Imported Student: Song, Jiacheng  [K1633527]
+
+
+Adding Imported Student: Smith, Vashti  [K1633542]
+
+
+Adding Imported Student: Olowookere, Charles  [K1633548]
+
+
+Adding Imported Student: Nwachukwu, Dubem  [K1633552]
+
+
+Adding Imported Student: Nwachukwu, Obinna  [K1633565]
+
+
+Adding Imported Student: Oduselu, Temidayo  [K1634225]
+
+
+Adding Imported Student: Malaby, Jaxon  [K1634231]
+
+
+Adding Imported Student: Zhang, Anqi  [K1634246]
+
+
+Adding Imported Student: Chaparro, Fabiana  [K1634250]
+
+
+Adding Imported Student: Khan, Zeest  [K1634281]
+
+
+Adding Imported Student: Threet, Christian  [K1634301]
+
+
+Adding Imported Student: Pinzon, Sebastian  [K1634317]
+
+
+Adding Imported Student: Shah, Richa  [K1634318]
+
+
+Adding Imported Student: Tovar Ergueta, Manuel  [K1634331]
+
+
+Adding Imported Student: Obaseki, Philip  [K1634332]
+
+
+Adding Imported Student: Ngantcha Ouandja, Kenza Marie  [K1634347]
+
+
+Adding Imported Student: Shaikh, Salman  [K1634369]
+
+
+Adding Imported Student: Howells, Alexandra  [K1634375]
+
+
+Adding Imported Student: Kherani, Ayaan  [K1634387]
+
+
+Adding Imported Student: Kherani, Aahil  [K1634401]
+
+
+Adding Imported Student: Pryor, Spencer  [K1634413]
+
+
+Adding Imported Student: Ashraf, Yusuf  [K1634414]
+
+
+Adding Imported Student: Pryor, Brianna  [K1634419]
+
+
+Adding Imported Student: Tardugno Poleo, Valentina  [K1634426]
+
+
+Adding Imported Student: Richardsen, Hannah  [K1634429]
+
+
+Adding Imported Student: Richardsen, Simon  [K1634437]
+
+
+Adding Imported Student: Douglas, Liam  [K1634459]
+
+
+Adding Imported Student: Duncan, Ayana  [K1634466]
+
+
+Adding Imported Student: Douglas, Loughlin  [K1634471]
+
+
+Adding Imported Student: Martinez, John  [K1634490]
+
+
+Adding Imported Student: Dahri, Sarah  [K1634522]
+
+
+Adding Imported Student: Morawiec, Jodi  [K1634533]
+
+
+Adding Imported Student: Zandi Atashbar, Kameron  [K1634534]
+
+
+Adding Imported Student: Le, Tara  [K1634570]
+
+
+Adding Imported Student: Kondra, Reid  [K1634590]
+
+
+Adding Imported Student: Kayo Megaing, Iman Cynthia  [K1634598]
+
+
+Adding Imported Student: Diniz de Sa, Joao Marcos  [K1634616]
+
+
+Adding Imported Student: Mena, Gisel  [K1634622]
+
+
+Adding Imported Student: Sitton, Jared  [K1634640]
+
+
+Adding Imported Student: Alamri, Layan  [K1634662]
+
+
+Adding Imported Student: Joshi, Nidhi  [K1634705]
+
+
+Adding Imported Student: Elassar, Yasseen Sherif  [K1634780]
+
+
+Adding Imported Student: Duncan, Ekone  [K1635048]
+
+
+Adding Imported Student: Szymanski, Elizabeth  [K1635058]
+
+
+Adding Imported Student: McPartland, Kyla  [K1635060]
+
+
+Adding Imported Student: Martinez Lopez, Felix  [K1635072]
+
+
+Adding Imported Student: Le, Brandon  [K1635083]
+
+
+Adding Imported Student: Karthik, Meenakshi  [K1635092]
+
+
+Adding Imported Student: Mitchell, Joshua  [K1635122]
+
+
+Adding Imported Student: Telles, Devin  [K1635136]
+
+
+Adding Imported Student: Crawford, Bianca  [K1635141]
+
+
+Adding Imported Student: Du, Lei  [K1635159]
+
+
+Adding Imported Student: Alaeinejad, Isaac  [K1635184]
+
+
+Adding Imported Student: Marrero, Julian  [K1635199]
+
+
+Adding Imported Student: Mendoza Muller, Paola  [K1635215]
+
+
+Adding Imported Student: Burgess, Thomas  [K1635225]
+
+
+Adding Imported Student: Casas, Monserrat  [K1635233]
+
+
+Adding Imported Student: Bradley, Dustin  [K1635255]
+
+
+Adding Imported Student: Graterol Perez, Laura  [K1635281]
+
+
+Adding Imported Student: Dyhr, Cecilie  [K1635334]
+
+
+Adding Imported Student: Salgado Rozenstein, Diego  [K1636630]
+
+
+Adding Imported Student: Burkhardt, Reagan  [K1636658]
+
+
+Adding Imported Student: Thibodeaux, Logan  [K1636666]
+
+
+Adding Imported Student: Green, Tiffaney  [K1636678]
+
+
+Adding Imported Student: Bah, Fatimah  [K1636681]
+
+
+Adding Imported Student: Sears, Nicholas  [K1636703]
+
+
+Adding Imported Student: Yoon, Kyle  [K1636711]
+
+
+Adding Imported Student: Jeffords, John  [K1636723]
+
+
+Adding Imported Student: Ogawa, Jonathan  [K1636726]
+
+
+Adding Imported Student: Ogawa, Edward  [K1636729]
+
+
+Adding Imported Student: Jeffords, Emily  [K1636733]
+
+
+Adding Imported Student: Maduro Ramos, Alexander  [K1636784]
+
+
+Adding Imported Student: Sultan, Nibras  [K1636820]
+
+
+Adding Imported Student: Barnhill, Braedon  [K1636821]
+
+
+Adding Imported Student: Sims, Noah  [K1636851]
+
+
+Adding Imported Student: Cobb, Jasmine  [K1636868]
+
+
+Adding Imported Student: Shaikh, Wafa  [K1636881]
+
+
+Adding Imported Student: May, Makenzie  [K1636886]
+
+
+Adding Imported Student: Barnes, Natavious  [K1638097]
+
+
+Adding Imported Student: Scheffler, Jessica  [K1638104]
+
+
+Adding Imported Student: Razinobakht, Puria  [K1638162]
+
+
+Adding Imported Student: Jackson, Julian  [K1638245]
+
+
+Adding Imported Student: Mohamad Kasim, Shakila  [K1638310]
+
+
+Adding Imported Student: Jeon, Honggyun  [K1638312]
+
+
+Adding Imported Student: Lancit, Norman  [K1638344]
+
+
+Adding Imported Student: Lancit, Nia  [K1638350]
+
+
+Adding Imported Student: Harris, Skyler  [K1638401]
+
+
+Adding Imported Student: Miedema, RobertJan  [K1638447]
+
+
+Adding Imported Student: Martinez, Miguel  [K1638469]
+
+
+Adding Imported Student: Serrano, Samuel  [K1639181]
+
+
+Adding Imported Student: Serrano, Eleazar  [K1639189]
+
+
+Adding Imported Student: Fontenot, Michael  [K1639201]
+
+
+Adding Imported Student: Renner, Emma  [K1639218]
+
+
+Adding Imported Student: KofoworolaKuti, Henry-McAnthony  [K1639229]
+
+
+Adding Imported Student: KofoworolaKuti, KirianPhilip  [K1639237]
+
+
+Adding Imported Student: Rood, Sage  [K1639244]
+
+
+Adding Imported Student: Huang, Lea  [K1639258]
+
+
+Adding Imported Student: Tran, Michael  [K1639273]
+
+
+Adding Imported Student: Nguyen, Minh-Hanh  [K1639560]
+
+
+Adding Imported Student: Nguyen, Minh-Tam  [K1639574]
+
+
+Adding Imported Student: Knight, Emma  [K1639665]
+
+
+Adding Imported Student: Walter, Madeleine  [K1639720]
+
+
+Adding Imported Student: Rosas Rodriguez, Giorgiana  [K1639766]
+
+
+Adding Imported Student: Naeem, Nabeeha  [K1640034]
+
+
+Adding Imported Student: Zhao, Jiaolan  [K1640153]
+
+
+Adding Imported Student: Akmal, Maarya  [K1640189]
+
+
+Adding Imported Student: Woodson, Jada  [K1640267]
+
+
+Adding Imported Student: Woodson, Jalene  [K1640269]
+
+
+Adding Imported Student: Crespo Bolivar, Vanessa  [K1640615]
+
+
+Adding Imported Student: Volante, Francesca  [K1640633]
+
+
+Adding Imported Student: Onwuliri, Chiamaka  [K1640773]
+
+
+Adding Imported Student: Bajaj, Shruti  [K1640894]
+
+
+Adding Imported Student: Cantu Saenz, Adriana  [K1641160]
+
+
+Adding Imported Student: Cantu Saenz, Marco  [K1641161]
+
+
+Adding Imported Student: Paz Melendez, Carlos  [K1641366]
+
+
+Adding Imported Student: Marquez, Diana  [K1641368]
+
+
+Adding Imported Student: Judd, Aidan  [K1641423]
+
+
+Adding Imported Student: Drouse, Heather  [K1642050]
+
+
+Adding Imported Student: Perry, Ashley  [K1642241]
+
+
+Adding Imported Student: Armstrong, Adam  [K1642242]
+
+
+Adding Imported Student: Turco, Grant  [K1642415]
+
+
+Adding Imported Student: Tummala, Rishi  [K1642932]
+
+
+Adding Imported Student: Bilal, Hamna  [K1642933]
+
+
+Adding Imported Student: Mitrushi, Xhoana  [K1701047]
+
+
+Adding Imported Student: Tummala, Prithvi  [K1701076]
+
+
+Adding Imported Student: McTaggart, Kaitlyn  [K1701275]
+
+
+Adding Imported Student: Mora Valvo, Luis  [K1701283]
+
+
+Adding Imported Student: Hadad, Alejandro  [K1701308]
+
+
+Adding Imported Student: Buckner, Delanie  [K1701466]
+
+
+Adding Imported Student: Napoleon, Walter  [K1701501]
+
+
+Adding Imported Student: Pierce, Chance  [K1701799]
+
+
+Adding Imported Student: Galvez Rodriguez, Joaquin  [K1702043]
+
+
+Adding Imported Student: Adebisi, Adekemi  [K1702151]
+
+
+Adding Imported Student: Rivera Torres, Juan  [K1702286]
+
+
+Adding Imported Student: Rickenbacher, Caleb  [K1702465]
+
+
+Adding Imported Student: Miller, Trevor  [K1702563]
+
+
+Adding Imported Student: Guo, Yishen  [K1702717]
+
+
+Adding Imported Student: Kennedy, Leon  [K1702881]
+
+
+Adding Imported Student: Matthews, Mary  [K1702900]
+
+
+Adding Imported Student: Dillon, Tyler  [K1702939]
+
+
+Adding Imported Student: Holt, Eden  [K1702942]
+
+
+Adding Imported Student: Schmidt, Carolin  [K1702953]
+
+
+Adding Imported Student: Tuli, Aditi  [K1703028]
+
+
+Adding Imported Student: La Rosa Machado, Adriana  [K1703166]
+
+
+Adding Imported Student: Santamaria, Sophia  [K1703203]
+
+
+Adding Imported Student: Choi, Kate  [K1703244]
+
+
+Adding Imported Student: Moore, Ty Asia  [K1704941]
+
+
+Adding Imported Student: Allen, Abigail  [K1705503]
+
+
+Adding Imported Student: Lash, Lauran  [L0304657]
+
+
+Adding Imported Student: Lower, Blakely  [L0304751]
+
+
+Adding Imported Student: Langston, Yoselin  [L0306181]
+
+
+Adding Imported Student: Liu, Audrey  [L0306200]
+
+
+Adding Imported Student: Li, Katherine  [L0500575]
+
+
+Adding Imported Student: Lawless, Ciara  [L0500818]
+
+
+Adding Imported Student: Lai, Brian  [L0501120]
+
+
+Adding Imported Student: Land, Jason  [L0502219]
+
+
+Adding Imported Student: Lara, Alejandro  [L0503137]
+
+
+Adding Imported Student: Li, Eric  [L0503471]
+
+
+Adding Imported Student: Lorenzo, Cory  [L0506511]
+
+
+Adding Imported Student: Leal Valdes, Jose  [L0506996]
+
+
+Adding Imported Student: LaCour, Emerson  [L0600696]
+
+
+Adding Imported Student: Le, Megan  [L0603056]
+
+
+Adding Imported Student: Lawless, Michael  [L0603307]
+
+
+Adding Imported Student: Li, Coral  [L0603527]
+
+
+Adding Imported Student: Lower, Pryce  [L0603939]
+
+
+Adding Imported Student: Llauger, Montserrat  [L0605700]
+
+
+Adding Imported Student: Lanteigne, Justin  [L0605952]
+
+
+Adding Imported Student: Liceralde, Alyssa  [L0606232]
+
+
+Adding Imported Student: Lammeman, Hans  [L0608873]
+
+
+Adding Imported Student: Lammeman, Grace  [L0608876]
+
+
+Adding Imported Student: Lucas, Matthew  [L0612604]
+
+
+Adding Imported Student: Lei, Jianing  [L0700129]
+
+
+Adding Imported Student: Langford, Charlie  [L0702165]
+
+
+Adding Imported Student: Lee, Jennifer  [L0702813]
+
+
+Adding Imported Student: Lu, Melody  [L0703070]
+
+
+Adding Imported Student: Locascio-Collipp, Kaylie  [L0703395]
+
+
+Adding Imported Student: Lang, Susanne  [L0703647]
+
+
+Adding Imported Student: Liu, Jonathan  [L0705933]
+
+
+Adding Imported Student: Le, Katrina  [L0705951]
+
+
+Adding Imported Student: Lanning, Cole  [L0706536]
+
+
+Adding Imported Student: Lynch, Fiona  [L0706768]
+
+
+Adding Imported Student: Launey, Sasha  [L0707020]
+
+
+Adding Imported Student: Launey, Jad  [L0707154]
+
+
+Adding Imported Student: Lynch, Aidan  [L0707477]
+
+
+Adding Imported Student: Lauritano, Kyle  [L0708595]
+
+
+Adding Imported Student: Labarca, Ariana  [L0708920]
+
+
+Adding Imported Student: Lazo, Ashley  [L0710946]
+
+
+Adding Imported Student: Labrador, Victoria  [L0711191]
+
+
+Adding Imported Student: Loner, Colby  [L0805723]
+
+
+Adding Imported Student: Lee, Tristian  [L0806754]
+
+
+Adding Imported Student: Lee, Tyler  [L0806756]
+
+
+Adding Imported Student: Lacey, Ariana  [L0807487]
+
+
+Adding Imported Student: Lacey, Benjamin  [L0808298]
+
+
+Adding Imported Student: Larson, Madisen  [L0811771]
+
+
+Adding Imported Student: Loveless, Addy  [L0905118]
+
+
+Adding Imported Student: Loveless, Laken  [L0905122]
+
+
+Adding Imported Student: Lozano, Ivana  [L0906425]
+
+
+Adding Imported Student: Lee, Jane  [L0906851]
+
+
+Adding Imported Student: Lim, Hee Won  [L0909502]
+
+
+Adding Imported Student: Langan, Madeline  [L0910655]
+
+
+Adding Imported Student: Lopez Pirela, Sofia  [L1001643]
+
+
+Adding Imported Student: Litton, Austin  [L1006027]
+
+
+Adding Imported Student: Lopez Hernandez, Mateo  [L1006688]
+
+
+Adding Imported Student: Loney, Rhea  [L1008023]
+
+
+Adding Imported Student: Lanthier, Kory  [L1008786]
+
+
+Adding Imported Student: Lennon, Benjamin  [L1009068]
+
+
+Adding Imported Student: Luna Sanchez, Yazmin  [L1010242]
+
+
+Adding Imported Student: Lee, Brett  [L1011271]
+
+
+Adding Imported Student: Little, Ryan  [L1011801]
+
+
+Adding Imported Student: Lanier, Austin  [L1011989]
+
+
+Adding Imported Student: Lynch, Caitlin  [L1100143]
+
+
+Adding Imported Student: Lopez, Christian  [L1100631]
+
+
+Adding Imported Student: Lartigue, Reece  [L1101639]
+
+
+Adding Imported Student: Layeeq, Salma  [L1105232]
+
+
+Adding Imported Student: Lummus, John  [L1106107]
+
+
+Adding Imported Student: Leclair, Kristin  [L1106775]
+
+
+Adding Imported Student: Leskey, Alexis  [L1106913]
+
+
+Adding Imported Student: Lin, Jiahao  [L1107116]
+
+
+Adding Imported Student: Lokuan, Adrian  [L1108586]
+
+
+Adding Imported Student: Merkel, Christopher  [M0206822]
+
+
+Adding Imported Student: Mitchell, Colby  [M0302769]
+
+
+Adding Imported Student: Molina, Andrew  [M0302775]
+
+
+Adding Imported Student: Mangum-Kelly, Savannah  [M0304790]
+
+
+Adding Imported Student: Moorthy, Karthik  [M0307797]
+
+
+Adding Imported Student: Mertes, William  [M0402549]
+
+
+Adding Imported Student: Magee, Riley  [M0402696]
+
+
+Adding Imported Student: Machen, Chad  [M0403169]
+
+
+Adding Imported Student: Moore, Macy  [M0403232]
+
+
+Adding Imported Student: Meyers, Lauren  [M0403316]
+
+
+Adding Imported Student: Manimala, James  [M0403998]
+
+
+Adding Imported Student: Maxwell, Jessica  [M0404001]
+
+
+Adding Imported Student: Mitrushi, Alexis  [M0405199]
+
+
+Adding Imported Student: Miller, Kaitlyn  [M0405389]
+
+
+Adding Imported Student: McGuire, Layne  [M0406338]
+
+
+Adding Imported Student: Montalvo, Camila  [M0406450]
+
+
+Adding Imported Student: McEntire, William  [M0406999]
+
+
+Adding Imported Student: Mushovic, Todd  [M0408215]
+
+
+Adding Imported Student: Mejia Martinez, Alanna  [M0411493]
+
+
+Adding Imported Student: Mansfield, Kylea  [M0501871]
+
+
+Adding Imported Student: Martinez, Hannah  [M0501883]
+
+
+Adding Imported Student: McDonough, Parker  [M0501988]
+
+
+Adding Imported Student: Magee, Elizabeth  [M0502016]
+
+
+Adding Imported Student: McKaskle, Abby  [M0502304]
+
+
+Adding Imported Student: Masson, Meghan  [M0502539]
+
+
+Adding Imported Student: Manthei, Madison  [M0502703]
+
+
+Adding Imported Student: Major, Hayden  [M0503111]
+
+
+Adding Imported Student: Misra, Rohan  [M0503689]
+
+
+Adding Imported Student: Montalvo, Analise  [M0503745]
+
+
+Adding Imported Student: Mikulski, Micayla  [M0504026]
+
+
+Adding Imported Student: Mills, Jayna  [M0504030]
+
+
+Adding Imported Student: Marsh, Cameron  [M0504281]
+
+
+Adding Imported Student: Mendez Leon, Estefanie  [M0505598]
+
+
+Adding Imported Student: Maeker, Stephen  [M0505989]
+
+
+Adding Imported Student: Matejowsky, Brittanie  [M0506570]
+
+
+Adding Imported Student: Magyar, Matthew  [M0507048]
+
+
+Adding Imported Student: Magyar, Jason  [M0507050]
+
+
+Adding Imported Student: McKinley, Gabriella  [M0508435]
+
+
+Adding Imported Student: Martinez, Erick  [M0509388]
+
+
+Adding Imported Student: Marquez, Valerie  [M0601643]
+
+
+Adding Imported Student: Madiba, Jeffrey  [M0601870]
+
+
+Adding Imported Student: Madiba, Monica  [M0601871]
+
+
+Adding Imported Student: Mann, Bradley  [M0602652]
+
+
+Adding Imported Student: Magee, Katelyn  [M0602740]
+
+
+Adding Imported Student: Machen, Hannah  [M0602920]
+
+
+Adding Imported Student: Mushovic, Austin  [M0603185]
+
+
+Adding Imported Student: Meyers, Luke  [M0603313]
+
+
+Adding Imported Student: Maxwell, Isaiah  [M0603530]
+
+
+Adding Imported Student: Misra, Ricardo  [M0603555]
+
+
+Adding Imported Student: Madrigal, Madeline  [M0604171]
+
+
+Adding Imported Student: Marini, Marcello  [M0604496]
+
+
+Adding Imported Student: Mudda, Smaran  [M0605518]
+
+
+Adding Imported Student: Mesa, Jonathan  [M0605932]
+
+
+Adding Imported Student: Morton, Virginia  [M0605960]
+
+
+Adding Imported Student: McCart, Garrett  [M0606001]
+
+
+Adding Imported Student: Mutandiro, Shumirai  [M0606219]
+
+
+Adding Imported Student: Mahmood, Faryal  [M0606572]
+
+
+Adding Imported Student: Martin, Ryley  [M0606874]
+
+
+Adding Imported Student: Mohammad, Fatima  [M0606879]
+
+
+Adding Imported Student: Maurya, Ankit  [M0606892]
+
+
+Adding Imported Student: Mozisek, Lillian  [M0606923]
+
+
+Adding Imported Student: Marcano Acosta, David  [M0606995]
+
+
+Adding Imported Student: Marcano Acosta, Julio  [M0607006]
+
+
+Adding Imported Student: Mohammad, Zainab  [M0607040]
+
+
+Adding Imported Student: McEntire, Cameron  [M0607583]
+
+
+Adding Imported Student: Miller, Lauren  [M0607660]
+
+
+Adding Imported Student: Mills, Roger Phillip  [M0608019]
+
+
+Adding Imported Student: Mayberry, Nicholas  [M0608058]
+
+
+Adding Imported Student: Martinez, Lizbeth  [M0608135]
+
+
+Adding Imported Student: Medina, Valentina  [M0611874]
+
+
+Adding Imported Student: Miller, Jeffrey  [M0702368]
+
+
+Adding Imported Student: Muhammad, Taurean  [M0702566]
+
+
+Adding Imported Student: Manthei, Kennedy  [M0702620]
+
+
+Adding Imported Student: Miller, Logan  [M0703138]
+
+
+Adding Imported Student: Maris, Luis  [M0703235]
+
+
+Adding Imported Student: Magana, Edie  [M0704360]
+
+
+Adding Imported Student: McElroy, Isabella  [M0704965]
+
+
+Adding Imported Student: Munguia, Emrie  [M0706690]
+
+
+Adding Imported Student: Milliger, Jackson  [M0707204]
+
+
+Adding Imported Student: McDonald, Maggie  [M0707569]
+
+
+Adding Imported Student: Miranda, Nicholas  [M0707707]
+
+
+Adding Imported Student: Miranda, Sophia  [M0707729]
+
+
+Adding Imported Student: McGrath, Deven  [M0708130]
+
+
+Adding Imported Student: Mozie, Sochinemelum  [M0708620]
+
+
+Adding Imported Student: McClung, Eleanor  [M0709706]
+
+
+Adding Imported Student: Montes, David  [M0711074]
+
+
+Adding Imported Student: Montes Milan, Daniel  [M0711076]
+
+
+Adding Imported Student: Matthews, Ethan  [M0711827]
+
+
+Adding Imported Student: McFarland, William  [M0804436]
+
+
+Adding Imported Student: Mao, Sara  [M0806726]
+
+
+Adding Imported Student: Maggiacomo, Lucas  [M0806825]
+
+
+Adding Imported Student: Manuel, Mark  [M0807160]
+
+
+Adding Imported Student: McBride, Christian  [M0807186]
+
+
+Adding Imported Student: McGary, Kendall  [M0807577]
+
+
+Adding Imported Student: McDowell, Martin  [M0807749]
+
+
+Adding Imported Student: Maredia, Aymaan  [M0808270]
+
+
+Adding Imported Student: Molloy, James  [M0808389]
+
+
+Adding Imported Student: Martin, Austin  [M0808660]
+
+
+Adding Imported Student: Mistry, Romil  [M0808730]
+
+
+Adding Imported Student: Muhala Medina, Valeria  [M0809353]
+
+
+Adding Imported Student: Miller, Mariah  [M0811498]
+
+
+Adding Imported Student: Moreno, Gabriel  [M0811660]
+
+
+Adding Imported Student: Mugundhan, Renga Sai Kishor  [M0812117]
+
+
+Adding Imported Student: Murari, Mohan  [M0812458]
+
+
+Adding Imported Student: Miller, Jackson  [M0900278]
+
+
+Adding Imported Student: McCalla, Erriel  [M0905905]
+
+
+Adding Imported Student: Mier-Armijo, Jake  [M0906242]
+
+
+Adding Imported Student: Mack, Garrett  [M0906818]
+
+
+Adding Imported Student: Gravina, Veronica  [M0907562]
+
+
+Adding Imported Student: McCarty, Seanna  [M0908288]
+
+
+Adding Imported Student: McCoy, Jon  [M0909771]
+
+
+Adding Imported Student: Mackie, Abby  [M0911116]
+
+
+Adding Imported Student: Mackie, Ewan  [M0911117]
+
+
+Adding Imported Student: Marasigan, Trojan Rusjel  [M0911162]
+
+
+Adding Imported Student: Marasigan, Trinity Reine  [M0911163]
+
+
+Adding Imported Student: Morales, Paige  [M1000287]
+
+
+Adding Imported Student: Morehead, Bryson  [M1005354]
+
+
+Adding Imported Student: Mahoney, Benjamin  [M1005552]
+
+
+Adding Imported Student: Markham, Aidan  [M1005565]
+
+
+Adding Imported Student: Mahadev, Anirudh  [M1006190]
+
+
+Adding Imported Student: Marin Pena, Alberto  [M1006600]
+
+
+Adding Imported Student: Markham, Olivia  [M1006840]
+
+
+Adding Imported Student: Motahar, Parsa  [M1008216]
+
+
+Adding Imported Student: Militello, Mariel  [M1008660]
+
+
+Adding Imported Student: Manuel, Katherine  [M1008850]
+
+
+Adding Imported Student: Matthews, Estaney  [M1010568]
+
+
+Adding Imported Student: Matthews, Larry  [M1010570]
+
+
+Adding Imported Student: Maxwell, Mya  [M1100091]
+
+
+Adding Imported Student: Maxwell, Michael  [M1100130]
+
+
+Adding Imported Student: Mitchell, Sydney  [M1100433]
+
+
+Adding Imported Student: Manning, Destianna  [M1103450]
+
+
+Adding Imported Student: Manning, Desrick  [M1103598]
+
+
+Adding Imported Student: Marler, Jenna  [M1105199]
+
+
+Adding Imported Student: McHugh, Madison  [M1106110]
+
+
+Adding Imported Student: McGurk, Samuel  [M1106149]
+
+
+Adding Imported Student: Miller, Brandon  [M1106711]
+
+
+Adding Imported Student: Malone, Anthony  [M1106767]
+
+
+Adding Imported Student: McKellar, Angus  [M1107619]
+
+
+Adding Imported Student: Manukonda, Dhiraj  [M1108047]
+
+
+Adding Imported Student: Mellado Lugo, Angel  [M1108567]
+
+
+Adding Imported Student: Mantri, Anusha  [M1108925]
+
+
+Adding Imported Student: Melean Castro, Daniel  [M1109106]
+
+
+Adding Imported Student: Madriz, Shaylee  [M1109184]
+
+
+Adding Imported Student: McKee, Meagan  [M1109691]
+
+
+Adding Imported Student: Mackenzie, Alexander  [M1110653]
+
+
+Adding Imported Student: Mason, Aleeza  [M1200152]
+
+
+Adding Imported Student: Manko, John  [M1200330]
+
+
+Adding Imported Student: Maturi, Rohith  [M1200787]
+
+
+Adding Imported Student: Marrero, Nicholas  [M1201164]
+
+
+Adding Imported Student: Marrero, Nina  [M1201165]
+
+
+Adding Imported Student: Marrero, Nathan  [M1201188]
+
+
+Adding Imported Student: Martinez Morales, Daniel  [M1201265]
+
+
+Adding Imported Student: Montes-Velazquez, Jaymar  [M1201434]
+
+
+Adding Imported Student: Null, Mason  [N0206110]
+
+
+Adding Imported Student: Nguyen, Brandon  [N0306276]
+
+
+Adding Imported Student: Newell, Joseph  [N0402917]
+
+
+Adding Imported Student: Ngalawa, Sofia  [N0407871]
+
+
+Adding Imported Student: Nusiebeh, Omar  [N0409362]
+
+
+Adding Imported Student: Newton, Adam  [N0410135]
+
+
+Adding Imported Student: Null, Nathan  [N0501910]
+
+
+Adding Imported Student: Netanel, Kyle  [N0502509]
+
+
+Adding Imported Student: Norris, McGrath  [N0504237]
+
+
+Adding Imported Student: Norris, Kathryn  [N0504239]
+
+
+Adding Imported Student: Nakazono, Eric  [N0506284]
+
+
+Adding Imported Student: Nguyen, Stacie  [N0507901]
+
+
+Adding Imported Student: Newton, Daniel  [N0507945]
+
+
+Adding Imported Student: Newton, Princess  [N0508940]
+
+
+Adding Imported Student: Nash, David  [N0511887]
+
+
+Adding Imported Student: Nezhad, Persia  [N0512488]
+
+
+Adding Imported Student: Nederman, Matthew  [N0513482]
+
+
+Adding Imported Student: Nacionales, Denise  [N0602776]
+
+
+Adding Imported Student: Nguyen, Laurie  [N0602919]
+
+
+Adding Imported Student: Newell, Ellis  [N0603637]
+
+
+Adding Imported Student: Novosad, Sydney  [N0603708]
+
+
+Adding Imported Student: Neal, Sarah  [N0607629]
+
+
+Adding Imported Student: Noce, Grant  [N0612158]
+
+
+Adding Imported Student: Nam, Eugene  [N0702309]
+
+
+Adding Imported Student: Nogueira, Leon  [N0703892]
+
+
+Adding Imported Student: Nederman, Samuel  [N0703965]
+
+
+Adding Imported Student: Ndumu, Achiri  [N0704849]
+
+
+Adding Imported Student: Nassar, Norin  [N0706367]
+
+
+Adding Imported Student: Novak, Gabrielle  [N0706862]
+
+
+Adding Imported Student: Nowaski, Sydney  [N0706988]
+
+
+Adding Imported Student: Navas Latorre, Luis  [N0707346]
+
+
+Adding Imported Student: Nusiebeh, Yazan  [N0707716]
+
+
+Adding Imported Student: Notosoedarjo, Jessica  [N0707768]
+
+
+Adding Imported Student: Neighbors, Alexander  [N0709152]
+
+
+Adding Imported Student: Nanfara Lovera, Maria  [N0710623]
+
+
+Adding Imported Student: Nunez Gomez, Nicole  [N0801596]
+
+
+Adding Imported Student: Allen, Caleb  [N0807048]
+
+
+Adding Imported Student: Niswonger, Anna  [N0900765]
+
+
+Adding Imported Student: Napa, Nishanth  [N0907336]
+
+
+Adding Imported Student: Nork, Amanda  [N0907354]
+
+
+Adding Imported Student: Nanaware, Kalyanee  [N0908385]
+
+
+Adding Imported Student: Navarro, Issac  [N1006401]
+
+
+Adding Imported Student: Nash, Jonathan  [N1006519]
+
+
+Adding Imported Student: Nettyam, Sarayu  [N1008472]
+
+
+Adding Imported Student: Nobile, Austin  [N1100259]
+
+
+Adding Imported Student: Nair, Aditya  [N1101194]
+
+
+Adding Imported Student: Naqvi, Adil  [N1103991]
+
+
+Adding Imported Student: Nunez, Maegan  [N1110869]
+
+
+Adding Imported Student: Nunez, Warren  [N1110882]
+
+
+Adding Imported Student: Nguyen, Matthew  [N1201497]
+
+
+Adding Imported Student: Nieto, Jeremiah Dave  [N1201733]
+
+
+Adding Imported Student: Ortiz, Airelle  [O0308854]
+
+
+Adding Imported Student: Ovalle, Natalie  [O0406336]
+
+
+Adding Imported Student: Olmo, Tyler  [O0410134]
+
+
+Adding Imported Student: Ochsner, Hayden  [O0502878]
+
+
+Adding Imported Student: Owen, Zachary  [O0503969]
+
+
+Adding Imported Student: Owens, Christian  [O0504132]
+
+
+Adding Imported Student: O'Keefe, Logan  [O0505547]
+
+
+Adding Imported Student: Orduna, Vincent  [O0604353]
+
+
+Adding Imported Student: Onyeagoro, Chidera  [O0606547]
+
+
+Adding Imported Student: Ortiz, Dominique  [O0608347]
+
+
+Adding Imported Student: Ortiz, Nayeli  [O0609564]
+
+
+Adding Imported Student: O'Neal, Kailyn  [O0701792]
+
+
+Adding Imported Student: Ochsner, Hyder  [O0702147]
+
+
+Adding Imported Student: Olivieri, Barbara  [O0702329]
+
+
+Adding Imported Student: Ortiz, Emily  [O0703555]
+
+
+Adding Imported Student: Hyde, Arianna  [O0703723]
+
+
+Adding Imported Student: Oceguera, Gabriela  [O0706851]
+
+
+Adding Imported Student: Oceguera, Samantha  [O0706861]
+
+
+Adding Imported Student: Ortega, Alexandra  [O0706904]
+
+
+Adding Imported Student: Odu, Ellis  [O0708078]
+
+
+Adding Imported Student: Olmo, Cy  [O0708991]
+
+
+Adding Imported Student: Ortigoza Martinez, Isabella  [O0713089]
+
+
+Adding Imported Student: O'Neal, Nickolas  [O0713128]
+
+
+Adding Imported Student: Olson, Madison  [O0811708]
+
+
+Adding Imported Student: Omungu, Dante  [O0911348]
+
+
+Adding Imported Student: Oni, Arlen  [O0911493]
+
+
+Adding Imported Student: Otwani, Ria  [O0911907]
+
+
+Adding Imported Student: Ogedengbe, Blessing  [O1005738]
+
+
+Adding Imported Student: O'Brien, Jennifer  [O1007571]
+
+
+Adding Imported Student: Ogedengbe, Favour  [O1007943]
+
+
+Adding Imported Student: Osta Lugo, Luis  [O1011488]
+
+
+Adding Imported Student: Orchid, Julia  [O1105153]
+
+
+Adding Imported Student: Oaks, Emma  [O1105195]
+
+
+Adding Imported Student: Orchid, Elijah  [O1106494]
+
+
+Adding Imported Student: Oaks, Margaret  [O1106907]
+
+
+Adding Imported Student: O'Hearn, Julien  [O1107541]
+
+
+Adding Imported Student: O'Hearn, Amelia  [O1107702]
+
+
+Adding Imported Student: O'Brien, Nicolas  [O1200231]
+
+
+Adding Imported Student: Perez, Mckenna  [P0100720]
+
+
+Adding Imported Student: Pimentil, Reuben  [P0100873]
+
+
+Adding Imported Student: Pinkerton, Brandon  [P0300359]
+
+
+Adding Imported Student: Pharr, Robert  [P0302929]
+
+
+Adding Imported Student: Patel, Nitant  [P0306303]
+
+
+Adding Imported Student: Persall, Samuel  [P0309642]
+
+
+Adding Imported Student: Perez Quijada, Luis  [P0401621]
+
+
+Adding Imported Student: Powell, Parker  [P0402960]
+
+
+Adding Imported Student: Patel, Ravi  [P0403668]
+
+
+Adding Imported Student: Powell, Peyton  [P0403675]
+
+
+Adding Imported Student: Patrick, Logan  [P0403754]
+
+
+Adding Imported Student: Pruden, Paige  [P0404085]
+
+
+Adding Imported Student: Pham, Andrew  [P0404685]
+
+
+Adding Imported Student: Percefull, Michael  [P0405675]
+
+
+Adding Imported Student: Perez, Kaitlyn  [P0406625]
+
+
+Adding Imported Student: Parsells, Matthew  [P0501793]
+
+
+Adding Imported Student: Patel, Janki  [P0502668]
+
+
+Adding Imported Student: Patel, Bryhana  [P0502858]
+
+
+Adding Imported Student: Panetti, Collin  [P0504039]
+
+
+Adding Imported Student: Pruden, Zoe  [P0504130]
+
+
+Adding Imported Student: Perez, Amber  [P0504206]
+
+
+Adding Imported Student: Py, Makena  [P0505471]
+
+
+Adding Imported Student: Powell, Andrew  [P0505533]
+
+
+Adding Imported Student: Posadas, Daniel  [P0506461]
+
+
+Adding Imported Student: Pham, Vincent  [P0506575]
+
+
+Adding Imported Student: Prado Sanchez, Jovan  [P0506629]
+
+
+Adding Imported Student: Perry, Payton  [P0507894]
+
+
+Adding Imported Student: Patel, Akhil  [P0507991]
+
+
+Adding Imported Student: Powers, Emma  [P0509095]
+
+
+Adding Imported Student: Pereira, Kiara  [P0513467]
+
+
+Adding Imported Student: Pereira, Brianna  [P0513468]
+
+
+Adding Imported Student: Pampattiwar, Tanaya  [P0600286]
+
+
+Adding Imported Student: Poulsen, Cheryl  [P0600591]
+
+
+Adding Imported Student: Pimentil, Grant  [P0602580]
+
+
+Adding Imported Student: Pimentil, Ian  [P0602581]
+
+
+Adding Imported Student: Puranik, Siddhant  [P0603142]
+
+
+Adding Imported Student: Porch, James  [P0603470]
+
+
+Adding Imported Student: Perez, Santiago  [P0603532]
+
+
+Adding Imported Student: Patel, Jay  [P0603821]
+
+
+Adding Imported Student: Patel, Meera  [P0603941]
+
+
+Adding Imported Student: Petryszak, Ryan  [P0604301]
+
+
+Adding Imported Student: Peynado, Alvaro  [P0604342]
+
+
+Adding Imported Student: Patel, Megha  [P0604447]
+
+
+Adding Imported Student: Pereira, Jeremy  [P0604549]
+
+
+Adding Imported Student: Perez, Leah  [P0605616]
+
+
+Adding Imported Student: Punia, Viraaj  [P0605656]
+
+
+Adding Imported Student: Patwardhan, Medhavi  [P0605829]
+
+
+Adding Imported Student: Perrenot, Jonathan  [P0606082]
+
+
+Adding Imported Student: Pan, Vivian  [P0606214]
+
+
+Adding Imported Student: Perrenot, Emery  [P0606332]
+
+
+Adding Imported Student: Powell, Bethany  [P0606359]
+
+
+Adding Imported Student: Presley, Zachary  [P0608519]
+
+
+Adding Imported Student: Pears, Gerald  [P0701165]
+
+
+Adding Imported Student: Portele, Samantha  [P0702269]
+
+
+Adding Imported Student: Pearce, Logan  [P0702498]
+
+
+Adding Imported Student: Powell, Abigail  [P0702574]
+
+
+Adding Imported Student: Porter, Madeline  [P0702692]
+
+
+Adding Imported Student: Powell, Pryce  [P0703223]
+
+
+Adding Imported Student: Padmanaban, Vikram  [P0703400]
+
+
+Adding Imported Student: Patel, Kevin  [P0703567]
+
+
+Adding Imported Student: Perez, Ethan  [P0706414]
+
+
+Adding Imported Student: Patani, Jewel  [P0706894]
+
+
+Adding Imported Student: Panjwani, Suzan  [P0708501]
+
+
+Adding Imported Student: Powers, Erin  [P0709425]
+
+
+Adding Imported Student: Polito, Salvatore  [P0710091]
+
+
+Adding Imported Student: Perozo, Ricardo  [P0711867]
+
+
+Adding Imported Student: Phalen, Cullen  [P0712195]
+
+
+Adding Imported Student: Patel, Saloni  [P0800531]
+
+
+Adding Imported Student: Pearl, Louisa  [P0812133]
+
+
+Adding Imported Student: Prakash, Shivam  [P0812192]
+
+
+Adding Imported Student: Pickett, Kahjae  [P0901633]
+
+
+Adding Imported Student: Phan, Katie  [P0903414]
+
+
+Adding Imported Student: Palmer, Katelyn  [P0905203]
+
+
+Adding Imported Student: Panse, Swarali  [P0907519]
+
+
+Adding Imported Student: Pierce, Abigail  [P0908419]
+
+
+Adding Imported Student: Padilla, Nathan  [P0908496]
+
+
+Adding Imported Student: Pharr, Austin  [P0909134]
+
+
+Adding Imported Student: Petrusevski, Aleksandar  [P0909765]
+
+
+Adding Imported Student: Perez Salas, Diego  [P0910216]
+
+
+Adding Imported Student: Prather, Jacob  [P1006034]
+
+
+Adding Imported Student: Pernas, Jacqueline  [P1006361]
+
+
+Adding Imported Student: Prather, Jordan  [P1007335]
+
+
+Adding Imported Student: Podagatlapalli, Rakshita  [P1007424]
+
+
+Adding Imported Student: Pena Hilario, Leandro  [P1010132]
+
+
+Adding Imported Student: Pernia, Jesus  [P1010323]
+
+
+Adding Imported Student: Pino Hevia, Douglas  [P1010596]
+
+
+Adding Imported Student: Pulgar Nunez, Andrea  [P1011876]
+
+
+Adding Imported Student: Parker, Jalen  [P1100541]
+
+
+Adding Imported Student: Parker, Skylar  [P1100542]
+
+
+Adding Imported Student: Pyland, Samuel  [P1106469]
+
+
+Adding Imported Student: Pattyn, Remi  [P1106529]
+
+
+Adding Imported Student: Pluchino, Gabriel  [P1106552]
+
+
+Adding Imported Student: Pascual, Alyssa  [P1106564]
+
+
+Adding Imported Student: Picon, Issabelle  [P1106790]
+
+
+Adding Imported Student: Peterson, David  [P1106999]
+
+
+Adding Imported Student: Page, Stephen  [P1107659]
+
+
+Adding Imported Student: Page, Matthew  [P1107661]
+
+
+Adding Imported Student: Page, Amanda  [P1107734]
+
+
+Adding Imported Student: Pattyn, Guillaume  [P1107743]
+
+
+Adding Imported Student: Pattyn, Sandrine  [P1107745]
+
+
+Adding Imported Student: Picon, John  [P1108003]
+
+
+Adding Imported Student: Paz Uribe, Santiago  [P1108475]
+
+
+Adding Imported Student: Pendekanti, Nitin  [P1108555]
+
+
+Adding Imported Student: Cristancho, Alejandra  [P1108795]
+
+
+Adding Imported Student: Pedersen, Lauren  [P1110444]
+
+
+Adding Imported Student: Prado, Christian  [P1201855]
+
+
+Adding Imported Student: Prado, Christopher  [P1201857]
+
+
+Adding Imported Student: Quintero, Pamela  [Q0811120]
+
+
+Adding Imported Student: Quintero, Daniel  [Q0811126]
+
+
+Adding Imported Student: Quintero Arevalo, Sofia  [Q1000640]
+
+
+Adding Imported Student: Dunn, David  [R0200809]
+
+
+Adding Imported Student: Robinson, Drew  [R0208622]
+
+
+Adding Imported Student: Reddell, Reed  [R0402348]
+
+
+Adding Imported Student: Roman, Ladys  [R0402389]
+
+
+Adding Imported Student: Rubio, Diego  [R0402767]
+
+
+Adding Imported Student: Richburg, Dawson  [R0402800]
+
+
+Adding Imported Student: Rusk, Reese  [R0403321]
+
+
+Adding Imported Student: Ramirez, Leonel  [R0403680]
+
+
+Adding Imported Student: Riggins, Cameron  [R0403745]
+
+
+Adding Imported Student: Robinson, Kristen  [R0404020]
+
+
+Adding Imported Student: Robinson, Lauren  [R0404021]
+
+
+Adding Imported Student: Reisz, Trevor  [R0408136]
+
+
+Adding Imported Student: Resewehr, Mackenzie  [R0500280]
+
+
+Adding Imported Student: Rhea, Amy  [R0502688]
+
+
+Adding Imported Student: Rhea, Ema  [R0502689]
+
+
+Adding Imported Student: Rogers, Sarah  [R0502807]
+
+
+Adding Imported Student: Rosbert, Cameron  [R0502950]
+
+
+Adding Imported Student: Rollins, Carson  [R0503151]
+
+
+Adding Imported Student: Regis, Bruno  [R0503452]
+
+
+Adding Imported Student: Roberts, Tyler  [R0503490]
+
+
+Adding Imported Student: Richardson, Jacqueline  [R0506199]
+
+
+Adding Imported Student: Rodriguez, Analicia  [R0508739]
+
+
+Adding Imported Student: Ramos Aleman, JoAnnie  [R0512489]
+
+
+Adding Imported Student: Rowell, Kyle  [R0602334]
+
+
+Adding Imported Student: Rudder, Hannah  [R0602678]
+
+
+Adding Imported Student: Robinson, Ethan  [R0603212]
+
+
+Adding Imported Student: Reavis, Allyson  [R0604156]
+
+
+Adding Imported Student: Rivera, Francisco  [R0605724]
+
+
+Adding Imported Student: Rey, Ryan  [R0605935]
+
+
+Adding Imported Student: Rey, Carson  [R0605944]
+
+
+Adding Imported Student: Rollins, Reece  [R0606366]
+
+
+Adding Imported Student: Richardson, Marisa  [R0606390]
+
+
+Adding Imported Student: Rojas Amado, Alejandro  [R0606487]
+
+
+Adding Imported Student: Rosario, Kristjan  [R0607678]
+
+
+Adding Imported Student: Rajesh, Gayathri  [R0608871]
+
+
+Adding Imported Student: Rubio, Sofia  [R0609828]
+
+
+Adding Imported Student: Rosario, Arianna  [R0702150]
+
+
+Adding Imported Student: Ramirez, Andrea  [R0702160]
+
+
+Adding Imported Student: Rao, Nihar  [R0702404]
+
+
+Adding Imported Student: Ruiz, Renee  [R0702534]
+
+
+Adding Imported Student: Riggins, Jameson  [R0702559]
+
+
+Adding Imported Student: Resewehr, Jarrett  [R0702631]
+
+
+Adding Imported Student: Ruf, Heidi  [R0702680]
+
+
+Adding Imported Student: Raybon, Bryce  [R0702913]
+
+
+Adding Imported Student: Russ, Joseph  [R0702989]
+
+
+Adding Imported Student: Rubiano, Daniel  [R0703243]
+
+
+Adding Imported Student: Reisz, Jacqueline  [R0703667]
+
+
+Adding Imported Student: Rusk, Reed  [R0705884]
+
+
+Adding Imported Student: Roten, Lauren  [R0706708]
+
+
+Adding Imported Student: Roten, Zachary  [R0706713]
+
+
+Adding Imported Student: Reid, Corbin  [R0706873]
+
+
+Adding Imported Student: Reid, Gavin  [R0707877]
+
+
+Adding Imported Student: Roebuck, Jack  [R0710434]
+
+
+Adding Imported Student: Rincon, Gabriela  [R0800110]
+
+
+Adding Imported Student: Rao, Harshul  [R0801983]
+
+
+Adding Imported Student: Rudie, Brian  [R0805719]
+
+
+Adding Imported Student: Rudie, Collin  [R0805725]
+
+
+Adding Imported Student: Rangel Ippolito, Fiorella  [R0807373]
+
+
+Adding Imported Student: Richard, Hillary  [R0807522]
+
+
+Adding Imported Student: Rodriguez, Sebastian  [R0808712]
+
+
+Adding Imported Student: Ravila, Venkata  [R0809264]
+
+
+Adding Imported Student: Rapolu, Aryan  [R0810761]
+
+
+Adding Imported Student: Rashad, Nour  [R0905012]
+
+
+Adding Imported Student: Ransom, Charlie  [R0906367]
+
+
+Adding Imported Student: Rissky, Charlotte  [R0906448]
+
+
+Adding Imported Student: Rice, Taylor  [R0907423]
+
+
+Adding Imported Student: Ramos Gonzalez, Samir  [R0908712]
+
+
+Adding Imported Student: Ricks, Andrew  [R0909156]
+
+
+Adding Imported Student: Ramesh, Anoushka  [R0911549]
+
+
+Adding Imported Student: Romain, Evan  [R1000340]
+
+
+Adding Imported Student: Rivas, Grecia  [R1000834]
+
+
+Adding Imported Student: Renazco, Roman  [R1002520]
+
+
+Adding Imported Student: Rojas Jimenez, Alejandra  [R1005020]
+
+
+Adding Imported Student: Redmon, Brett  [R1005518]
+
+
+Adding Imported Student: Ramirez, Mireya  [R1005551]
+
+
+Adding Imported Student: Ruben, Elizabeth  [R1005554]
+
+
+Adding Imported Student: Reyes, Alfredo  [R1006619]
+
+
+Adding Imported Student: Rogde, Emily  [R1006842]
+
+
+Adding Imported Student: Rodriguez, Christian  [R1006889]
+
+
+Adding Imported Student: Ramos, Victoria  [R1007006]
+
+
+Adding Imported Student: Ramos, Sofia  [R1007159]
+
+
+Adding Imported Student: Robinson, Samantha  [R1007387]
+
+
+Adding Imported Student: Ramos, Eponine  [R1007464]
+
+
+Adding Imported Student: Rivera, Sydney  [R1008685]
+
+
+Adding Imported Student: Rady, Jonah  [R1009435]
+
+
+Adding Imported Student: Rivera, Diego  [R1009526]
+
+
+Adding Imported Student: Rengifo, Maria  [R1010584]
+
+
+Adding Imported Student: Ramos LaCourt-Rodrig, Fernanda  [R1100337]
+
+
+Adding Imported Student: Ramirez Parada, Juan  [R1100651]
+
+
+Adding Imported Student: Roalson, Abigail  [R1105879]
+
+
+Adding Imported Student: Ross, Taylor  [R1106750]
+
+
+Adding Imported Student: Rueda Moreno, Cesar  [R1106755]
+
+
+Adding Imported Student: Rueda Moreno, Jose  [R1106759]
+
+
+Adding Imported Student: Roalson, Hannah  [R1106788]
+
+
+Adding Imported Student: Raol, Jaysinh  [R1106910]
+
+
+Adding Imported Student: Rodriguez, Zaul  [R1107884]
+
+
+Adding Imported Student: Rosamond, Brendan  [R1108070]
+
+
+Adding Imported Student: Rodriguez Enriquez, Addan  [R1108268]
+
+
+Adding Imported Student: Reyes Garcia, Samuel  [R1109408]
+
+
+Adding Imported Student: Reyna, Errick  [R1110460]
+
+
+Adding Imported Student: Raza, Zahra  [R1110875]
+
+
+Adding Imported Student: Rottgen, Hannah  [R1111072]
+
+
+Adding Imported Student: Rottgen, Nathan  [R1111073]
+
+
+Adding Imported Student: Rivero, Maria  [R1111105]
+
+
+Adding Imported Student: Redden, Jackson  [R1200972]
+
+
+Adding Imported Student: Romero Parra, Daniela  [R1201161]
+
+
+Adding Imported Student: Rudie, Levi  [R1201805]
+
+
+Adding Imported Student: Soto, Andres  [S0303192]
+
+
+Adding Imported Student: Sanchez Uribe, Monica  [S0305381]
+
+
+Adding Imported Student: Simpson, Jack  [S0402082]
+
+
+Adding Imported Student: Schrader, Jeremy  [S0402784]
+
+
+Adding Imported Student: Schmidt, Noah  [S0403486]
+
+
+Adding Imported Student: Stevens, Austin  [S0405441]
+
+
+Adding Imported Student: Snethkamp, Hayden  [S0405623]
+
+
+Adding Imported Student: Sheinfeld, Alexandra  [S0405787]
+
+
+Adding Imported Student: Shaver, Haley  [S0405849]
+
+
+Adding Imported Student: Schmidt, Josef  [S0501832]
+
+
+Adding Imported Student: Stornello, Joseph  [S0501927]
+
+
+Adding Imported Student: Schomer, Samuel  [S0502237]
+
+
+Adding Imported Student: Saenz, Nicholas  [S0502359]
+
+
+Adding Imported Student: Smith, Kyle  [S0502698]
+
+
+Adding Imported Student: Sharifi-Khairabadi, Dominique  [S0502701]
+
+
+Adding Imported Student: Swope, Kyle  [S0502751]
+
+
+Adding Imported Student: Scott, Kallee  [S0502904]
+
+
+Adding Imported Student: Spotsville, Kevin  [S0507807]
+
+
+Adding Imported Student: Sanders, Parker  [S0510704]
+
+
+Adding Imported Student: Sakai, Sachiko  [S0602749]
+
+
+Adding Imported Student: Schoemann, Johnathan  [S0603085]
+
+
+Adding Imported Student: Stichler, Alex  [S0603354]
+
+
+Adding Imported Student: Sahib, Nadeem  [S0603496]
+
+
+Adding Imported Student: Sanchez, Hailey  [S0603836]
+
+
+Adding Imported Student: Shazad, Nabeeha  [S0603874]
+
+
+Adding Imported Student: Scott, Kendyl  [S0603918]
+
+
+Adding Imported Student: Davidson, Kerissa  [S0603958]
+
+
+Adding Imported Student: Sandoval, Stefania  [S0604206]
+
+
+Adding Imported Student: Scribner, Nicholas  [S0604336]
+
+
+Adding Imported Student: Smith, Amanda  [S0604343]
+
+
+Adding Imported Student: Simpson, Mackenzie  [S0604520]
+
+
+Adding Imported Student: Schmidt, Ryan  [S0605529]
+
+
+Adding Imported Student: Shi, Kevin  [S0605585]
+
+
+Adding Imported Student: Slauter, Stephanie  [S0605972]
+
+
+Adding Imported Student: Spencer, Tyler  [S0606055]
+
+
+Adding Imported Student: Simmons, Robert  [S0606239]
+
+
+Adding Imported Student: Simpson, David  [S0606394]
+
+
+Adding Imported Student: Schooler, Megan  [S0606469]
+
+
+Adding Imported Student: Sanders, Jackson  [S0606709]
+
+
+Adding Imported Student: Luna, Matthew  [S0606744]
+
+
+Adding Imported Student: Smith, Samuel  [S0606902]
+
+
+Adding Imported Student: Sterba, Isabelle  [S0607220]
+
+
+Adding Imported Student: Shorter, William  [S0607746]
+
+
+Adding Imported Student: Sonthalia, Tamanna  [S0608011]
+
+
+Adding Imported Student: Santos, Adriel Rei  [S0609363]
+
+
+Adding Imported Student: Shankar, Shruthi  [S0610256]
+
+
+Adding Imported Student: Smith, James  [S0612054]
+
+
+Adding Imported Student: Santamaria, Luis  [S0612456]
+
+
+Adding Imported Student: Sanoja, Ricardo  [S0702053]
+
+
+Adding Imported Student: Sembroski, Jordan  [S0702167]
+
+
+Adding Imported Student: Schmidt, Alexander  [S0702238]
+
+
+Adding Imported Student: Sippel, Alexandra  [S0702398]
+
+
+Adding Imported Student: Slauter, Samantha  [S0702587]
+
+
+Adding Imported Student: Smith, Logan  [S0702754]
+
+
+Adding Imported Student: Stornello, Victoria  [S0702789]
+
+
+Adding Imported Student: Sanders, James  [S0703589]
+
+
+Adding Imported Student: Saccone, Michael  [S0703597]
+
+
+Adding Imported Student: Srikalyani, Sathvik  [S0703834]
+
+
+Adding Imported Student: Skarya, Tristan  [S0703866]
+
+
+Adding Imported Student: Seenivasan, Varun  [S0703867]
+
+
+Adding Imported Student: Skinner, Madison  [S0704146]
+
+
+Adding Imported Student: Smith, Robert  [S0704225]
+
+
+Adding Imported Student: Sweeney, Sarah  [S0704226]
+
+
+Adding Imported Student: Stevens, Madison  [S0704239]
+
+
+Adding Imported Student: Santiago, Evan  [S0705872]
+
+
+Adding Imported Student: Shi, Sherry  [S0706026]
+
+
+Adding Imported Student: Seigerman, Emily  [S0706704]
+
+
+Adding Imported Student: Shi, Ramsay  [S0706875]
+
+
+Adding Imported Student: Stephens, Sheridan  [S0706968]
+
+
+Adding Imported Student: Subramanian, Shyam  [S0707739]
+
+
+Adding Imported Student: Subramanian, Raghav  [S0707740]
+
+
+Adding Imported Student: Simpson, Julia  [S0709341]
+
+
+Adding Imported Student: Lotey, Pranayvir  [S0801369]
+
+
+Adding Imported Student: Schmok, Alexa  [S0806482]
+
+
+Adding Imported Student: Schmok, Brandon  [S0806580]
+
+
+Adding Imported Student: Serrano Oviedo, Liany  [S0807386]
+
+
+Adding Imported Student: Swain, Liam Vincent  [S0807761]
+
+
+Adding Imported Student: Swain, Reilly  [S0808075]
+
+
+Adding Imported Student: Subramanian, Arthi  [S0808279]
+
+
+Adding Imported Student: Sykes, Emiliano  [S0809785]
+
+
+Adding Imported Student: Saldivar, Angel  [S0900835]
+
+
+Adding Imported Student: Smith, Analiz  [S0901089]
+
+
+Adding Imported Student: Standley, Ethan  [S0901741]
+
+
+Adding Imported Student: Scott, Rhys  [S0906360]
+
+
+Adding Imported Student: Stirrup, Megan  [S0906488]
+
+
+Adding Imported Student: Stephens, Riley  [S0906507]
+
+
+Adding Imported Student: Stephens, Carter  [S0906571]
+
+
+Adding Imported Student: Simpson, Kayla  [S0907006]
+
+
+Adding Imported Student: Soto, Diego  [S0907328]
+
+
+Adding Imported Student: Soto, Ivan  [S0907590]
+
+
+Adding Imported Student: Samudio, Luke  [S0908721]
+
+
+Adding Imported Student: Suarez Perez, Luis  [S0908728]
+
+
+Adding Imported Student: Spanheimer, Brooke  [S0908779]
+
+
+Adding Imported Student: Sparks, Grayson  [S1000854]
+
+
+Adding Imported Student: Sreekumar, Krishnendu  [S1000860]
+
+
+Adding Imported Student: Silvestri, Nathan  [S1000890]
+
+
+Adding Imported Student: Sayeed, Dewan  [S1003839]
+
+
+Adding Imported Student: Shemon, Reagan  [S1005283]
+
+
+Adding Imported Student: Spath, Michael  [S1005564]
+
+
+Adding Imported Student: Schlatterbeck, Lauren  [S1006343]
+
+
+Adding Imported Student: Saba, Nicholas  [S1007344]
+
+
+Adding Imported Student: Siebert, Griffin  [S1007409]
+
+
+Adding Imported Student: Stalnaker, Mya  [S1007546]
+
+
+Adding Imported Student: Schlatterbeck, Cody  [S1007766]
+
+
+Adding Imported Student: Spangler, Michelle  [S1008047]
+
+
+Adding Imported Student: Savoie, Gaven  [S1009262]
+
+
+-----------------------------
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+
+
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+
+
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+
+
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+
+
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+
+
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+
+
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at components.misc.DatabaseBridge.initDatabaseConnection(DatabaseBridge.java:570)
+
+
+	at main_files.AdminMain.main(AdminMain.java:23)
+
+
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+
+
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+
+
+	at java.net.Socket.connect(Unknown Source)
+
+
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+
+
+	... 16 more
+
+
+Thu Aug 31 20:20:12 PDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+
+-----------------------------
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+
+
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+
+
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+
+
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+
+
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+
+
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+
+
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at components.misc.DatabaseBridge.initDatabaseConnection(DatabaseBridge.java:570)
+
+
+	at main_files.AdminMain.main(AdminMain.java:23)
+
+
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+
+
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+
+
+	at java.net.Socket.connect(Unknown Source)
+
+
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+
+
+	... 16 more
+
+
+-----------------------------
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+
+
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+
+
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+
+
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+
+
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+
+
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+
+
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+
+
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at java.sql.DriverManager.getConnection(Unknown Source)
+
+
+	at components.misc.DatabaseBridge.initDatabaseConnection(DatabaseBridge.java:570)
+
+
+	at main_files.AdminMain.main(AdminMain.java:23)
+
+
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+
+
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+
+
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+
+
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+
+
+	at java.net.Socket.connect(Unknown Source)
+
+
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+
+
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+
+
+	... 16 more
+
+
+-----------------------------
+Sat Sep 02 16:01:42 PDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+
+-----------------------------
+Sat Sep 02 16:02:06 PDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+
+-----------------------------
+Mon Sep 04 16:39:42 PDT 2017 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+

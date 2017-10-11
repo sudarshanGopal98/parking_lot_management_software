@@ -1,0 +1,83 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_121" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "0.05, fill, 213.0, pref, 0.05"
+			"$rowSpecs": "35.0, pref, pref, pref, pref, pref, pref"
+			"hGap": 5
+			"vGap": 5
+		} ) {
+			name: "this"
+			"title": "Parking Lot Management Software"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Export Student Data to File"
+				"horizontalAlignment": 0
+				"font": new java.awt.Font( "Cambria", 1, 16 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridWidth": 3
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Name of File"
+				"horizontalAlignment": 0
+				"font": &Font0 new java.awt.Font( "Cambria", 0, 14 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 2
+				"gridY": 1
+				"gridWidth": 2
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Choose File Location"
+				"horizontalAlignment": 0
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Choose"
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 2
+				"gridY": 3
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"enabled": false
+				"text": "Folder Chosen?"
+				"foreground": sfield java.awt.Color white
+				"opaque": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 3
+				"gridY": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Save Data"
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 5
+				"gridWidth": 3
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 585, 255 )
+		} )
+	}
+}

@@ -1,0 +1,92 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_121" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "0.05, fill, 0.1, fill, 0.05"
+			"$rowSpecs": "30.0, pref, pref, pref, pref, pref, pref, 50.0"
+			"hGap": 20
+			"vGap": 20
+		} ) {
+			name: "this"
+			"font": &Font0 new java.awt.Font( "Cambria", 1, 20 )
+			"foreground": sfield java.awt.Color white
+			"alignmentX": 0.0f
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Data Management"
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+				"font": new java.awt.Font( "Cambria", 1, 30 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 1
+				"gridWidth": 3
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Export Data"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+				"horizontalAlignment": 0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 3
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Import Data"
+				"font": #Font0
+				"foreground": sfield java.awt.Color white
+				"horizontalAlignment": 0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 3
+				"gridY": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "exportToFile"
+				"text": "Export Current Data To Excel File"
+				"font": &Font1 new java.awt.Font( "Cambria", 0, 16 )
+				"background": &Color0 new java.awt.Color( 170, 71, 86, 255 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 4
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "loadFromBackup"
+				"text": "Load Data From Backup"
+				"font": #Font1
+				"background": #Color0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 3
+				"gridY": 4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "openBackupFolder"
+				"text": "Open Backup Files Folder"
+				"font": #Font1
+				"background": #Color0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 5
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "loadFromAnotherFile"
+				"text": "Load Data From Another File"
+				"font": #Font1
+				"background": #Color0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 5
+				"gridX": 3
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 795, 410 )
+		} )
+	}
+}

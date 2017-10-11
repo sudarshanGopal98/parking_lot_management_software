@@ -1,0 +1,93 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "0.05, fill, 0.05"
+			"$rowSpecs": "30.0, pref, pref, pref, pref, fill, 50.0"
+		} ) {
+			name: "this"
+			"background": new java.awt.Color( 103, 86, 130, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "List of All Students"
+				"font": new java.awt.Font( "Cambria", 1, 30 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": " "
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 9, false )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 2
+				"gridX": 1
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+				"$columnSpecs": "pref, pref, fill"
+				"$rowSpecs": "pref"
+				"hGap": 5
+				"vGap": 5
+			} ) {
+				name: "splitPane2"
+				"background": new java.awt.Color( 103, 86, 130, 255 )
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"autoscrolls": true
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Search Student (by Last Name)"
+					"font": new java.awt.Font( "Calibri", 1, 18 )
+					"horizontalAlignment": 0
+					"foreground": sfield java.awt.Color white
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "searchbox"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+					"gridX": 2
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 3
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": " "
+				"font": #SwingDerivedFont0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 4
+				"gridX": 1
+			} )
+			add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+				name: "splitPane1"
+				"dividerLocation": 200
+				"lastDividerLocation": 150
+				"border": new javax.swing.border.SoftBevelBorder( 0, null, null, null, null )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					add( new FormComponent( "javax.swing.JList" ) {
+						name: "list1"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "left"
+				} )
+				add( new FormComponent( "components.administrator.gui.management.DataDisplaySubpanel" ) {
+					name: "panel1"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "right"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 5
+				"gridX": 1
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1025, 900 )
+		} )
+	}
+}

@@ -1,0 +1,83 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "25.0, fill, 25.0"
+			"$rowSpecs": "pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref"
+			"hGap": 5
+			"vGap": 5
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Please Wait While We Approve Your Spot!"
+				"horizontalTextPosition": 0
+				"font": new java.awt.Font( "Cambria", 0, 20 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"hAlign": 1
+				"gridX": 1
+				"gridY": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lotColorChosen"
+				"text": "Some details on the lot you chose"
+				"font": new java.awt.Font( "Cambria", 0, 18 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 2
+				"hAlign": 1
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Current Status"
+				"font": new java.awt.Font( "Cambria", 0, 18 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 6
+				"hAlign": 1
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "currentStatus"
+				"text": "status Goes Here"
+				"font": &Font0 new java.awt.Font( "Cambria", 0, 16 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 7
+				"hAlign": 1
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "logOutTimer"
+				"text": "      "
+				"font": #Font0
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridY": 8
+				"hAlign": 1
+				"gridX": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "closeButton"
+				"text": "Close and Pick Another Spot"
+				"font": new java.awt.Font( "Cambria", 0, 16 )
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+				"gridY": 9
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 710, 280 )
+		} )
+	}
+}
